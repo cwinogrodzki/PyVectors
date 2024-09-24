@@ -1,7 +1,7 @@
 import time
 import sys
 import torch
-#test
+
 def laplacian(f, u, nx, ny, nz, hx, hy, hz):
     # Check that u is a 3D tensor
     u = u.view(nx, ny, nz)
@@ -16,8 +16,6 @@ def laplacian(f, u, nx, ny, nz, hx, hy, hz):
                             (u[1:-1, 2:, 1:-1] + u[1:-1, :-2, 1:-1]) * INVHY2 +
                             (u[1:-1, 1:-1, 2:] + u[1:-1, 1:-1, :-2]) * INVHZ2)
 
-
-#test    
 def main():
     # Default problem size
     nx, ny, nz = 512, 512, 512
@@ -53,7 +51,7 @@ def main():
         else: device = 'mps'
     elif(device == 'rocm'):
         #check that ROCm is available
-        if not torch.backends.cuda.is_available():
+        if not torch.cuda.is_available():
             if not torch.backends.cuda.is_built():
                 print("ROCm not available because the current PyTorch install was not "
                 "built with ROCm.")
@@ -63,10 +61,10 @@ def main():
         else:
             print("Using device: ", torch.cuda.get_device_name(0))
             device = 'cuda'
-            torch.backends.cuda.preferred_blas_library(backend='hipblas')
+            torch.backends.cuda.preferred_blas_library(backend='hipblaslt')
     elif(device == 'cuda'):
         #check that CUDA is available
-        if not torch.backends.cuda.is_available():
+        if not torch.cuda.is_available():
             if not torch.backends.cuda.is_built():
                 print("CUDA not available because the current PyTorch install was not "
                 "built with CUDA.")
@@ -121,7 +119,7 @@ def main():
     bandwidth = (theoretical_fetch_size + theoretical_write_size) / elapsed_time
     throughput = flop_count / elapsed_time
     print(f"Laplacian kernel took: {elapsed_time * 1000:.4f} ms, effective memory bandwidth: {bandwidth:.4f} GB/s")
-    print(f"Computational throughput: {throughput * 1e-9 / elapsed_time} GFLOP/s, arithmetic intensity: {arithmetic_intensity} FLOPS/byte")
+    print(f"Computational throughput: {throughput * 1e-9 / elapsed_time:.4f} GFLOP/s, arithmetic intensity: {arithmetic_intensity:.4f} FLOPS/byte")
 
 if __name__ == "__main__":
     main()
