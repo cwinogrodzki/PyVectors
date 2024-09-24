@@ -16,6 +16,8 @@ def laplacian(f, u, nx, ny, nz, hx, hy, hz):
                             (u[1:-1, 2:, 1:-1] + u[1:-1, :-2, 1:-1]) * INVHY2 +
                             (u[1:-1, 1:-1, 2:] + u[1:-1, 1:-1, :-2]) * INVHZ2)
 
+
+#test    
 def main():
     # Default problem size
     nx, ny, nz = 512, 512, 512
