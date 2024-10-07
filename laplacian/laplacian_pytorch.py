@@ -17,7 +17,7 @@ def kernel(A, B, nx, ny, nz):
                             (A[1:-1, 2:, 1:-1] + A[1:-1, :-2, 1:-1]) * INVHY2 +
                             (A[1:-1, 1:-1, 2:] + A[1:-1, 1:-1, :-2]) * INVHZ2)
 
-def initialize(nx, ny, nz):
+def initialize(nx, ny, nz, iter):
     # if(device == 'cpu'):
     #     print("CPU capability: ", torch.backends.cpu.get_cpu_capability())
     #     if torch.backends.mkl.is_available(): print("Using oneMKL.")
@@ -63,9 +63,12 @@ def initialize(nx, ny, nz):
                     dtype=torch.float64)
     B = torch.copy(A)
 
-    start = time.perf_counter()
-    numpy_result = kernel(A, B, nx, ny, nz)
-    elapsed = time.perf_counter() - start
+    total_elapsed = 0
+    for k in range(1, iter):
+        start = time.perf_counter()
+        numpy_result = kernel(A, B, nx, ny, nz)
+        elapsed = time.perf_counter() - start
+        total_elapsed =+ elapsed
 
-    return elapsed
+    return total_elapsed
 

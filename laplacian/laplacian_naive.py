@@ -10,13 +10,17 @@ def kernel(A, B, nx, ny, nz):
     INVHX2 = 1.0 / hx / hx
     INVHY2 = 1.0 / hy / hy
     INVHZ2 = 1.0 / hz / hz
-    INVHXYZ2 = -2.0 * (INVHX2 + INVHY2 + INVHZ2)
 
-    B[1:-1, 1:-1, 1:-1] = (A[1:-1, 1:-1, 1:-1] * INVHXYZ2 +
-                            (A[2:, 1:-1, 1:-1] + A[:-2, 1:-1, 1:-1]) * INVHX2 +
-                            (A[1:-1, 2:, 1:-1] + A[1:-1, :-2, 1:-1]) * INVHY2 +
-                            (A[1:-1, 1:-1, 2:] + A[1:-1, 1:-1, :-2]) * INVHZ2)
-    
+    # Skip boundary points
+    for k in range(1, nz - 1):
+        for j in range(1, ny - 1):
+            for i in range(1, nx - 1):
+                # Apply stencil approximation of Laplacian to all interior points
+                A_xx = (A[i + 1, j, k] - 2 * A[i, j, k] + A[i - 1, j, k]) * INVHX2
+                A_yy = (A[i, j + 1, k] - 2 * A[i, j, k] + A[i, j - 1, k]) * INVHY2
+                A_zz = (A[i, j, k + 1] - 2 * A[i, j, k] + A[i, j, k - 1]) * INVHZ2
+                B[i, j, k] = A_xx + A_yy + A_zz
+
 def initialize(nx, ny, nz, iter):
     A = np.fromfunction(lambda i, j, k: (i + j + (nx - k)) * 10 / nx, (nx, ny, nz),
                     dtype=np.float64)
@@ -30,5 +34,3 @@ def initialize(nx, ny, nz, iter):
         total_elapsed =+ elapsed
 
     return total_elapsed
-
-
