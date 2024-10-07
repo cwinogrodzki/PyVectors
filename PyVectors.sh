@@ -6,23 +6,33 @@ FRAMEWORK=$2
 BLAS=$3
 ITER=$4
 DEVICE=$5
+N=$6
 
-if [$DEVICE eq "cpu"]; then
-	salloc -p skylake-gold
-elif [$DEVICE eq "amdcpu"]; then
-	salloc -p shared-milan
-elif [$DEVICE eq "amdgpu"]; then
-	salloc -p shared-gpu-amd-mi100
-	module load rocm
+eval "$(conda shell.bash hook)"
 
-if [$BLAS eq "MKL"]; then
+# if [ "$DEVICE" = "cpu" ]; then
+# 	salloc -p skylake-gold
+# elif [ "$DEVICE" = "amdcpu" ]; then
+# 	salloc -p shared-milan
+# elif [ "$DEVICE" = "amdgpu" ]; then
+# 	salloc -p shared-gpu-amd-mi100
+# 	module load rocm
+# fi
+
+if  [ "$BLAS" = "MKL" ]; then
 	conda activate mkl
-elif [$BLAS eq "OpenBLAS"]; then
+elif [ "$BLAS" = "OpenBLAS" ]; then
 	conda activate openblas
-elif [$BLAS eq "BLIS"]; then
+elif [ "$BLAS" = "BLIS" ]; then
 	conda activate blis
-else [$BLAS eq "oneAPI"]
+else [ "$BLAS" = "oneAPI" ]
 	conda activate idp
+fi
+
+echo "conda env: $CONDA_DEFAULT_ENV"
+echo "kernel/framework: $KERNEL $FRAMEWORK"
+echo "problem size: $N"
+echo "iterations: $ITER"
 
 print_progress_bar() {
     local percent=$(( ($1 * 100) / $2 ))
@@ -37,7 +47,7 @@ print_progress_bar() {
 results=()
 for (( i=1; i <= $ITER; ++i ))
 do
-	result=$(python3 $KERNEL/$KERNEL.py $FRAMEWORK $ITER $DEVICE)
+	result=$(python3 $KERNEL/$KERNEL.py $FRAMEWORK $ITER $DEVICE $N)
 
         if [ $? -eq 0 ]; then
                 results+=($result)
@@ -47,11 +57,13 @@ do
         fi
 
         #if (( $i % 10 == 0 )); then
-        #       ProgressBar $i
 	       print_progress_bar $i $ITER
         #fi
 done
 
-echo "%s\n" "${results[@]}"
+printf '\nkernel time per iteration (ms)\n'
+printf '%s\n' "${results[@]}"
+
+# (IFS=$'\n'; echo "${results[*]}")
 
 

@@ -63,12 +63,18 @@ def initialize(nx, ny, nz, iter):
                     dtype=torch.float64)
     B = torch.copy(A)
 
-    total_elapsed = 0
-    for k in range(1, iter):
-        start = time.perf_counter()
-        numpy_result = kernel(A, B, nx, ny, nz)
-        elapsed = time.perf_counter() - start
-        total_elapsed =+ elapsed
+    print("using pytorch")
+
+    # total_elapsed = 0
+    # for k in range(1, iter):
+    #     start = time.perf_counter()
+    #     numpy_result = kernel(A, B, nx, ny, nz)
+    #     elapsed = time.perf_counter() - start
+    #     total_elapsed =+ elapsed
+
+    start = time.perf_counter()
+    numpy_result = kernel(A, B, nx, ny, nz)
+    total_elapsed = time.perf_counter() - start
 
     return total_elapsed
 
