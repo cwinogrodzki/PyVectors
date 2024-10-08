@@ -26,11 +26,17 @@ def initialize(nx, ny, nz, iter):
                     dtype=np.float64)
     B = np.copy(A)
 
-    total_elapsed = 0
-    for k in range(1, iter):
-        start = time.perf_counter()
-        numpy_result = kernel(A, B, nx, ny, nz)
-        elapsed = time.perf_counter() - start
-        total_elapsed =+ elapsed
+    # total_elapsed = 0
+    # for k in range(1, iter):
+    #     start = time.perf_counter()
+    #     numpy_result = kernel(A, B, nx, ny, nz)
+    #     elapsed = time.perf_counter() - start
+    #     total_elapsed =+ elapsed
+
+    start = time.perf_counter()
+    numpy_result = kernel(A, B, nx, ny, nz)
+    total_elapsed = time.perf_counter() - start
+    
+    return total_elapsed
 
     return total_elapsed

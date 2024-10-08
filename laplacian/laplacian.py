@@ -1,7 +1,7 @@
 import sys
 import laplacian_numpy
 import laplacian_pytorch
-# import laplacian_for
+import laplacian_naive
 # lap_cpp
 
 def main():
@@ -64,7 +64,7 @@ def main():
   # exec_str = "time = " + kernel + "_" + framework + ".initialize(nx, ny, nz, 1)"
   # namespace = {'time': 0}
   # exec(exec_str , globals())
-  time = laplacian_pytorch.initialize(nx, ny, nz, iter)
+  time = laplacian_naive.initialize(nx, ny, nz, iter)
   
   # Effective memory bandwidth
   bandwidth = (theoretical_fetch_size + theoretical_write_size) / time

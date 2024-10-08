@@ -59,11 +59,13 @@ def initialize(nx, ny, nz, iter):
     #         print("Using device: ", torch.cuda.get_device_name(0))
     #         torch.backends.cuda.preferred_blas_library(backend='cublas')
 
-    A = torch.fromfunction(lambda i, j, k: (i + j + (nx - k)) * 10 / nx, (nx, ny, nz),
-                    dtype=torch.float64)
-    B = torch.copy(A)
+    # A = torch.fromfunction(lambda i, j, k: (i + j + (nx - k)) * 10 / nx, (nx, ny, nz),
+    #                 dtype=torch.float64)
+    # B = torch.copy(A)
 
-    print("using pytorch")
+    A = torch.rand(size=(nx, ny, nz), dtype=torch.float64)
+    #A[1:nx-1, 1:ny-1, 1:nz-1] = torch.rand(size=(nx-2, ny-2, nz-2), dtype=torch.float64)
+    B = torch.rand_like(A)
 
     # total_elapsed = 0
     # for k in range(1, iter):
