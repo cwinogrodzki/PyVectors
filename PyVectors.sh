@@ -3,7 +3,7 @@
 #framework, kernel, iter, device
 KERNEL=$1
 FRAMEWORK=$2
-BLAS=$3
+ENV=$3
 ITER=$4
 DEVICE=$5
 N=$6
@@ -19,14 +19,18 @@ eval "$(conda shell.bash hook)"
 # 	module load rocm
 # fi
 
-if  [ "$BLAS" = "MKL" ]; then
-	conda activate mkl
-elif [ "$BLAS" = "OpenBLAS" ]; then
-	conda activate openblas
-elif [ "$BLAS" = "BLIS" ]; then
-	conda activate blis
-else [ "$BLAS" = "oneAPI" ]
+if  [ "$ENV" = "idp" ]; then
 	conda activate idp
+elif [ "$ENV" = "amd-cpu" ]; then
+	conda activate amd-cpu
+elif [ "$ENV" = "arm" ]; then
+	conda activate arm
+elif [ "$ENV" = "silicon" ]; then
+	conda activate silicon
+elif [ "$ENV" = "openblas" ]; then
+	conda activate openblas
+else [ "$ENV" = "base" ]
+	conda activate base-pkgs
 fi
 
 echo "conda env: $CONDA_DEFAULT_ENV"
@@ -63,6 +67,8 @@ done
 
 printf '\nkernel time per iteration (ms)\n'
 printf '%s\n' "${results[@]}"
+
+echo ${results[@]} | awk 'NF {sum=0;for (i=1;i<=NF;i++)sum+=$i; print "average: " sum / NF; }'
 
 # (IFS=$'\n'; echo "${results[*]}")
 

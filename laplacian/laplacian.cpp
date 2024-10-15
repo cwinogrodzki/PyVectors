@@ -43,7 +43,7 @@ int main(int argc, char **argv)
     // Default problem size
     size_t nx = 512, ny = 512, nz = 512; // Cube dimensions
 
-    int num_iter = 1;
+    int num_iter = 10;
 
     if (argc > 1) {nx = atoi(argv[1]);}
     if (argc > 2) {ny = atoi(argv[2]);}
@@ -82,9 +82,10 @@ int main(int argc, char **argv)
     //         total_elapsed / num_iter,
     //         bandwidth
     //         );
-    std::cout << bandwidth;
-    std::cout << "Laplacian kernel took: " << std::fixed << std::setprecision(2) << total_elapsed / num_iter <<
-                 " ms avg, effective memory bandwidth: " << std::fixed << std::setprecision(2) << bandwidth << " GB/s \n";
+    // std::cout << bandwidth;
+    // std::cout << "Laplacian kernel took: " << std::fixed << std::setprecision(2) << total_elapsed / num_iter <<
+    //              " ms avg, effective memory bandwidth: " << std::fixed << std::setprecision(2) << bandwidth << " GB/s \n";
+    std::cout << std::fixed << std::setprecision(2) << total_elapsed / num_iter;
 
     //print(f"Computational throughput: {throughput * 1e-9 / elapsed_time:.4f} GFLOP/s, arithmetic intensity: {arithmetic_intensity:.4f} FLOPS/byte")
 
