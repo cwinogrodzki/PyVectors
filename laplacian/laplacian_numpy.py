@@ -1,38 +1,43 @@
 import numpy as np
 import time
 
-def kernel(A, B, nx, ny, nz):
-    # Grid spacings
-    hx = 1.0 / (nx - 1)
-    hy = 1.0 / (ny - 1)
-    hz = 1.0 / (nz - 1)
+TSTEPS=50
 
-    INVHX2 = 1.0 / hx / hx
-    INVHY2 = 1.0 / hy / hy
-    INVHZ2 = 1.0 / hz / hz
-    INVHXYZ2 = -2.0 * (INVHX2 + INVHY2 + INVHZ2)
-
-    B[1:-1, 1:-1, 1:-1] = (A[1:-1, 1:-1, 1:-1] * INVHXYZ2 +
-                            (A[2:, 1:-1, 1:-1] + A[:-2, 1:-1, 1:-1]) * INVHX2 +
-                            (A[1:-1, 2:, 1:-1] + A[1:-1, :-2, 1:-1]) * INVHY2 +
-                            (A[1:-1, 1:-1, 2:] + A[1:-1, 1:-1, :-2]) * INVHZ2)
+def kernel(A, B):
+    for t in range(1, TSTEPS):
+        B[1:-1, 1:-1,
+        1:-1] = (0.125 * (A[2:, 1:-1, 1:-1] - 2.0 * A[1:-1, 1:-1, 1:-1] +
+                            A[:-2, 1:-1, 1:-1]) + 0.125 *
+                    (A[1:-1, 2:, 1:-1] - 2.0 * A[1:-1, 1:-1, 1:-1] +
+                    A[1:-1, :-2, 1:-1]) + 0.125 *
+                    (A[1:-1, 1:-1, 2:] - 2.0 * A[1:-1, 1:-1, 1:-1] +
+                    A[1:-1, 1:-1, 0:-2]) + A[1:-1, 1:-1, 1:-1])
+        A[1:-1, 1:-1,
+        1:-1] = (0.125 * (B[2:, 1:-1, 1:-1] - 2.0 * B[1:-1, 1:-1, 1:-1] +
+                            B[:-2, 1:-1, 1:-1]) + 0.125 *
+                    (B[1:-1, 2:, 1:-1] - 2.0 * B[1:-1, 1:-1, 1:-1] +
+                    B[1:-1, :-2, 1:-1]) + 0.125 *
+                    (B[1:-1, 1:-1, 2:] - 2.0 * B[1:-1, 1:-1, 1:-1] +
+                    B[1:-1, 1:-1, 0:-2]) + B[1:-1, 1:-1, 1:-1])
     
-def initialize(nx, ny, nz, iter):
-    A = np.fromfunction(lambda i, j, k: (i + j + (nx - k)) * 10 / nx, (nx, ny, nz),
+def initialize(N, iter, device):
+    #print(np.core._multiarray_umath.__cpu_features__)
+    A = np.fromfunction(lambda i, j, k: (i + j + (N - k)) * 10 / N, (N, N, N),
                     dtype=np.float64)
     B = np.copy(A)
 
-    # total_elapsed = 0
-    # for k in range(1, iter):
-    #     start = time.perf_counter()
-    #     numpy_result = kernel(A, B, nx, ny, nz)
-    #     elapsed = time.perf_counter() - start
-    #     total_elapsed =+ elapsed
+    total_elapsed = 0
+    for k in range(1, iter):
+        start = time.perf_counter()
+        numpy_result = kernel(A, B)
+        elapsed = time.perf_counter() - start
+        print(elapsed)
+        total_elapsed =+ elapsed
 
-    start = time.perf_counter()
-    numpy_result = kernel(A, B, nx, ny, nz)
-    total_elapsed = time.perf_counter() - start
+    # start = time.perf_counter()
+    # numpy_result = kernel(A, B)
+    # total_elapsed = time.perf_counter() - start
     
-    return total_elapsed
+    return total_elapsed/iter
 
 

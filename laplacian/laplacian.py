@@ -2,6 +2,7 @@ import sys
 import laplacian_numpy
 import laplacian_pytorch
 import laplacian_naive
+#import laplacian_fpga
 # lap_cpp
 
 def main():
@@ -20,22 +21,9 @@ def main():
   if (len(sys.argv) > 3):
     device = sys.argv[3]
   if (len(sys.argv) > 4):
-    n = int(sys.argv[4])
+    N = int(sys.argv[4])
 
-  # prompt for problem size
-  # response = input("Enter problem size (nx, ny, nz): ")
-  # response_list = response.split(", ")
-  
-  # while (len(response_list) != 3):
-  #   response = input("Please enter three integers for problem size, separated by commas (nx, ny, nz): ")
-  #   response_list = response.split(", ")
-  
-  # nx = int(response_list[0])
-  # ny = int(response_list[1])
-  # nz = int(response_list[2])
-
-  nx, ny, nz = n, n, n
-  
+  nx, ny, nz = N, N, N
   # Theoretical fetch and write sizes: size of grid - edges * float bytes * GB scale factor
   num_elements = nx * ny * nz
   reads = num_elements - 8 - 4 * (nx - 2) - 4 * (ny - 2) - 4 * (nz - 2)
@@ -64,7 +52,14 @@ def main():
   # exec_str = "time = " + kernel + "_" + framework + ".initialize(nx, ny, nz, 1)"
   # namespace = {'time': 0}
   # exec(exec_str , globals())
-  time = laplacian_pytorch.initialize(nx, ny, nz, iter)
+  if (framework=="pytorch"):
+    time = laplacian_pytorch.initialize(N, iter, device)
+  elif (framework=="numpy"):
+    time = laplacian_numpy.initialize(N, iter, device)
+  elif (framework=="naive"):
+    time = laplacian_naive.initialize(N, iter, device)
+  elif (framework=="fpga"):
+    time = laplacian_fpga.initialize(N, iter, device)
   
   # Effective memory bandwidth
   bandwidth = (theoretical_fetch_size + theoretical_write_size) / time
