@@ -11,26 +11,39 @@ from dace.transformation.dataflow import StreamingMemory, StreamingComposition
 from dace.transformation.auto.auto_optimize import auto_optimize
 from dace.config import set_temporary
 
+# N = 100
+TSTEPS = 50
 N = (dc.symbol('N', dtype=dc.int64))
+#TSTEPS = (dc.symbol('TSTEPS', dtype=dc.int64))
 
 @dc.program
-def stencil_kernel(TSTEPS: dc.int64, A: dc.float64[Nx, Ny, Nz], B: dc.float64[Nx, Ny, Nz]):
+def stencil_kernel(TSTEPS: dc.int64, A: dc.float64[N, N, N], B: dc.float64[N, N, N]):
     for t in range(1, TSTEPS):
-        B[1:-1, 1:-1,
-          1:-1] = (0.125 * (A[2:, 1:-1, 1:-1] - 2.0 * A[1:-1, 1:-1, 1:-1] +
-                            A[:-2, 1:-1, 1:-1]) + 0.125 *
-                   (A[1:-1, 2:, 1:-1] - 2.0 * A[1:-1, 1:-1, 1:-1] +
-                    A[1:-1, :-2, 1:-1]) + 0.125 *
-                   (A[1:-1, 1:-1, 2:] - 2.0 * A[1:-1, 1:-1, 1:-1] +
-                    A[1:-1, 1:-1, 0:-2]) + A[1:-1, 1:-1, 1:-1])
-        A[1:-1, 1:-1,
-          1:-1] = (0.125 * (B[2:, 1:-1, 1:-1] - 2.0 * B[1:-1, 1:-1, 1:-1] +
-                            B[:-2, 1:-1, 1:-1]) + 0.125 *
-                   (B[1:-1, 2:, 1:-1] - 2.0 * B[1:-1, 1:-1, 1:-1] +
-                    B[1:-1, :-2, 1:-1]) + 0.125 *
-                   (B[1:-1, 1:-1, 2:] - 2.0 * B[1:-1, 1:-1, 1:-1] +
-                    B[1:-1, 1:-1, 0:-2]) + B[1:-1, 1:-1, 1:-1])
+        B[1:-1, 1:-1, 1:-1] = (0.125 * (A[2:, 1:-1, 1:-1] - 2.0 * A[1:-1, 1:-1, 1:-1] + A[:-2, 1:-1, 1:-1]) + 
+                               0.125 * (A[1:-1, 2:, 1:-1] - 2.0 * A[1:-1, 1:-1, 1:-1] + A[1:-1, :-2, 1:-1]) + 
+                               0.125 * (A[1:-1, 1:-1, 2:] - 2.0 * A[1:-1, 1:-1, 1:-1] + A[1:-1, 1:-1, 0:-2]) + A[1:-1, 1:-1, 1:-1])
+        
+        A[1:-1, 1:-1, 1:-1] = (0.125 * (B[2:, 1:-1, 1:-1] - 2.0 * B[1:-1, 1:-1, 1:-1] + B[:-2, 1:-1, 1:-1]) + 
+                               0.125 * (B[1:-1, 2:, 1:-1] - 2.0 * B[1:-1, 1:-1, 1:-1] + B[1:-1, :-2, 1:-1]) + 
+                               0.125 * (B[1:-1, 1:-1, 2:] - 2.0 * B[1:-1, 1:-1, 1:-1] + B[1:-1, 1:-1, 0:-2]) + B[1:-1, 1:-1, 1:-1])
+# @dc.program
+# def stencil_kernel(TSTEPS: dc.int64, A: dc.float64[N, N, N], B: dc.float64[N, N, N]):
 
+#     for t in range(1, TSTEPS):
+#         B[1:-1, 1:-1,
+#           1:-1] = (0.125 * (A[2:, 1:-1, 1:-1] - 2.0 * A[1:-1, 1:-1, 1:-1] +
+#                             A[:-2, 1:-1, 1:-1]) + 0.125 *
+#                    (A[1:-1, 2:, 1:-1] - 2.0 * A[1:-1, 1:-1, 1:-1] +
+#                     A[1:-1, :-2, 1:-1]) + 0.125 *
+#                    (A[1:-1, 1:-1, 2:] - 2.0 * A[1:-1, 1:-1, 1:-1] +
+#                     A[1:-1, 1:-1, 0:-2]) + A[1:-1, 1:-1, 1:-1])
+#         A[1:-1, 1:-1,
+#           1:-1] = (0.125 * (B[2:, 1:-1, 1:-1] - 2.0 * B[1:-1, 1:-1, 1:-1] +
+#                             B[:-2, 1:-1, 1:-1]) + 0.125 *
+#                    (B[1:-1, 2:, 1:-1] - 2.0 * B[1:-1, 1:-1, 1:-1] +
+#                     B[1:-1, :-2, 1:-1]) + 0.125 *
+#                    (B[1:-1, 1:-1, 2:] - 2.0 * B[1:-1, 1:-1, 1:-1] +
+#                     B[1:-1, 1:-1, 0:-2]) + B[1:-1, 1:-1, 1:-1])
 
 def initialize(N, datatype=np.float64):
     A = np.fromfunction(lambda i, j, k: (i + j + (N - k)) * 10 / N, (N, N, N),
@@ -48,7 +61,7 @@ def run_stencil(device_type: dace.dtypes.DeviceType):
 
     # Initialize data
     N = 100
-    TSTEPS = 50
+    # TSTEPS = 50
     A, B = initialize(N)
     B_ref = np.copy(B)
 
@@ -57,15 +70,17 @@ def run_stencil(device_type: dace.dtypes.DeviceType):
         sdfg = stencil_kernel.to_sdfg()
         sdfg = auto_optimize(sdfg, device_type)
         sdfg.specialize(N=N)
-        sdfg(A, B)
     elif device_type == dace.dtypes.DeviceType.FPGA:
         # Parse SDFG and apply FPGA friendly optimization
         # Transformation creates additional pre- and post-states to perform memory transfers between host and device
-        sdfg = stencil_kernel.to_sdfg(simplify=True)
+        sdfg = stencil_kernel.to_sdfg()
+        #sdfg.apply_transformations(FPGATransformSDFG)
         sdfg = auto_optimize(sdfg, dace.dtypes.DeviceType.FPGA)
-        sdfg.expand_library_nodes()
+        #sdfg.expand_library_nodes()
         sdfg.specialize(N=N)
-        sdfg(A, B)
+    
+    sdfg.compile()
+    sdfg(TSTEPS, A, B)
 
     # Compute ground truth and validate
     stencil_kernel.f(A, B_ref)

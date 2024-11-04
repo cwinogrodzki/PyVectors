@@ -3,35 +3,50 @@
 #framework, kernel, iter, device
 KERNEL=$1
 FRAMEWORK=$2
-ENV=$3
-ITER=$4
-DEVICE=$5
-N=$6
+DEVICE=$3
+N=$4
+ITER=$5
 
 eval "$(conda shell.bash hook)"
 
-# if [ "$DEVICE" = "cpu" ]; then
-# 	salloc -p skylake-gold
-# elif [ "$DEVICE" = "amdcpu" ]; then
-# 	salloc -p shared-milan
-# elif [ "$DEVICE" = "amdgpu" ]; then
-# 	salloc -p shared-gpu-amd-mi100
-# 	module load rocm
-# fi
-
-if  [ "$ENV" = "idp" ]; then
-	conda activate idp
-elif [ "$ENV" = "amd-cpu" ]; then
-	conda activate amd-cpu
-elif [ "$ENV" = "arm" ]; then
-	conda activate arm
-elif [ "$ENV" = "silicon" ]; then
-	conda activate silicon
-elif [ "$ENV" = "openblas" ]; then
-	conda activate openblas
-else [ "$ENV" = "base" ]
-	conda activate base-pkgs
+if [ "$DEVICE" = "cuda" ]; then
+	#salloc -p shared-devkit-40g
+        module load cuda
+        module load miniconda3
+        source activate arm-nvidia
+elif [ "$DEVICE" = "rocm" ]; then
+	#salloc -p shared-gpu-amd-mi100
+	#module load rocm
+        #module load miniconda3
+        source activate rocm-mkl
+elif [ "$DEVICE" = "intel" ]; then
+        # salloc -p skylake-gold
+        # module load oneAPI
+        conda activate idp
+elif [ "$DEVICE" = "amdcpu" ]; then
+	#salloc -p shared-gpu-amd-mi100
+        conda activate amd-cpu
+elif [ "$DEVICE" = "arm" ]; then
+	#salloc -p shared-hopper-devkit
+        module load miniconda3
+        source activate arm-nvidia
+elif [ "$DEVICE" = "mps" ]; then
+        conda activate silicon
 fi
+
+# if  [ "$ENV" = "idp" ]; then
+# 	conda activate idp
+# elif [ "$ENV" = "amd-cpu" ]; then
+# 	conda activate amd-cpu
+# elif [ "$ENV" = "arm" ]; then
+# 	conda activate arm
+# elif [ "$ENV" = "silicon" ]; then
+# 	conda activate silicon
+# elif [ "$ENV" = "openblas" ]; then
+# 	conda activate openblas
+# else [ "$ENV" = "base" ]
+# 	conda activate base-pkgs
+# fi
 
 echo "conda env: $CONDA_DEFAULT_ENV"
 echo "kernel/framework: $KERNEL $FRAMEWORK"
