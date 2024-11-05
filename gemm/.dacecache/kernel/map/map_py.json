@@ -1,0 +1,632 @@
+{
+    "/vast/home/grodzki/.conda/envs/dace/lib/python3.11/site-packages/dace/transformation/interstate/sdfg_nesting.py": {
+        "1300": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 0
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 1
+            }
+        ]
+    },
+    "/vast/home/grodzki/.conda/envs/dace/lib/python3.11/site-packages/dace/transformation/interstate/fpga_transform_state.py": {
+        "156": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 2
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 3
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 4
+            }
+        ],
+        "198": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 5
+            }
+        ],
+        "150": [
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 0
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 2
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 4
+            }
+        ],
+        "151": [
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 1
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 3
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 5
+            }
+        ],
+        "193": [
+            {
+                "cfg_id": 0,
+                "state_id": 2,
+                "node_id": 0
+            }
+        ],
+        "194": [
+            {
+                "cfg_id": 0,
+                "state_id": 2,
+                "node_id": 1
+            }
+        ]
+    },
+    "/vast/home/grodzki/PyVectors/gemm/gemm_fpga.py": {
+        "19": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 6
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 7
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 8
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 9
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 10
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 11
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 12
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 13
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 14
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 15
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 16
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 17
+            }
+        ],
+        "15": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 6
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 7
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 8
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 9
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 10
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 11
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 12
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 13
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 14
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 15
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 16
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 17
+            }
+        ],
+        "16": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 6
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 7
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 8
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 9
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 10
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 11
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 12
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 13
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 14
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 15
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 16
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 17
+            }
+        ],
+        "17": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 6
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 7
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 8
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 9
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 10
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 11
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 12
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 13
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 14
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 15
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 16
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 17
+            }
+        ],
+        "18": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 6
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 7
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 8
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 9
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 10
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 11
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 12
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 13
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 14
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 15
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 16
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 17
+            }
+        ]
+    },
+    "/vast/home/grodzki/.conda/envs/dace/lib/python3.11/site-packages/dace/libraries/blas/nodes/gemm.py": {
+        "598": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 18
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 19
+            }
+        ],
+        "610": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 20
+            }
+        ],
+        "614": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 21
+            }
+        ],
+        "634": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 22
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 23
+            }
+        ],
+        "648": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 24
+            }
+        ],
+        "649": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 25
+            }
+        ],
+        "654": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 26
+            }
+        ],
+        "655": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 27
+            }
+        ],
+        "727": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 28
+            }
+        ],
+        "728": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 29
+            }
+        ],
+        "729": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 30
+            }
+        ],
+        "730": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 31
+            }
+        ],
+        "731": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 32
+            }
+        ],
+        "742": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 33
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 34
+            }
+        ],
+        "758": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 35
+            }
+        ],
+        "759": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 36
+            }
+        ],
+        "770": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 37
+            }
+        ],
+        "771": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 38
+            }
+        ],
+        "779": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 39
+            }
+        ],
+        "780": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 40
+            }
+        ],
+        "787": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 41
+            }
+        ],
+        "810": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 42
+            }
+        ],
+        "811": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 43
+            }
+        ],
+        "827": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 44
+            }
+        ],
+        "905": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 45
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 46
+            }
+        ],
+        "920": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 47
+            }
+        ],
+        "674": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 48
+            }
+        ],
+        "679": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 49
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 50
+            }
+        ],
+        "700": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 51
+            }
+        ]
+    }
+}
