@@ -20,6 +20,7 @@ def initialize(M, N, dtype=np.float64):
     return x, A
 
 def run_gemm(device_type: dc.dtypes.DeviceType):
+    # to do: add CPU and GPU optimizations
     x, A = initialize(M, N)
     x_ref = np.copy(x)
 

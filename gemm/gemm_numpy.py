@@ -3,6 +3,7 @@ import time
 
 def kernel(alpha, beta, A, B, C):
     C[:] = alpha * A @ B + beta * C
+    return C
 
 def initialize(Ni, Nj, Nk, iter, device):
     dtype=np.float64

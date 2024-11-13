@@ -1,5 +1,6 @@
 import numpy as np
 import time
+import atax_numpy
 
 dtype=np.float64
 M, N = 60, 70
@@ -22,6 +23,7 @@ def kernel(A, x, y, tmp):
         for j in range(0, N):
             y[j] = y[j] + A[i, j] * tmp[i]
 
+    return y
 
 def initialize(M, N, iter, device):
     fn = dtype(N)
@@ -41,3 +43,7 @@ def initialize(M, N, iter, device):
         total_elapsed =+ elapsed
 
     return total_elapsed/iter
+
+    result = kernel(A, x, y, tmp)
+    ref_result = atax_numpy.kernel(A, x)
+    assert np.allclose(result, ref_result)

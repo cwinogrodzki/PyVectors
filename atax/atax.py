@@ -1,8 +1,8 @@
 import sys
 import atax_numpy
-#import atax_pytorch
+import atax_pytorch
 import atax_naive
-import atax_fpga
+#import atax_fpga
 # atax_cpp
 
 def main():

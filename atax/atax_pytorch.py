@@ -1,6 +1,7 @@
 import torch
 import numpy as np
 import time
+import atax_numpy
 
 def kernel(A, x):
     return (A @ x) @ A
@@ -55,6 +56,10 @@ def initialize(M, N, iter, device):
     x = torch.tensor(np.fromfunction(lambda i: 1 + (i / fn), (N, ), dtype=dtype))
     A = torch.tensor(np.fromfunction(lambda i, j: ((i + j) % N) / (5 * M), (M, N),
                         dtype=dtype))
+    
+    x_ref = np.fromfunction(lambda i: 1 + (i / fn), (N, ), dtype=dtype)
+    A_ref = np.fromfunction(lambda i, j: ((i + j) % N) / (5 * M), (M, N),
+                        dtype=dtype)
 
     total_elapsed = 0
     for k in range(1, iter):
