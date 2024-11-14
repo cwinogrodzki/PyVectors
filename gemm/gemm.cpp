@@ -15,9 +15,9 @@ void kernel(double alpha, double beta, std::vector<T>& A, std::vector<T>& B, std
         for (int j = 0; j < Nj; ++j) {
             result = 0;
             for (int k = 0; i < Nk; ++k) {
-                result = A[i, k] * B[k, j];
+                result = A[i][k] * B[k][j];
             }
-            C[i, j] = alpha * result + beta * C[i, j];
+            C[i][j] = alpha * result + beta * C[i][j];
         }
     }
     return C;

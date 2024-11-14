@@ -23,14 +23,14 @@ def main():
   if (len(sys.argv) > 4):
     N = int(sys.argv[4])
 
-  if (framework=="pytorch"):
-    time = gemm_pytorch.initialize(Ni, Nj, Nk, iter, device)
-  elif (framework=="numpy"):
+  if (framework=="numpy"):
     time = gemm_numpy.initialize(Ni, Nj, Nk, iter, device)
+  elif (framework=="pytorch"):
+    time = gemm_pytorch.initialize(Ni, Nj, Nk, iter, device)
   elif (framework=="naive"):
     time = gemm_naive.initialize(Ni, Nj, Nk, iter, device)
-  elif (framework=="fpga"):
-    time = gemm_fpga.initialize(Ni, Nj, Nk, iter, device)
+  # elif (framework=="fpga"):
+  #   time = gemm_fpga.initialize(Ni, Nj, Nk, iter, device)
   
   # Effective memory bandwidth
   #bandwidth = (theoretical_fetch_size + theoretical_write_size) / time
