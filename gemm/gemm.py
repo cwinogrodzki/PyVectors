@@ -11,15 +11,16 @@ def main():
   # load correct conda env + runtime from script
 
   # Defaults
-  Ni, Nj, Nk = 60, 70, 80
+  Ni, Nj, Nk = 1000, 1100, 1200
   device = 'cpu'
+  iter = 10
 
   if (len(sys.argv) > 1):
     framework = sys.argv[1]
   if (len(sys.argv) > 2):
-    iter = int(sys.argv[2])
+    device = sys.argv[2]
   if (len(sys.argv) > 3):
-    device = sys.argv[3]
+    iter = iter(sys.argv[3])
   if (len(sys.argv) > 4):
     N = int(sys.argv[4])
 
@@ -35,7 +36,7 @@ def main():
   # Effective memory bandwidth
   #bandwidth = (theoretical_fetch_size + theoretical_write_size) / time
   
-  #print(f"{time * 1000:.4f}")
+  print(f"{time * 1000:.4f}")
   # print(f"kernel took: {time * 1000:.4f} ms, effective memory bandwidth: {bandwidth:.4f} GB/s")
   # print(f"Numpy kernel time: {t1 * 1000:.4f} ms, effective memory bandwidth: {numpy_bandwidth:.4f} GB/s")
   # print(f"For loop kernel time: {t2 * 1000:.4f} ms, effective memory bandwidth: {for_bandwidth:.4f} GB/s")

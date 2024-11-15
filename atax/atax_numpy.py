@@ -6,7 +6,6 @@ def kernel(A, x):
 
 def initialize(M, N, iter, device):
     dtype=np.float64
-    M, N = 60, 60
     fn = dtype(N)
 
     x = np.fromfunction(lambda i: 1 + (i / fn), (N, ), dtype=dtype)

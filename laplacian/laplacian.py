@@ -11,15 +11,16 @@ def main():
   # load correct conda env + runtime from script
 
   # Defaults
-  nx, ny, nz = 70, 70, 70
+  N = 100
   device = 'cpu'
+  iter = 10
 
   if (len(sys.argv) > 1):
     framework = sys.argv[1]
   if (len(sys.argv) > 2):
-    iter = int(sys.argv[2])
+    device = sys.argv[2]
   if (len(sys.argv) > 3):
-    device = sys.argv[3]
+    iter = int(sys.argv[3])
   if (len(sys.argv) > 4):
     N = int(sys.argv[4])
 
@@ -52,14 +53,16 @@ def main():
   # exec_str = "time = " + kernel + "_" + framework + ".initialize(nx, ny, nz, 1)"
   # namespace = {'time': 0}
   # exec(exec_str , globals())
+
+  framework = "naive"
   if (framework=="pytorch"):
     time = laplacian_pytorch.initialize(N, iter, device)
   elif (framework=="numpy"):
     time = laplacian_numpy.initialize(N, iter, device)
   elif (framework=="naive"):
     time = laplacian_naive.initialize(N, iter, device)
-  elif (framework=="fpga"):
-    time = laplacian_fpga.initialize(N, iter, device)
+  # elif (framework=="fpga"):
+  #   time = laplacian_fpga.initialize(N, iter, device)
   
   # Effective memory bandwidth
   bandwidth = (theoretical_fetch_size + theoretical_write_size) / time

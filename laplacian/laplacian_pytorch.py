@@ -72,7 +72,7 @@ def initialize(N, iter, device):
     # B = torch.copy(A)
 
     A = torch.tensor(np.fromfunction(lambda i, j, k: (i + j + (N - k)) * 10 / N, (N, N, N),
-                    dtype=np.float64))
+                    dtype=np.float64), device=device)
     B = A.clone()
 
     print(device)

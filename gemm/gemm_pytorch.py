@@ -55,11 +55,11 @@ def initialize(Ni, Nj, Nk, iter, device):
     beta = dtype(1.2)
 
     A = torch.tensor(np.fromfunction(lambda i, k: (i * (k + 1) % Nk) / Nk, (Ni, Nk),
-                        dtype=dtype))
+                        dtype=dtype), device=device)
     B = torch.tensor(np.fromfunction(lambda k, j: (k * (j + 2) % Nj) / Nj, (Nk, Nj),
-                        dtype=dtype))
+                        dtype=dtype), device=device)
     C = torch.tensor(np.fromfunction(lambda i, j: ((i * j + 1) % Ni) / Ni, (Ni, Nj),
-                        dtype=dtype))
+                        dtype=dtype), device=device)
     
     # uncomment for testing
     # A_ref = np.fromfunction(lambda i, k: (i * (k + 1) % Nk) / Nk, (Ni, Nk),

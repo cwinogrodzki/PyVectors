@@ -3,19 +3,9 @@ import time
 import atax_numpy
 
 dtype=np.float64
-M, N = 60, 70
-
-# def kernel(A, x):
-#     m, n = A.shape
-#     result = np.zeros(m, n)
-
-#     for i in range(n):
-#         for j in range(m):
-#             result[i, j] = A[i, j] * x[j]
-
-#     return result
 
 def kernel(A, x, y, tmp):
+    M, N = A.shape
     for i in range(0, M):
         for j in range(0, N):
             tmp[i] = tmp[i] + A[i, j] * x[j]
@@ -44,6 +34,6 @@ def initialize(M, N, iter, device):
 
     return total_elapsed/iter
 
-    result = kernel(A, x, y, tmp)
-    ref_result = atax_numpy.kernel(A, x)
-    assert np.allclose(result, ref_result)
+    # result = kernel(A, x, y, tmp)
+    # ref_result = atax_numpy.kernel(A, x)
+    # assert np.allclose(result, ref_result)

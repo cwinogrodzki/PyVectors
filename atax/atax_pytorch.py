@@ -50,12 +50,11 @@ def initialize(M, N, iter, device):
         device='cpu'
         
     dtype=np.float64
-    M, N = 60, 60
     fn = dtype(N)
 
-    x = torch.tensor(np.fromfunction(lambda i: 1 + (i / fn), (N, ), dtype=dtype))
+    x = torch.tensor(np.fromfunction(lambda i: 1 + (i / fn), (N, ), dtype=dtype), device=device)
     A = torch.tensor(np.fromfunction(lambda i, j: ((i + j) % N) / (5 * M), (M, N),
-                        dtype=dtype))
+                        dtype=dtype), device=device)
     
     x_ref = np.fromfunction(lambda i: 1 + (i / fn), (N, ), dtype=dtype)
     A_ref = np.fromfunction(lambda i, j: ((i + j) % N) / (5 * M), (M, N),
