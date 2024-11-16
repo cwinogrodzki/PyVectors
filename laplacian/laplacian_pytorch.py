@@ -3,7 +3,6 @@ import torch
 import numpy as np
 
 TSTEPS=50
-
 def kernel(A, B):
     for t in range(1, TSTEPS):
         B[1:-1, 1:-1,

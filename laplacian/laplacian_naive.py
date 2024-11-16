@@ -2,11 +2,13 @@ import numpy as np
 import time
 import laplacian_numpy
 
-TSTEPS=50
+TSTEPS=5
 
 def kernel(A, B, N):
     # Skip boundary points
     for t in range(1, TSTEPS):
+        print(t)
+        print(B[1,1,])
         for k in range(1, N - 1):
             for j in range(1, N - 1):
                 for i in range(1, N - 1):

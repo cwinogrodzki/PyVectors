@@ -11,7 +11,7 @@ def main():
   # load correct conda env + runtime from script
 
   # Defaults
-  N = 100
+  N = 10
   device = 'cpu'
   iter = 10
 
