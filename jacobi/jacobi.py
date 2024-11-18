@@ -14,6 +14,7 @@ def main():
   N = 1000
   device = 'cpu'
   iter = 10
+  framework = 'naive'
 
   if (len(sys.argv) > 1):
     framework = sys.argv[1]

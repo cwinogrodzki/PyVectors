@@ -39,19 +39,7 @@ int main(int argc, char **argv)
 
     if (argc > 1) {N = atoi(argv[1]);}
 
-    size_t nx = N, ny = N, nz = N;
-
-    // Theoretical fetch and write sizes:
-    size_t theoretical_fetch_size = (nx * ny * nz - 8 - 4 * (nx - 2) - 4 * (ny - 2) - 4 * (nz - 2) ) * sizeof(precision) * 1e-9;
-    size_t theoretical_write_size = ((nx - 2) * (ny - 2) * (nz - 2)) * sizeof(precision) * 1e-9;
-    size_t num_elements = nx * ny * nz;
-    size_t numbytes = num_elements * sizeof(precision);
-    int reads = num_elements - 8 - 4 * (nx - 2) - 4 * (ny - 2) - 4 * (nz - 2);
-    int writes = (nx - 2) * (ny - 2) * (nz - 2);
-    int memory_trans = reads + writes;
-    int flop_count = 10*(nx-2)*(ny-2)*(nz-2);
-    int arithmetic_intensity = flop_count / memory_trans;
-
+    // Replace with arrays
     std::vector<double> u(N*N*N);
     std::vector<double> f(N*N*N);
     u.reserve(N*N*N);
@@ -67,19 +55,6 @@ int main(int argc, char **argv)
         total_elapsed += elapsed;
     }
 
-    float bandwidth = (theoretical_fetch_size + theoretical_write_size) * num_iter / total_elapsed;
-   //throughput = flop_count / total_elapsed
-
-    // printf("Laplacian kernel took: %g ms avg, effective memory bandwidth: %g GB/s \n",
-    //         total_elapsed / num_iter,
-    //         bandwidth
-    //         );
-    // std::cout << bandwidth;
-    // std::cout << "Laplacian kernel took: " << std::fixed << std::setprecision(2) << total_elapsed / num_iter <<
-    //              " ms avg, effective memory bandwidth: " << std::fixed << std::setprecision(2) << bandwidth << " GB/s \n";
     std::cout << std::fixed << std::setprecision(2) << total_elapsed / num_iter;
-
-    //print(f"Computational throughput: {throughput * 1e-9 / elapsed_time:.4f} GFLOP/s, arithmetic intensity: {arithmetic_intensity:.4f} FLOPS/byte")
-
     return 0;
 }

@@ -1,6 +1,6 @@
 import sys
 import laplacian_numpy
-import laplacian_pytorch
+#import laplacian_pytorch
 import laplacian_naive
 #import laplacian_fpga
 # lap_cpp
@@ -14,6 +14,7 @@ def main():
   N = 10
   device = 'cpu'
   iter = 10
+  framework = 'naive'
 
   if (len(sys.argv) > 1):
     framework = sys.argv[1]
@@ -55,10 +56,10 @@ def main():
   # exec(exec_str , globals())
 
   framework = "naive"
-  if (framework=="pytorch"):
-    time = laplacian_pytorch.initialize(N, iter, device)
-  elif (framework=="numpy"):
+  if (framework=="numpy"):
     time = laplacian_numpy.initialize(N, iter, device)
+  # elif (framework=="pytorch"):
+  #   time = laplacian_pytorch.initialize(N, iter, device)
   elif (framework=="naive"):
     time = laplacian_naive.initialize(N, iter, device)
   # elif (framework=="fpga"):
