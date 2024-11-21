@@ -1,0 +1,24 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/reports/kernel_0_0_hw_emu
+	Log files: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/logs/kernel_0_0_hw_emu
+INFO: [v++ 60-1548] Creating build summary session with primary output /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/kernel_0_0_hw_emu.xo.compile_summary, at Wed Nov 20 12:06:59 2024
+INFO: [v++ 60-1315] Creating rulecheck session with output '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/reports/kernel_0_0_hw_emu/v++_compile_kernel_0_0_hw_emu_guidance.html', at Wed Nov 20 12:06:59 2024
+INFO: [v++ 60-895]   Target platform: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2023.1
+INFO: [v++ 60-585] Compiling for hardware emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u250_gen3x16_xdma_4_1_202210_1
+INFO: [v++ 60-242] Creating kernel: 'kernel_0_0'
+
+===>The following messages were generated while  performing high-level synthesis for kernel: kernel_0_0 Log file: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/vitis_hls.log :
+ERROR: [v++ 214-177] in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'A_pipe' as there is an unresolved Phi node on it (/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1)
+ERROR: [v++ 214-177] in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'B_pipe' as there is an unresolved Phi node on it (/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1)
+ERROR: [v++ 214-177] in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'C_pipe' as there is an unresolved Phi node on it (/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1)
+ERROR: [v++ 200-1715] Encountered problem during source synthesis
+ERROR: [v++ 60-300] Failed to build kernel(ip) kernel_0_0, see log for details: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/vitis_hls.log
+ERROR: [v++ 60-773] In '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/vitis_hls.log', caught Tcl error: ERROR: [HLS 214-177] in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'A_pipe' as there is an unresolved Phi node on it (/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1)
+ERROR: [v++ 60-773] In '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/vitis_hls.log', caught Tcl error: ERROR: [HLS 214-177] in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'B_pipe' as there is an unresolved Phi node on it (/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1)
+ERROR: [v++ 60-773] In '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/vitis_hls.log', caught Tcl error: ERROR: [HLS 214-177] in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'C_pipe' as there is an unresolved Phi node on it (/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1)
+ERROR: [v++ 60-773] In '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/vitis_hls.log', caught Tcl error: ERROR: [HLS 200-1715] Encountered problem during source synthesis
+ERROR: [v++ 60-599] Kernel compilation failed to complete
+ERROR: [v++ 60-592] Failed to finish compilation

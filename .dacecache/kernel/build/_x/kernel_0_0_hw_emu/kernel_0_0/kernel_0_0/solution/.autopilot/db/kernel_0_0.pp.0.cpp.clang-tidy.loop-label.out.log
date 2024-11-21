@@ -1,0 +1,474 @@
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:25167:7: warning: Added loop label VITIS_LOOP_1213_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1213_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:25167:7: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:26141:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:26141:5: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:26155:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:26155:5: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:26169:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:26169:5: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:27780:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:27780:7: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48582:5: warning: Added loop label VITIS_LOOP_220_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < outWidth; ++i) {
+    ^~~
+    VITIS_LOOP_220_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48582:5: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48699:3: warning: Added loop label VITIS_LOOP_337_1:   [xilinx-label-all-loops]
+  for (int i = 1; i < width; ++i) {
+  ^~~
+  VITIS_LOOP_337_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48699:3: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48710:34: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_414_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48710:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48718:34: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_414_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48718:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48726:34: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_414_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48726:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48734:2: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_414_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48734:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48742:2: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_414_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48742:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48750:2: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_414_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48750:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48759:34: warning: Added loop label VITIS_LOOP_415_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_415_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48759:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48767:34: warning: Added loop label VITIS_LOOP_415_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_415_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48767:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48775:34: warning: Added loop label VITIS_LOOP_415_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_415_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48775:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48783:2: warning: Added loop label VITIS_LOOP_415_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_415_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48783:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48791:2: warning: Added loop label VITIS_LOOP_415_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_415_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48791:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48799:2: warning: Added loop label VITIS_LOOP_415_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_415_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48799:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48808:34: warning: Added loop label VITIS_LOOP_416_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_416_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48808:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48816:34: warning: Added loop label VITIS_LOOP_416_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_416_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48816:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48824:34: warning: Added loop label VITIS_LOOP_416_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_416_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48824:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48832:2: warning: Added loop label VITIS_LOOP_416_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_416_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48832:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48840:2: warning: Added loop label VITIS_LOOP_416_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_416_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48840:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48848:2: warning: Added loop label VITIS_LOOP_416_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_416_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48848:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48857:34: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_417_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48857:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48865:34: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_417_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48865:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48873:34: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_417_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48873:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48881:2: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_417_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48881:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48889:2: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_417_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48889:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48897:2: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_417_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48897:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48906:34: warning: Added loop label VITIS_LOOP_418_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_418_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48906:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48914:34: warning: Added loop label VITIS_LOOP_418_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_418_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48914:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48922:34: warning: Added loop label VITIS_LOOP_418_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_418_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48922:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48930:2: warning: Added loop label VITIS_LOOP_418_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_418_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48930:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48938:2: warning: Added loop label VITIS_LOOP_418_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_418_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48938:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48946:2: warning: Added loop label VITIS_LOOP_418_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_418_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48946:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48955:34: warning: Added loop label VITIS_LOOP_419_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_419_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48955:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48963:34: warning: Added loop label VITIS_LOOP_419_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_419_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48963:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48971:34: warning: Added loop label VITIS_LOOP_419_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_419_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48971:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48979:2: warning: Added loop label VITIS_LOOP_419_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_419_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48979:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48987:2: warning: Added loop label VITIS_LOOP_419_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_419_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48987:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48995:2: warning: Added loop label VITIS_LOOP_419_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_419_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:48995:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49004:34: warning: Added loop label VITIS_LOOP_420_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_420_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49004:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49012:34: warning: Added loop label VITIS_LOOP_420_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_420_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49012:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49020:34: warning: Added loop label VITIS_LOOP_420_1:   [xilinx-label-all-loops]
+ hlslib::DataPack<T, width> res; for (int i = 0; i < width; ++i) {
+                                 ^~~
+                                 VITIS_LOOP_420_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49020:34: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49028:2: warning: Added loop label VITIS_LOOP_420_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_420_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49028:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49036:2: warning: Added loop label VITIS_LOOP_420_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_420_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49036:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49044:2: warning: Added loop label VITIS_LOOP_420_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < width; ++i) {
+ ^~~
+ VITIS_LOOP_420_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49044:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49800:13: warning: Added loop label VITIS_LOOP_505_1:   [xilinx-label-all-loops]
+            for (unsigned int i = 1; i < b; ++i)
+            ^~~
+            VITIS_LOOP_505_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:49800:13: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50251:13: warning: Added loop label VITIS_LOOP_557_1:   [xilinx-label-all-loops]
+            for (int i = 1; i < N; ++i)
+            ^~~
+            VITIS_LOOP_557_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50251:13: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50263:13: warning: Added loop label VITIS_LOOP_569_1:   [xilinx-label-all-loops]
+            for (int i = 1; i < N; ++i)
+            ^~~
+            VITIS_LOOP_569_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50263:13: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50279:9: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < size; ++i)
+        ^~~
+        VITIS_LOOP_14_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50279:9: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50307:17: warning: Added loop label VITIS_LOOP_42_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_42_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50307:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50316:17: warning: Added loop label VITIS_LOOP_51_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_51_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50316:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50325:17: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_60_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50325:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50346:17: warning: Added loop label VITIS_LOOP_81_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_81_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50346:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50355:17: warning: Added loop label VITIS_LOOP_90_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_90_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50355:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50364:17: warning: Added loop label VITIS_LOOP_99_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_99_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50364:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50384:17: warning: Added loop label VITIS_LOOP_119_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_119_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50384:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50393:17: warning: Added loop label VITIS_LOOP_128_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_128_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50393:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50402:17: warning: Added loop label VITIS_LOOP_137_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < COPYDIM; ++i)
+                ^~~
+                VITIS_LOOP_137_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50402:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50494:17: warning: Added loop label VITIS_LOOP_229_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_229_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50494:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50503:17: warning: Added loop label VITIS_LOOP_238_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_238_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50503:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50512:17: warning: Added loop label VITIS_LOOP_247_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_247_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50512:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50533:17: warning: Added loop label VITIS_LOOP_268_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_268_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50533:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50542:17: warning: Added loop label VITIS_LOOP_277_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_277_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50542:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50551:17: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_286_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50551:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50573:17: warning: Added loop label VITIS_LOOP_308_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_308_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50573:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50583:17: warning: Added loop label VITIS_LOOP_318_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_318_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50583:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50593:17: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+                for (int i = 0; i < copydim; ++i)
+                ^~~
+                VITIS_LOOP_328_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:50593:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51007:5: warning: Added loop label VITIS_LOOP_110_1:   [xilinx-label-all-loops]
+    for (int w = 0; w < width; ++w) {
+    ^~~
+    VITIS_LOOP_110_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51007:5: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51016:5: warning: Added loop label VITIS_LOOP_119_1:   [xilinx-label-all-loops]
+    for (int w = 0; w < width; ++w) {
+    ^~~
+    VITIS_LOOP_119_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51016:5: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51531:54: error: Invalid Directive: for current device, FIFO + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=this->stream_ type=FIFO impl=BRAM
+                                                     ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51533:54: error: Invalid Directive: for current device, FIFO + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=this->stream_ type=FIFO impl=LUTRAM
+                                                     ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51535:54: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=this->stream_ type=FIFO impl=SRL
+                                                     ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51677:3: warning: Added loop label VITIS_LOOP_37_1:   [xilinx-label-all-loops]
+  for (unsigned i = 0; i < vector_length; ++i) {
+  ^~~
+  VITIS_LOOP_37_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51677:3: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51687:2: warning: Added loop label VITIS_LOOP_47_1:   [xilinx-label-all-loops]
+ for (unsigned i = 0; i < vector_length; ++i) {
+ ^~~
+ VITIS_LOOP_47_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51687:2: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51883:5: warning: Added loop label VITIS_LOOP_12_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < vector_length; ++i) {
+    ^~~
+    VITIS_LOOP_12_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51883:5: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51981:9: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+        for (int __i0 = 0; __i0 < 60; __i0 += 1) {
+        ^~~
+        VITIS_LOOP_16_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51981:9: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51982:13: warning: Added loop label VITIS_LOOP_17_2:   [xilinx-label-all-loops]
+            for (int __i1 = 0; __i1 < 80; __i1 += 1) {
+            ^~~
+            VITIS_LOOP_17_2: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:51982:13: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52001:9: warning: Added loop label VITIS_LOOP_36_3:   [xilinx-label-all-loops]
+        for (int n0 = 0; n0 < 2; n0 += 1) {
+        ^~~
+        VITIS_LOOP_36_3: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52001:9: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52004:17: warning: Added loop label VITIS_LOOP_39_4:   [xilinx-label-all-loops]
+                for (int k = 0; k < 80; k += 1) {
+                ^~~
+                VITIS_LOOP_39_4: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52004:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52005:21: warning: Added loop label VITIS_LOOP_40_5:   [xilinx-label-all-loops]
+                    for (int n1 = 0; n1 < 32; n1 += 1) {
+                    ^~~
+                    VITIS_LOOP_40_5: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52005:21: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52040:9: warning: Added loop label VITIS_LOOP_75_1:   [xilinx-label-all-loops]
+        for (int n = 0; n < 2; n += 1) {
+        ^~~
+        VITIS_LOOP_75_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52040:9: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52043:17: warning: Added loop label VITIS_LOOP_78_2:   [xilinx-label-all-loops]
+                for (int k = 0; k < 80; k += 1) {
+                ^~~
+                VITIS_LOOP_78_2: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52043:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52044:21: warning: Added loop label VITIS_LOOP_79_3:   [xilinx-label-all-loops]
+                    for (int m = 0; m < 70; m += 1) {
+                    ^~~
+                    VITIS_LOOP_79_3: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52044:21: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52078:9: warning: Added loop label VITIS_LOOP_113_1:   [xilinx-label-all-loops]
+        for (long __n0tmkm = 0; __n0tmkm < 11200 + 2240; ++__n0tmkm) {
+        ^~~
+        VITIS_LOOP_113_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52078:9: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52195:9: warning: Added loop label VITIS_LOOP_230_1:   [xilinx-label-all-loops]
+        for (int __i0 = 0; __i0 < 60; __i0 += 1) {
+        ^~~
+        VITIS_LOOP_230_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52195:9: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52196:13: warning: Added loop label VITIS_LOOP_231_2:   [xilinx-label-all-loops]
+            for (int __i1 = 0; __i1 < 70; __i1 += 1) {
+            ^~~
+            VITIS_LOOP_231_2: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52196:13: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52215:9: warning: Added loop label VITIS_LOOP_250_3:   [xilinx-label-all-loops]
+        for (int n0 = 0; n0 < 2; n0 += 1) {
+        ^~~
+        VITIS_LOOP_250_3: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52215:9: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52218:17: warning: Added loop label VITIS_LOOP_253_4:   [xilinx-label-all-loops]
+                for (int n1 = 0; n1 < 32; n1 += 1) {
+                ^~~
+                VITIS_LOOP_253_4: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52218:17: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52219:21: warning: Added loop label VITIS_LOOP_254_5:   [xilinx-label-all-loops]
+                    for (int m = 0; m < 70; m += 1) {
+                    ^~~
+                    VITIS_LOOP_254_5: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52219:21: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52239:9: warning: Added loop label VITIS_LOOP_274_6:   [xilinx-label-all-loops]
+        for (int __i0 = 0; __i0 < 60; __i0 += 1) {
+        ^~~
+        VITIS_LOOP_274_6: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52239:9: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52240:13: warning: Added loop label VITIS_LOOP_275_7:   [xilinx-label-all-loops]
+            for (int __i1 = 0; __i1 < 70; __i1 += 1) {
+            ^~~
+            VITIS_LOOP_275_7: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52240:13: note: FIX-IT applied suggested code changes
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52292:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (size_t p = 0; p < 32; p += 1) {
+    ^~~
+    VITIS_LOOP_323_1: 
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp:52292:5: note: FIX-IT applied suggested code changes

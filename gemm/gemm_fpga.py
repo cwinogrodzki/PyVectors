@@ -9,8 +9,8 @@ from dace.transformation.dataflow import StreamingMemory, StreamingComposition
 from dace.transformation.auto.auto_optimize import auto_optimize
 from dace.config import set_temporary
 
-#NI, NJ, NK = (dc.symbol(s, dtype=dc.int64) for s in ('NI', 'NJ', 'NK'))
-NI, NJ, NK = 60, 70, 80
+NI, NJ, NK = (dc.symbol(s, dtype=dc.int64) for s in ('NI', 'NJ', 'NK'))
+#NI, NJ, NK = 60, 70, 80
 
 @dc.program
 def kernel(alpha: dc.float64, beta: dc.float64, C: dc.float64[NI, NJ],
@@ -30,7 +30,7 @@ def initialize(NI, NJ, NK, dtype=np.float64):
 
 def run_gemm(device_type: dc.dtypes.DeviceType):
     # INItialize data
-    #NI, NJ, NK = 60, 70, 80
+    NI, NJ, NK = 60, 70, 80
     alpha = np.float64(1.5)
     beta = np.float64(1.2)
     A, B, C = initialize(NI, NJ, NK)
@@ -50,23 +50,23 @@ def run_gemm(device_type: dc.dtypes.DeviceType):
         Gemm.default_implementation = "FPGA1DSystolic"
         sdfg.expand_library_nodes()
         sdfg.apply_transformations_repeated([InlineSDFG], print_report=True)
-        #sdfg.specialize(NI=NI, NJ=NJ, NK=NK)
-        sdfg.specialize(dict(NI=NI, NJ=NJ, NK=NK))
-        sdfg(alpha, beta, A, B, C)
+        #sdfg.specialize(dict(NI=NI, NJ=NJ, NK=NK))
+        sdfg(alpha, beta, A, B, C, NI=NI, NJ=NJ, NK=NK)
 
     # Compute ground truth and validate
-    kernel.f(A, B, C_ref)
+    kernel.f(alpha, beta, C_ref, A, B)
     assert np.allclose(C, C_ref)
     return sdfg
 
 
 #def iNItialize():
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--target", default='cpu', choices=['cpu', 'gpu', 'fpga'], help='Target platform')
+    # parser = argparse.ArgumentParser()
+    # parser.add_argument("-t", "--target", default='cpu', choices=['cpu', 'gpu', 'fpga'], help='Target platform')
 
-    args = vars(parser.parse_args())
-    target = args["target"]
+    # args = vars(parser.parse_args())
+    # target = args["target"]
+    target = "fpga"
 
     if target == "cpu":
         run_gemm(dc.dtypes.DeviceType.CPU)

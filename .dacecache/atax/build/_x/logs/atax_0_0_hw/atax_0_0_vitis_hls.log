@@ -1,0 +1,421 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.1 (64-bit)
+  **** SW Build 3854077 on May  4 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'grodzki' on host 'kullervo.cs.lanl.gov' (Linux_x86_64 version 6.5.0-35-generic) on Wed Nov 20 15:33:44 MST 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0'
+Sourcing Tcl script 'atax_0_0.tcl'
+INFO: [HLS 200-1510] Running: open_project atax_0_0 
+INFO: [HLS 200-10] Creating and opening project '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0'.
+INFO: [HLS 200-1510] Running: set_top atax_0_0 
+INFO: [HLS 200-1510] Running: add_files /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp -cflags  -std=c++14 -DDACE_SYNTHESIS -DDACE_XILINX -DDACE_XILINX_DEVICE_CODE -DHLSLIB_SYNTHESIS -DHLSLIB_XILINX -DVITIS_MAJOR_VERSION=2023 -DVITIS_MINOR_VERSION=1 -DVITIS_VERSION=2023.1 -D__VITIS_HLS__ -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include 
+INFO: [HLS 200-10] Adding design file '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -flow_target vitis solution 
+INFO: [HLS 200-10] Creating and opening solution '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution'.
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xcu250-figd2104-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu250-figd2104-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 300.000000MHz -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+INFO: [HLS 200-1510] Running: config_dataflow -strict_mode warning 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection sim 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_conservative_mode=1 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_auto_max_ports=0 
+INFO: [HLS 200-1510] Running: config_export -format xo -ipname atax_0_0 
+INFO: [HLS 200-1510] Running: config_compile -pipeline_style frp 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.11 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.24 seconds; current allocated memory: 1.079 GB.
+INFO: [HLS 200-10] Analyzing design file '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'a' (/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/reduction.h:499:38)
+WARNING: [HLS 207-5292] unused parameter 'fifos' (/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:88:48)
+WARNING: [HLS 207-5292] unused parameter 'str' (/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:88:75)
+WARNING: [HLS 207-5292] unused parameter 'num' (/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:89:30)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.66 seconds. CPU system time: 1.46 seconds. Elapsed time: 10.1 seconds; current allocated memory: 1.086 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 200-1995] There were 370 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 396 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 320 instructions in the design after the 'Performance/Pipeline' phase of compilation. See the Design Size Report for more details: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 364 instructions in the design after the 'Optimizations' phase of compilation. See the Design Size Report for more details: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'void dace::Write<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type*, std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_4(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:37:37)
+INFO: [HLS 214-131] Inlining function 'void dace::Write<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type*, std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_4(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:139:37)
+INFO: [HLS 214-131] Inlining function 'void dace::Write<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type*, std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_4(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:106:45)
+INFO: [HLS 214-131] Inlining function 'void dace::Write<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type&, std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_4(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:67:41)
+INFO: [HLS 214-131] Inlining function 'std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type dace::Read<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_4(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:67:80)
+INFO: [HLS 214-131] Inlining function 'void dace::Write<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type*, std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_5(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:195:37)
+INFO: [HLS 214-131] Inlining function 'void dace::Write<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type*, std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_5(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:297:37)
+INFO: [HLS 214-131] Inlining function 'void dace::Write<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type*, std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_5(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:264:45)
+INFO: [HLS 214-131] Inlining function 'void dace::Write<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type&, std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_5(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:225:41)
+INFO: [HLS 214-131] Inlining function 'std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type dace::Read<double, 1u>(std::conditional<((1u) > (1)), hlslib::DataPack<double, 1u>, double>::type const&)' into 'gemv_0_0_5(double const*, double const*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:225:80)
+INFO: [HLS 214-131] Inlining function 'gemv_0_0_4(double const*, double const*, double*)' into 'module__MatMult_gemv_4__MatMult_gemvt_5_0(double*, double*, double*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330:5)
+INFO: [HLS 214-131] Inlining function 'gemv_0_0_5(double const*, double const*, double*)' into 'module__MatMult_gemv_4__MatMult_gemvt_5_0(double*, double*, double*, double*)' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331:5)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port '__tmp0_0' for cosimulation. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:334:0)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'fpga_A_0' for cosimulation. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:334:0)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'fpga___return_0' for cosimulation. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:334:0)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'fpga_x_0' for cosimulation. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:334:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_269_4' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:269:55) in function 'module__MatMult_gemv_4__MatMult_gemvt_5_0' completely with a factor of 16 (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:328:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_111_4' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:111:55) in function 'module__MatMult_gemv_4__MatMult_gemvt_5_0' completely with a factor of 16 (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:328:0)
+INFO: [HLS 214-248] Applying array_partition to 'partial_sums.i4': Complete partitioning on dimension 1. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:203:9)
+INFO: [HLS 214-248] Applying array_partition to 'partial_sums.i': Complete partitioning on dimension 1. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:45:9)
+INFO: [HLS 214-115] Multiple burst reads of length 35 and bit width 128 has been inferred on bundle 'gmem3'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:25:46)
+INFO: [HLS 214-115] Multiple burst reads of length 2100 and bit width 128 has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:43:46)
+INFO: [HLS 214-115] Multiple burst writes of length 15 and bit width 256 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:147:39)
+INFO: [HLS 214-115] Multiple burst reads of length 15 and bit width 256 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:183:47)
+INFO: [HLS 214-115] Multiple burst writes of length 35 and bit width 128 has been inferred on bundle 'gmem2'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:305:39)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.31 seconds. CPU system time: 1.09 seconds. Elapsed time: 10.22 seconds; current allocated memory: 1.087 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 1.087 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.19 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.33 seconds; current allocated memory: 1.088 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.19 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.22 seconds; current allocated memory: 1.088 GB.
+INFO: [XFORM 203-712] Applying dataflow to function 'atax_0_0' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:334), detected/extracted 1 process function(s): 
+	 'module__MatMult_gemv_4__MatMult_gemvt_5_0'.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.34 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.49 seconds; current allocated memory: 1.111 GB.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_43_2' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:43:46) in function 'module__MatMult_gemv_4__MatMult_gemvt_5_0'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_201_2' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:201:47) in function 'module__MatMult_gemv_4__MatMult_gemvt_5_0'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'x_local.1' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:23).
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'x_local' (/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:181).
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.41 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.91 seconds; current allocated memory: 1.170 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'atax_0_0' ...
+WARNING: [SYN 201-103] Legalizing function name 'module__MatMult_gemv_4__MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1' to 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1'.
+WARNING: [SYN 201-103] Legalizing function name 'module__MatMult_gemv_4__MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' to 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49'.
+WARNING: [SYN 201-103] Legalizing function name 'module__MatMult_gemv_4__MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5' to 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5'.
+WARNING: [SYN 201-103] Legalizing function name 'module__MatMult_gemv_4__MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1' to 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1'.
+WARNING: [SYN 201-103] Legalizing function name 'module__MatMult_gemv_4__MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' to 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2'.
+WARNING: [SYN 201-103] Legalizing function name 'module__MatMult_gemv_4__MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5' to 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5'.
+WARNING: [SYN 201-103] Legalizing function name 'module__MatMult_gemv_4__MatMult_gemvt_5_0' to 'module_MatMult_gemv_4_MatMult_gemvt_5_0'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_25_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_25_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.2 seconds. CPU system time: 0.12 seconds. Elapsed time: 1.11 seconds; current allocated memory: 1.170 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.27 seconds; current allocated memory: 1.171 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_43_2_VITIS_LOOP_49_3'.
+WARNING: [HLS 200-880] The II Violation in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' (loop 'VITIS_LOOP_43_2_VITIS_LOOP_49_3'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('partial_sums_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:106->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) of variable 'acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:103->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330 on local variable 'partial_sums' and 'load' operation ('partial_sums_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:97->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) on local variable 'partial_sums'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' (loop 'VITIS_LOOP_43_2_VITIS_LOOP_49_3'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('partial_sums_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:106->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) of variable 'acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:103->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330 on local variable 'partial_sums' and 'load' operation ('partial_sums_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:97->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) on local variable 'partial_sums'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' (loop 'VITIS_LOOP_43_2_VITIS_LOOP_49_3'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('partial_sums_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:106->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) of variable 'acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:103->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330 on local variable 'partial_sums' and 'load' operation ('partial_sums_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:97->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) on local variable 'partial_sums'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' (loop 'VITIS_LOOP_43_2_VITIS_LOOP_49_3'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('partial_sums_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:106->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) of variable 'acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:103->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330 on local variable 'partial_sums' and 'load' operation ('partial_sums_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:97->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) on local variable 'partial_sums'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 5, Depth = 160, loop 'VITIS_LOOP_43_2_VITIS_LOOP_49_3'
+WARNING: [HLS 200-871] Estimated clock period (2.877 ns) exceeds the target (target clock period: 3.333 ns, clock uncertainty: 0.900 ns, effective delay budget: 2.433 ns).
+Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' consists of the following:
+	'load' operation ('partial_sums_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:97->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) on local variable 'partial_sums' [62]  (0.000 ns)
+	'mux' operation ('acc_in', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:97->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) [86]  (0.493 ns)
+	'select' operation ('prev', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:102->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) [89]  (0.411 ns)
+	multiplexor before operation 'dadd' with delay (0.724 ns)
+'dadd' operation ('acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:103->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:330) [90]  (1.249 ns)
+
+Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.74 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.22 seconds; current allocated memory: 1.172 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1.99 seconds. CPU system time: 0 seconds. Elapsed time: 2.3 seconds; current allocated memory: 1.172 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_147_5'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_147_5'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.43 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.9 seconds; current allocated memory: 1.173 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.39 seconds; current allocated memory: 1.173 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_183_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_183_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.19 seconds. CPU system time: 0 seconds. Elapsed time: 0.59 seconds; current allocated memory: 1.173 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.39 seconds; current allocated memory: 1.174 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=mul_ln214) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_201_2_VITIS_LOOP_207_3'.
+WARNING: [HLS 200-880] The II Violation in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' (loop 'VITIS_LOOP_201_2_VITIS_LOOP_207_3'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('partial_sums_33_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:264->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) of variable 'acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:261->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331 on local variable 'partial_sums' and 'load' operation ('partial_sums_33_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:255->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) on local variable 'partial_sums'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' (loop 'VITIS_LOOP_201_2_VITIS_LOOP_207_3'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('partial_sums_33_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:264->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) of variable 'acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:261->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331 on local variable 'partial_sums' and 'load' operation ('partial_sums_33_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:255->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) on local variable 'partial_sums'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' (loop 'VITIS_LOOP_201_2_VITIS_LOOP_207_3'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('partial_sums_33_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:264->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) of variable 'acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:261->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331 on local variable 'partial_sums' and 'load' operation ('partial_sums_33_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:255->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) on local variable 'partial_sums'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' (loop 'VITIS_LOOP_201_2_VITIS_LOOP_207_3'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('partial_sums_33_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:264->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) of variable 'acc_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:261->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331 on local variable 'partial_sums' and 'load' operation ('partial_sums_33_load', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:255->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) on local variable 'partial_sums'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 5, Depth = 235, loop 'VITIS_LOOP_201_2_VITIS_LOOP_207_3'
+WARNING: [HLS 200-871] Estimated clock period (3.105 ns) exceeds the target (target clock period: 3.333 ns, clock uncertainty: 0.900 ns, effective delay budget: 2.433 ns).
+Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' consists of the following:
+	'dadd' operation ('buffer_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:294->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) [183]  (1.905 ns)
+	'store' operation ('y_local_addr_write_ln24', /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:24->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:297->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331) of variable 'buffer_out', /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:294->/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp:331 on array 'y_local' [188]  (1.200 ns)
+
+Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 5.6 seconds; current allocated memory: 1.175 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2.9 seconds. CPU system time: 0.01 seconds. Elapsed time: 3.31 seconds; current allocated memory: 1.176 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_305_5'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_305_5'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.58 seconds. CPU system time: 0 seconds. Elapsed time: 1.06 seconds; current allocated memory: 1.176 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.5 seconds; current allocated memory: 1.177 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_MatMult_gemv_4_MatMult_gemvt_5_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.37 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.7 seconds; current allocated memory: 1.177 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 3.54 seconds. CPU system time: 0 seconds. Elapsed time: 3.89 seconds; current allocated memory: 1.178 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'atax_0_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.58 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.83 seconds; current allocated memory: 1.179 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.37 seconds; current allocated memory: 1.179 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1' pipeline 'VITIS_LOOP_25_1' pipeline type 'loop pipeline'
+INFO: [HLS 200-1552] Enabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_25_1' in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1'. Estimated max control fanout for pipeline is 993.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1/m_axi_gmem3_ARUSER' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.2 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.87 seconds; current allocated memory: 1.179 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' pipeline 'VITIS_LOOP_43_2_VITIS_LOOP_49_3' pipeline type 'loop pipeline'
+INFO: [HLS 200-1552] Enabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_43_2_VITIS_LOOP_49_3' in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49'. Estimated max control fanout for pipeline is 1204.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49/m_axi_gmem1_ARUSER' to 0.
+INFO: [RTGEN 206-104] Estimated max fanout for 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49' is 11904 from HDL expression: ((1'b1 == ap_CS_fsm_pp0_stage3) & (1'b0 == ap_block_pp0_stage3_11001))
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_6_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_8_full_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_8_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mux_16_4_64_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.64 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.66 seconds; current allocated memory: 1.203 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5' pipeline 'VITIS_LOOP_147_5' pipeline type 'loop pipeline'
+INFO: [HLS 200-1552] Enabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_147_5' in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5'. Estimated max control fanout for pipeline is 853.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_AWUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5/m_axi_gmem0_BREADY' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.04 seconds. CPU system time: 0.06 seconds. Elapsed time: 2.18 seconds; current allocated memory: 1.204 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1' pipeline 'VITIS_LOOP_183_1' pipeline type 'loop pipeline'
+INFO: [HLS 200-1552] Enabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_183_1' in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1'. Estimated max control fanout for pipeline is 2013.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1/m_axi_gmem0_ARUSER' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.35 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.68 seconds; current allocated memory: 1.204 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' pipeline 'VITIS_LOOP_201_2_VITIS_LOOP_207_3' pipeline type 'loop pipeline'
+WARNING: [HLS 200-1972] Disabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_201_2_VITIS_LOOP_207_3' in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2', because it has MAXI read/write access
+INFO: [RTGEN 206-104] Estimated max fanout for 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2' is 12100 from HDL expression: ((1'b0 == ap_block_pp0_stage3_11001) & (1'b1 == ap_CS_fsm_pp0_stage3))
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_6_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_8_full_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_8_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_6ns_7ns_7ns_13_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mux_16_4_64_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.46 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.28 seconds; current allocated memory: 1.204 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5' pipeline 'VITIS_LOOP_305_5' pipeline type 'loop pipeline'
+INFO: [HLS 200-1552] Enabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_305_5' in module 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5'. Estimated max control fanout for pipeline is 472.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_AWUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5/m_axi_gmem2_BREADY' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.18 seconds. CPU system time: 0.07 seconds. Elapsed time: 2.45 seconds; current allocated memory: 1.204 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_MatMult_gemv_4_MatMult_gemvt_5_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_6_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_8_full_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_8_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_MatMult_gemv_4_MatMult_gemvt_5_0'.
+INFO: [RTMG 210-278] Implementing memory 'atax_0_0_module_MatMult_gemv_4_MatMult_gemvt_5_0_y_local_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'atax_0_0_module_MatMult_gemv_4_MatMult_gemvt_5_0_x_local_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.36 seconds. CPU system time: 0.04 seconds. Elapsed time: 2.09 seconds; current allocated memory: 1.205 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'atax_0_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'atax_0_0/gmem0' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'atax_0_0/gmem1' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'atax_0_0/gmem2' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'atax_0_0/gmem3' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'atax_0_0/p_tmp0_0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'atax_0_0/fpga_A_0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'atax_0_0/fpga_return_0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'atax_0_0/fpga_x_0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'atax_0_0' to 's_axilite & ap_ctrl_chain'.
+INFO: [RTGEN 206-100] Bundling port 'p_tmp0_0', 'fpga_A_0', 'fpga_return_0', 'fpga_x_0' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'atax_0_0'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.95 seconds. CPU system time: 0.04 seconds. Elapsed time: 2.25 seconds; current allocated memory: 1.208 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1.42 seconds. CPU system time: 0.25 seconds. Elapsed time: 7.2 seconds; current allocated memory: 1.211 GB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 2.39 seconds. CPU system time: 0.13 seconds. Elapsed time: 3.36 seconds; current allocated memory: 1.222 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for atax_0_0.
+INFO: [VLOG 209-307] Generating Verilog RTL for atax_0_0.
+INFO: [HLS 200-789] **** Estimated Fmax: 322.06 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 36.7 seconds. CPU system time: 3.61 seconds. Elapsed time: 74.3 seconds; current allocated memory: 147.129 MB.
+INFO: [HLS 200-1510] Running: export_design 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2075.500 ; gain = 127.070 ; free physical = 3701 ; free virtual = 29552
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'atax_0_0_dadd_64ns_64ns_64_6_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'atax_0_0_dadd_64ns_64ns_64_6_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'atax_0_0_dadd_64ns_64ns_64_8_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'atax_0_0_dadd_64ns_64ns_64_8_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'atax_0_0_dmul_64ns_64ns_64_8_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'atax_0_0_dmul_64ns_64ns_64_8_max_dsp_1_ip'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/data/ip'.
+Running package_xo -xo_path /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/impl/export.xo -kernel_name atax_0_0 -kernel_xml /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/impl/ip/../kernel/kernel.xml -kernel_files /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp -ip_directory /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/impl/ip/ip_unzip_dir -design_xml /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/.autopilot/db/atax_0_0.design.xml -debug_directory /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/.debug -hls_directory /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/impl/ip/hls_files
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 15:36:02 2024...
+INFO: [HLS 200-802] Generated output file atax_0_0/solution/impl/export.xo
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 29.53 seconds. CPU system time: 4.33 seconds. Elapsed time: 65.84 seconds; current allocated memory: 8.203 MB.
+INFO: [HLS 200-1510] Running: close_project 
+HLS completed successfully
+INFO: [HLS 200-112] Total CPU user time: 71.66 seconds. Total CPU system time: 9.67 seconds. Total elapsed time: 150.18 seconds; peak allocated memory: 1.230 GB.
+INFO: [Common 17-206] Exiting vitis_hls at Wed Nov 20 15:36:12 2024...

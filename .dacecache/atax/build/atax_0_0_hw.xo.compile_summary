@@ -1,0 +1,247 @@
+<ENTRY>
+{
+ "thisFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/atax_0_0_hw.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Nov 20 15:33:34 2024",
+ "timestampMillis": "1732142014026",
+ "buildStep": {
+  "cmdId": "494ea25e-0fcd-4067-869c-bf825eee1927",
+  "name": "v++",
+  "logFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0_hw.steps.log",
+  "commandLine": "/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --vivado.prop \"run.impl_1.{STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS}={-retiming}\" --vivado.prop run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true --vivado.prop run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED=true --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" --compile --target hw --kernel atax_0_0 --advanced.prop kernel.atax_0_0.kernel_flags=-std=c++14 -DDACE_SYNTHESIS -DDACE_XILINX -DDACE_XILINX_DEVICE_CODE -DHLSLIB_SYNTHESIS -DHLSLIB_XILINX -DVITIS_MAJOR_VERSION=2023 -DVITIS_MINOR_VERSION=1 -DVITIS_VERSION=2023.1 -D__VITIS_HLS__ -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include --hls.pre_tcl /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/atax_0_0_config.tcl --platform xilinx_u250_gen3x16_xdma_4_1_202210_1 --config /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/link.cfg -O3 /net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp --output /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/atax_0_0_hw.xo ",
+  "args": [
+   "--compile",
+   "--target",
+   "hw",
+   "--kernel",
+   "atax_0_0",
+   "--advanced.prop",
+   "kernel.atax_0_0.kernel_flags=-std=c++14 -DDACE_SYNTHESIS -DDACE_XILINX -DDACE_XILINX_DEVICE_CODE -DHLSLIB_SYNTHESIS -DHLSLIB_XILINX -DVITIS_MAJOR_VERSION=2023 -DVITIS_MINOR_VERSION=1 -DVITIS_VERSION=2023.1 -D__VITIS_HLS__ -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include",
+   "--hls.pre_tcl",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/atax_0_0_config.tcl",
+   "--platform",
+   "xilinx_u250_gen3x16_xdma_4_1_202210_1",
+   "--config",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/link.cfg",
+   "-O3",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp",
+   "--output",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/atax_0_0_hw.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/link.cfg",
+    "content": "[connectivity]\nsp=atax_0_0_1.m_axi_gmem0:DDR[0]\nsp=atax_0_0_1.m_axi_gmem1:DDR[1]\nsp=atax_0_0_1.m_axi_gmem2:DDR[3]\nsp=atax_0_0_1.m_axi_gmem3:DDR[2]\nslr=atax_0_0_1:SLR0\n"
+   }
+  ],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 20 15:33:34 2024",
+ "timestampMillis": "1732142014027",
+ "status": {
+  "cmdId": "494ea25e-0fcd-4067-869c-bf825eee1927",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed Nov 20 15:33:39 2024",
+ "timestampMillis": "1732142019016",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "atax_0_0",
+     "file": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/atax_0_0_hw.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/src/xilinx/device/atax_0_0.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2023.1. SW Build 3860322 on 2023-05-04-06:32:48"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Nov 20 15:33:39 2024",
+ "timestampMillis": "1732142019068",
+ "buildStep": {
+  "cmdId": "e1a11959-1ea3-4a40-acf3-27ed0b372366",
+  "name": "vitis_hls",
+  "logFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/vitis_hls.log",
+  "commandLine": "vitis_hls -f /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 20 15:33:39 2024",
+ "timestampMillis": "1732142019071",
+ "status": {
+  "cmdId": "e1a11959-1ea3-4a40-acf3-27ed0b372366",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 20 15:36:13 2024",
+ "timestampMillis": "1732142173446",
+ "status": {
+  "cmdId": "e1a11959-1ea3-4a40-acf3-27ed0b372366",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 15:36:17 2024",
+ "timestampMillis": "1732142177152",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/.autopilot/db/atax_0_0.design.xml",
+  "name": "atax_0_0",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_REPORT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 15:36:17 2024",
+ "timestampMillis": "1732142177154",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/.autopilot/db/.message_syn.xml",
+  "name": "atax_0_0",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_DRC_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 15:36:17 2024",
+ "timestampMillis": "1732142177237",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/reports/atax_0_0_hw/hls_reports/atax_0_0_csynth.rpt",
+  "name": "atax_0_0",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 15:36:17 2024",
+ "timestampMillis": "1732142177239",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/atax_0_0_hw/atax_0_0/atax_0_0/solution/syn/report/atax_0_0_csynth.xml",
+  "name": "atax_0_0",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 15:36:17 2024",
+ "timestampMillis": "1732142177309",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/reports/atax_0_0_hw/system_estimate_atax_0_0_hw.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 20 15:36:26 2024",
+ "timestampMillis": "1732142186700",
+ "status": {
+  "cmdId": "494ea25e-0fcd-4067-869c-bf825eee1927",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 15:36:26 2024",
+ "timestampMillis": "1732142186862",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/reports/atax_0_0_hw/v++_compile_atax_0_0_hw_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 15:36:26 2024",
+ "timestampMillis": "1732142186864",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/v++_compile_atax_0_0_hw_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

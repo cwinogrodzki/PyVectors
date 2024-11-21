@@ -1,0 +1,169 @@
+/*
+
+AMD Vitis Analyzer v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:04:56 MDT 2023
+
+Process ID (PID): 2843752
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Nov 21 09:39:20 MST 2024
+Time zone: 	Mountain Standard Time (America/Denver)
+
+OS: Ubuntu
+OS Version: 6.5.0-35-generic
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: 1
+Screen size: 3440x1440
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	/net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/tps/lnx64/jre17.0.3_7
+Java executable: 	/net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/tps/lnx64/jre17.0.3_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	grodzki
+User home directory: /net/myshella/home/grodzki
+User working directory: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis
+HDI_APPROOT: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1
+RDI_DATADIR: /net/myshella/home/rasr/pkgs/vitis_2023.1/SharedData/2023.1/data:/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/data
+RDI_BINDIR: /net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/bin
+
+Vitis Analyzer preferences file: /home/grodzki/.Xilinx/vitis_analyzer/2023.1/vitis_analyzer.xml
+Vitis Analyzer preferences directory: /home/grodzki/.Xilinx/vitis_analyzer/2023.1/
+Vitis Analyzer layouts directory: /net/myshella/home/grodzki/.Xilinx/vitis_analyzer/2023.1/data/layouts
+PlanAhead jar file: 	/net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/lib/classes/frank.jar
+Vitis Analyzer log file: 	/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/vitis_analyzer.log
+Vitis Analyzer journal file: 	/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/vitis_analyzer.jou
+Engine tmp dir: 	./.Xil/vitis_analyzer-2843752-kullervo
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1
+RDI_BASEROOT: /home/rasr/pkgs/vitis_2023.1/Vitis
+RDI_BINROOT: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/rasr/pkgs/vitis_2023.1/SharedData/2023.1/data:/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/data
+RDI_EXECCLASS: ui/Frank
+RDI_INSTALLROOT: /home/rasr/pkgs/vitis_2023.1
+RDI_INSTALLVER: 2023.1
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/lib/lnx64.o/Ubuntu:/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/bin
+RDI_PROG: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/bin/unwrapped/lnx64.o/vitis_analyzer
+RDI_SESSION_INFO: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build:kullervo_1732207139_2843699
+RDI_SHARED_DATA: /home/rasr/pkgs/vitis_2023.1/SharedData/2023.1/data
+RDI_TPS_ROOT: /home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/tps/lnx64
+RDI_USE_JDK17: 1
+SHELL: /bin/bash
+XILINX_DSP: 
+XILINX_HLS: /home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1
+XILINX_SDK: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1
+XILINX_VITIS: /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1
+XILINX_VIVADO: /home/rasr/pkgs/vitis_2023.1/Vivado/2023.1
+XILINX_VIVADO_HLS: /home/rasr/pkgs/vitis_2023.1/Vivado/2023.1
+XILINX_XRT: /opt/xilinx/xrt
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,394 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,414 MB. GUI used memory: 59 MB. Current time: 11/21/24, 9:39:21 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'create_project dummy'
+// TclEventType: PROJECT_NEW
+dismissDialog("Vitis Analyzer"); // PlanAhead.b
+// Opening Summary: Resource{value=FrankResource.FrankReportHolderType_COMPILE_SUMMARY}Type{value=COMPILE_SUMMARY},SummaryFile{file=/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_0_0_hw_emu.xo.compile_summary}
+// Tcl Message: create_project dummy 
+// Opening Summary: Resource{value=FrankResource.FrankReportHolderType_LINK_SUMMARY}Type{value=LINK_SUMMARY},SummaryFile{file=/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin.link_summary}
+dismissDialog("Restoring Previous Session"); // i
+// [GUI Memory]: 98 MB (+100138kb) [00:00:41]
+// [Engine Memory]: 1,440 MB (+1358477kb) [00:00:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,446 MB. GUI used memory: 61 MB. Current time: 11/21/24, 9:39:46 AM MST
+dismissDialog("System Diagram Report"); // r
+// Elapsed time: 18 seconds
+dismissDialog("System Diagram Report"); // r
+dismissDialog("System Diagram Report"); // r
+selectMenu(FrankResource.FrankMainWindowMenuMgr_FILE, "File"); // ag
+// Elapsed time: 18 seconds
+dismissMenu(FrankResource.FrankMainWindowMenuMgr_FILE, "File"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_TOOLS, "Tools"); // ag
+dismissMenu(FrankResource.FrankMainWindowMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_FILE, "File"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_REPORT, "Open Report"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_FILE, "Open File"); // ag
+selectMenu(FrankResource.FrankRecentMenu_OPEN_RECENT, "Open Recent"); // c
+selectMenu(FrankResource.FrankRecentMenu_OPEN_RECENT, "Open Recent"); // c
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_FILE, "Open File"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_REPORT, "Open Report"); // ag
+dismissMenu(FrankResource.FrankMainWindowMenuMgr_FILE, "File"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_LAYOUT, "Layout"); // ag
+dismissMenu(FrankResource.FrankMainWindowMenuMgr_LAYOUT, "Layout"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_TOOLS, "Tools"); // ag
+dismissMenu(FrankResource.FrankMainWindowMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_FILE, "File"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_REPORT, "Open Report"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_FILE, "Open File"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_REPORT, "Open Report"); // ag
+selectMenu(FrankResource.FrankRecentMenu_OPEN_RECENT, "Open Recent"); // c
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_FILE, "Open File"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_REPORT, "Open Report"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_FILE, "Open File"); // ag
+selectMenu(FrankResource.FrankMainWindowMenuMgr_OPEN_REPORT, "Open Report"); // ag
+selectMenuItem(FrankCommandResource.FrankCommand_OPEN_SUMMARY, "Open Summary..."); // ao
+dismissMenu(FrankResource.FrankMainWindowMenuMgr_FILE, "File"); // ag
+// Run Command: FrankCommandResource.FrankCommand_OPEN_SUMMARY
+// Elapsed time: 111 seconds
+setFileChooser("/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/atax_hw.xclbin.link_summary");
+// Opening Summary: Resource{value=FrankResource.FrankReportHolderType_LINK_SUMMARY}Type{value=LINK_SUMMARY},SummaryFile{file=/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/atax_hw.xclbin.link_summary}
+// 'e' command handler elapsed time: 112 seconds
+dismissDialog("Open Summary"); // bq
+// [Engine Memory]: 1,522 MB (+10135kb) [00:03:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,539 MB. GUI used memory: 70 MB. Current time: 11/21/24, 9:42:46 AM MST
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("System Diagram Report"); // r
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("System Diagram Report"); // r
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("System Diagram Report"); // r
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("System Diagram Report"); // r
+selectTree(FrankResource.ReportNavigatorTreePanel_REPORT_NAVIGATOR_TREE, "[root, Resource{value=FrankResource.FrankViewType_SYSTEM_DIAGRAM}Type{value=SYSTEM_DIAGRAM_REPORT},SummaryFile{file=atax_hw.xclbin.link_summary isArchive=false},ReportFile{file=int/systemDiagramModelSlrBaseAddress.json}]", 14, false); // b
+// Opening Report: Resource{value=FrankResource.FrankViewType_SYSTEM_DIAGRAM}Type{value=SYSTEM_DIAGRAM_REPORT},SummaryFile{file=atax_hw.xclbin.link_summary isArchive=false},ReportFile{file=int/systemDiagramModelSlrBaseAddress.json}
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("System Diagram Report"); // r
+selectTree(FrankResource.ReportNavigatorTreePanel_REPORT_NAVIGATOR_TREE, "[root]", 22, true); // b - Node
+selectTree(FrankResource.ReportNavigatorTreePanel_REPORT_NAVIGATOR_TREE, "[root, Resource{value=FrankResource.FrankViewType_KERNEL_GUIDANCE}Type{value=KERNEL_GUIDANCE_REPORT},SummaryFile{file=atax_0_0_hw.xo.compile_summary isArchive=false},ReportFile{file=_x/v++_compile_atax_0_0_hw_guidance.pb3}]", 25, false); // b
+// Opening Report: Resource{value=FrankResource.FrankViewType_KERNEL_GUIDANCE}Type{value=KERNEL_GUIDANCE_REPORT},SummaryFile{file=atax_0_0_hw.xo.compile_summary isArchive=false},ReportFile{file=_x/v++_compile_atax_0_0_hw_guidance.pb3}
+dismissDialog("Open Kernel Guidance Report [atax_0_0_hw.xo.compile_summary]"); // bq
+// [GUI Memory]: 411 MB (+323004kb) [00:12:27]
+// [Engine Memory]: 2,472 MB (+916680kb) [00:12:27]

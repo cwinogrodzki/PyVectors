@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vitis Analyzer v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# 
+# 
+# Start of session at: Thu Nov 21 09:39:01 2024
+# Process ID: 2843752
+# Current directory: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build
+# Command line: vitis_analyzer
+# Log file: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/vitis_analyzer.log
+# Journal file: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/vitis_analyzer.jou
+# Running On: kullervo, OS: Linux, CPU Frequency: 998.831 MHz, CPU Physical cores: 12, Host memory: 16389 MB
+#-----------------------------------------------------------
+start_gui
+create_project dummy

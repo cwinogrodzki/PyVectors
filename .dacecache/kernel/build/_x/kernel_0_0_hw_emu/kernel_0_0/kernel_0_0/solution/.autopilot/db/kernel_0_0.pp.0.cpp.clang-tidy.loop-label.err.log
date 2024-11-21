@@ -1,0 +1,5 @@
+3 errors generated.
+Error while processing /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp.
+clang-tidy applied 93 of 93 suggested fixes.
+Suppressed 208 warnings (208 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

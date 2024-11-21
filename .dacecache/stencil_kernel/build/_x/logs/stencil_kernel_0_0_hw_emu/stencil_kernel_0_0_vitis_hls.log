@@ -1,0 +1,245 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.1 (64-bit)
+  **** SW Build 3854077 on May  4 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'grodzki' on host 'kullervo.cs.lanl.gov' (Linux_x86_64 version 6.5.0-35-generic) on Mon Nov 18 17:06:33 MST 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0'
+Sourcing Tcl script 'stencil_kernel_0_0.tcl'
+INFO: [HLS 200-1510] Running: open_project stencil_kernel_0_0 
+INFO: [HLS 200-10] Creating and opening project '/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0'.
+INFO: [HLS 200-1510] Running: set_top stencil_kernel_0_0 
+INFO: [HLS 200-1510] Running: add_files /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp -cflags  -std=c++14 -DDACE_SYNTHESIS -DDACE_XILINX -DDACE_XILINX_DEVICE_CODE -DHLSLIB_SYNTHESIS -DHLSLIB_XILINX -DVITIS_MAJOR_VERSION=2023 -DVITIS_MINOR_VERSION=1 -DVITIS_VERSION=2023.1 -D__VITIS_HLS__ -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include 
+INFO: [HLS 200-10] Adding design file '/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -flow_target vitis solution 
+INFO: [HLS 200-10] Creating and opening solution '/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution'.
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xcu250-figd2104-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu250-figd2104-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 300.000000MHz -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+INFO: [HLS 200-1510] Running: config_dataflow -strict_mode warning 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection sim 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_conservative_mode=1 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_auto_max_ports=0 
+INFO: [HLS 200-1510] Running: config_export -format xo -ipname stencil_kernel_0_0 
+INFO: [HLS 200-1510] Running: config_compile -pipeline_style frp 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.09 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.22 seconds; current allocated memory: 1.079 GB.
+INFO: [HLS 200-10] Analyzing design file '/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'a' (/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/reduction.h:499:38)
+WARNING: [HLS 207-5292] unused parameter 'fifos' (/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:88:48)
+WARNING: [HLS 207-5292] unused parameter 'str' (/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:88:75)
+WARNING: [HLS 207-5292] unused parameter 'num' (/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:89:30)
+WARNING: [HLS 207-5292] unused parameter '__B_in' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:10:63)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.54 seconds. CPU system time: 1.29 seconds. Elapsed time: 9.19 seconds; current allocated memory: 1.086 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 200-1995] There were 329 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 331 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details: /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 168 instructions in the design after the 'Performance/Pipeline' phase of compilation. See the Design Size Report for more details: /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 245 instructions in the design after the 'Optimizations' phase of compilation. See the Design Size Report for more details: /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'stencil_kernel_0_0_0(double const*, double const*, double*, double*, long long)' into 'module_stencil_kernel_0_0(double*, double*, long long)' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425:5)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'fpga_A_0' for cosimulation. (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:428:0)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'fpga_B_0' for cosimulation. (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:428:0)
+WARNING: [HLS 214-381] Inferring assertion (tripcount > 0) for loop 'VITIS_LOOP_22_4' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:22:42) in function 'module_stencil_kernel_0_0(double*, double*, long long)' due to the existence of loop flatten pragma and variable loop bounds in loop (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:423:0)
+Resolution: For help on HLS 214-381 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=214-381.html
+WARNING: [HLS 214-381] Inferring assertion (tripcount > 0) for loop 'VITIS_LOOP_220_7' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:220:43) in function 'module_stencil_kernel_0_0(double*, double*, long long)' due to the existence of loop flatten pragma and variable loop bounds in loop (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:423:0)
+Resolution: For help on HLS 214-381 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=214-381.html
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 64 in loop 'VITIS_LOOP_22_4'(/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:22:42) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:22:42)
+INFO: [HLS 214-115] Multiple burst reads of length 3 and bit width 64 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27:48)
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 64 in loop 'VITIS_LOOP_220_7'(/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:220:43) has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:220:43)
+INFO: [HLS 214-115] Multiple burst reads of length 3 and bit width 64 has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225:48)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.19 seconds. CPU system time: 0.99 seconds. Elapsed time: 9.5 seconds; current allocated memory: 1.087 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 1.087 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.48 seconds; current allocated memory: 1.087 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.2 seconds; current allocated memory: 1.088 GB.
+INFO: [XFORM 203-712] Applying dataflow to function 'stencil_kernel_0_0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:428), detected/extracted 1 process function(s): 
+	 'module_stencil_kernel_0_0'.
+INFO: [XFORM 203-11] Balancing expressions in function 'module_stencil_kernel_0_0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:423)...18 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.15 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.38 seconds; current allocated memory: 1.110 GB.
+WARNING: [HLS 200-1898] Assuming tripcount of loop 'VITIS_LOOP_22_4'(/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:22:42) in function 'module_stencil_kernel_0_0' is always greater than zero so that the loop_flatten pragma (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:24:9) can be applied. Note that if tripcount is ever zero, cosimulation mismatches may occur.
+WARNING: [HLS 200-1898] Assuming tripcount of loop 'VITIS_LOOP_21_3'(/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:21:38) in function 'module_stencil_kernel_0_0' is always greater than zero so that the loop_flatten pragma (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:24:9) can be applied. Note that if tripcount is ever zero, cosimulation mismatches may occur.
+WARNING: [HLS 200-1898] Assuming tripcount of loop 'VITIS_LOOP_220_7'(/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:220:43) in function 'module_stencil_kernel_0_0' is always greater than zero so that the loop_flatten pragma (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:222:9) can be applied. Note that if tripcount is ever zero, cosimulation mismatches may occur.
+WARNING: [HLS 200-1898] Assuming tripcount of loop 'VITIS_LOOP_219_6'(/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:219:39) in function 'module_stencil_kernel_0_0' is always greater than zero so that the loop_flatten pragma (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:222:9) can be applied. Note that if tripcount is ever zero, cosimulation mismatches may occur.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_21_3' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:21:38) in function 'module_stencil_kernel_0_0'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_20_2' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:20:34) in function 'module_stencil_kernel_0_0'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_219_6' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:219:39) in function 'module_stencil_kernel_0_0'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_218_5' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:218:35) in function 'module_stencil_kernel_0_0'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_17_1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:17:22) in function 'module_stencil_kernel_0_0' more than one sub loop.
+Resolution: For help on HLS 200-960 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-960.html
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.16 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.46 seconds; current allocated memory: 1.130 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'stencil_kernel_0_0' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4'.
+WARNING: [HLS 200-880] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' (loop 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between bus read operation ('gmem0_addr_read_2', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) and bus read operation ('gmem0_addr_read', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425).
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' (loop 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between bus read operation ('gmem0_addr_read_2', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) and bus read operation ('gmem0_addr_read', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:27->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425).
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-885] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' (loop 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4'): Unable to schedule bus request operation ('gmem0_load_2_req', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:140->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:140->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' (loop 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4'): Unable to schedule bus request operation ('gmem0_load_3_req', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:153->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:153->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' (loop 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4'): Unable to schedule bus read operation ('gmem0_addr_3_read', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:140->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:140->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) due to limited memory ports (II = 5). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' (loop 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4'): Unable to schedule bus read operation ('gmem0_addr_4_read', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:153->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem0' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:153->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) due to limited memory ports (II = 6). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-885.html
+INFO: [SCHED 204-61] Discarding stage scheduling solution.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 7, Depth = 208, loop 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.01 seconds. CPU system time: 0.09 seconds. Elapsed time: 2.8 seconds; current allocated memory: 1.132 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2.61 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.99 seconds; current allocated memory: 1.132 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7'.
+WARNING: [HLS 200-880] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' (loop 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between bus read operation ('gmem1_addr_read_2', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) and bus read operation ('gmem1_addr_read', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425).
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' (loop 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between bus read operation ('gmem1_addr_read_2', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) and bus read operation ('gmem1_addr_read', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:225->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425).
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-885] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' (loop 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7'): Unable to schedule bus request operation ('gmem1_load_2_req', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:338->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:338->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' (loop 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7'): Unable to schedule bus request operation ('gmem1_load_3_req', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:351->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:351->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' (loop 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7'): Unable to schedule bus read operation ('gmem1_addr_3_read', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:338->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:338->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) due to limited memory ports (II = 5). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' (loop 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7'): Unable to schedule bus read operation ('gmem1_addr_4_read', /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:351->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) on port 'gmem1' (/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:351->/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp:425) due to limited memory ports (II = 6). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-885.html
+INFO: [SCHED 204-61] Discarding stage scheduling solution.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 7, Depth = 208, loop 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.34 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.85 seconds; current allocated memory: 1.135 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2.58 seconds. CPU system time: 0 seconds. Elapsed time: 2.86 seconds; current allocated memory: 1.136 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'module_stencil_kernel_0_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.67 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.91 seconds; current allocated memory: 1.136 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.27 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.45 seconds; current allocated memory: 1.137 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'stencil_kernel_0_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.19 seconds. CPU system time: 0 seconds. Elapsed time: 0.46 seconds; current allocated memory: 1.137 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.29 seconds; current allocated memory: 1.137 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4' pipeline 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4' pipeline type 'loop pipeline'
+WARNING: [HLS 200-1972] Disabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_20_2_VITIS_LOOP_21_3_VITIS_LOOP_22_4' in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4', because it has MAXI read/write access
+INFO: [RTGEN 206-100] Generating core module 'dadddsub_64ns_64ns_64_8_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_8_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_61s_61s_61_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_22_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.42 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.83 seconds; current allocated memory: 1.139 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7' pipeline 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7' pipeline type 'loop pipeline'
+WARNING: [HLS 200-1972] Disabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_218_5_VITIS_LOOP_219_6_VITIS_LOOP_220_7' in module 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7', because it has MAXI read/write access
+INFO: [RTGEN 206-100] Generating core module 'dadddsub_64ns_64ns_64_8_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_8_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_61s_61s_61_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_stencil_kernel_0_0_Pipeline_VITIS_LOOP_220_7'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.21 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.97 seconds; current allocated memory: 1.146 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'module_stencil_kernel_0_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'dadddsub_64ns_64ns_64_8_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_8_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_61s_61s_61_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_63ns_126ns_189_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_63ns_63ns_126_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'module_stencil_kernel_0_0'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.04 seconds. CPU system time: 0.03 seconds. Elapsed time: 3.09 seconds; current allocated memory: 1.152 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'stencil_kernel_0_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'stencil_kernel_0_0/gmem0' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'stencil_kernel_0_0/gmem1' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'stencil_kernel_0_0/fpga_A_0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'stencil_kernel_0_0/fpga_B_0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'stencil_kernel_0_0/N' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'stencil_kernel_0_0' to 's_axilite & ap_ctrl_chain'.
+INFO: [RTGEN 206-100] Bundling port 'fpga_A_0', 'fpga_B_0', 'N' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'stencil_kernel_0_0'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.37 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.77 seconds; current allocated memory: 1.153 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.93 seconds. CPU system time: 0.14 seconds. Elapsed time: 4.01 seconds; current allocated memory: 1.157 GB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1.33 seconds. CPU system time: 0.09 seconds. Elapsed time: 2.01 seconds; current allocated memory: 1.165 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for stencil_kernel_0_0.
+INFO: [VLOG 209-307] Generating Verilog RTL for stencil_kernel_0_0.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 411.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 26.42 seconds. CPU system time: 2.92 seconds. Elapsed time: 48.55 seconds; current allocated memory: 88.414 MB.
+INFO: [HLS 200-1510] Running: export_design 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 2075.879 ; gain = 130.039 ; free physical = 305 ; free virtual = 30630
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'stencil_kernel_0_0_dadddsub_64ns_64ns_64_8_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'stencil_kernel_0_0_dadddsub_64ns_64ns_64_8_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'stencil_kernel_0_0_dmul_64ns_64ns_64_8_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'stencil_kernel_0_0_dmul_64ns_64ns_64_8_max_dsp_1_ip'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/data/ip'.
+Running package_xo -xo_path /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/impl/export.xo -kernel_name stencil_kernel_0_0 -kernel_xml /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/impl/ip/../kernel/kernel.xml -kernel_files /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/stencil_kernel_0_0.cpp -ip_directory /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/impl/ip/ip_unzip_dir -design_xml /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/.autopilot/db/stencil_kernel_0_0.design.xml -debug_directory /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/.debug -hls_directory /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/stencil_kernel_0_0_hw_emu/stencil_kernel_0_0/stencil_kernel_0_0/solution/impl/ip/hls_files
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 18 17:08:21 2024...
+INFO: [HLS 200-802] Generated output file stencil_kernel_0_0/solution/impl/export.xo
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 23.59 seconds. CPU system time: 4.65 seconds. Elapsed time: 62.9 seconds; current allocated memory: 7.586 MB.
+INFO: [HLS 200-1510] Running: close_project 
+HLS completed successfully
+INFO: [HLS 200-112] Total CPU user time: 54.35 seconds. Total CPU system time: 9.14 seconds. Total elapsed time: 118.73 seconds; peak allocated memory: 1.173 GB.
+INFO: [Common 17-206] Exiting vitis_hls at Mon Nov 18 17:08:31 2024...

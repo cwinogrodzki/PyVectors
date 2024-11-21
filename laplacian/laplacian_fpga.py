@@ -11,9 +11,8 @@ from dace.transformation.dataflow import StreamingMemory, StreamingComposition
 from dace.transformation.auto.auto_optimize import auto_optimize
 from dace.config import set_temporary
 
-N = 100
 TSTEPS = 50
-#N = (dc.symbol('N', dtype=dc.int64))
+N = (dc.symbol('N', dtype=dc.int64))
 #TSTEPS = (dc.symbol('TSTEPS', dtype=dc.int64))
 
 @dc.program
@@ -62,6 +61,7 @@ def run_stencil(device_type: dc.dtypes.DeviceType):
     '''
 
     # Initialize data
+    N = 100
     A, B = initialize(N)
     B_ref = np.copy(B)
 
@@ -77,8 +77,8 @@ def run_stencil(device_type: dc.dtypes.DeviceType):
         #sdfg.apply_transformations(FPGATransformSDFG)
         sdfg = auto_optimize(sdfg, dc.dtypes.DeviceType.FPGA)
         #sdfg.expand_library_nodes()
-        sdfg.specialize(N=N)
-        sdfg(A, B)
+        #sdfg.specialize(N=N)
+        sdfg(A, B, N=N)
 
     # Compute ground truth and validate
     stencil_kernel.f(A, B_ref)

@@ -1,0 +1,177 @@
+<ENTRY>
+{
+ "thisFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/kernel_0_0_hw_emu.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Nov 20 12:06:59 2024",
+ "timestampMillis": "1732129619656",
+ "buildStep": {
+  "cmdId": "70dda525-f8cb-42fd-bede-643e4f29839b",
+  "name": "v++",
+  "logFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0_hw_emu.steps.log",
+  "commandLine": "/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --vivado.prop \"run.impl_1.{STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS}={-retiming}\" --vivado.prop run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true --vivado.prop run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED=true --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" --compile --target hw_emu --kernel kernel_0_0 --advanced.prop kernel.kernel_0_0.kernel_flags=-std=c++14 -DDACE_SYNTHESIS -DDACE_XILINX -DDACE_XILINX_DEVICE_CODE -DHLSLIB_SYNTHESIS -DHLSLIB_XILINX -DVITIS_MAJOR_VERSION=2023 -DVITIS_MINOR_VERSION=1 -DVITIS_VERSION=2023.1 -D__VITIS_HLS__ -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include --hls.pre_tcl /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/kernel_0_0_config.tcl --platform xilinx_u250_gen3x16_xdma_4_1_202210_1 --config /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/link.cfg -O3 /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp --output /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/kernel_0_0_hw_emu.xo ",
+  "args": [
+   "--compile",
+   "--target",
+   "hw_emu",
+   "--kernel",
+   "kernel_0_0",
+   "--advanced.prop",
+   "kernel.kernel_0_0.kernel_flags=-std=c++14 -DDACE_SYNTHESIS -DDACE_XILINX -DDACE_XILINX_DEVICE_CODE -DHLSLIB_SYNTHESIS -DHLSLIB_XILINX -DVITIS_MAJOR_VERSION=2023 -DVITIS_MINOR_VERSION=1 -DVITIS_VERSION=2023.1 -D__VITIS_HLS__ -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include -I/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include",
+   "--hls.pre_tcl",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/kernel_0_0_config.tcl",
+   "--platform",
+   "xilinx_u250_gen3x16_xdma_4_1_202210_1",
+   "--config",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/link.cfg",
+   "-O3",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp",
+   "--output",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/kernel_0_0_hw_emu.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/link.cfg",
+    "content": "[connectivity]\nslr=kernel_0_0_1:SLR0\n"
+   }
+  ],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 20 12:06:59 2024",
+ "timestampMillis": "1732129619657",
+ "status": {
+  "cmdId": "70dda525-f8cb-42fd-bede-643e4f29839b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed Nov 20 12:07:05 2024",
+ "timestampMillis": "1732129625919",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "kernel_0_0",
+     "file": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/kernel_0_0_hw_emu.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2023.1. SW Build 3860322 on 2023-05-04-06:32:48"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Nov 20 12:07:05 2024",
+ "timestampMillis": "1732129625979",
+ "buildStep": {
+  "cmdId": "34069b17-8dbc-4809-8a75-634302b69681",
+  "name": "vitis_hls",
+  "logFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/vitis_hls.log",
+  "commandLine": "vitis_hls -f /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 20 12:07:05 2024",
+ "timestampMillis": "1732129625981",
+ "status": {
+  "cmdId": "34069b17-8dbc-4809-8a75-634302b69681",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 20 12:07:40 2024",
+ "timestampMillis": "1732129660567",
+ "status": {
+  "cmdId": "34069b17-8dbc-4809-8a75-634302b69681",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 20 12:07:40 2024",
+ "timestampMillis": "1732129660655",
+ "status": {
+  "cmdId": "70dda525-f8cb-42fd-bede-643e4f29839b",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 12:07:40 2024",
+ "timestampMillis": "1732129660823",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/reports/kernel_0_0_hw_emu/v++_compile_kernel_0_0_hw_emu_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 20 12:07:40 2024",
+ "timestampMillis": "1732129660825",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/v++_compile_kernel_0_0_hw_emu_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

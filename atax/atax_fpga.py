@@ -35,8 +35,7 @@ def run_gemm(device_type: dc.dtypes.DeviceType):
                                                             }],
                                                             print_report=True)
     fpga_auto_opt.fpga_rr_interleave_containers_to_banks(sdfg, num_banks = 4, memory_type = "DDR")
-    #y = sdfg(A,x)
-    sdfg
+    sdfg(A,x)
 
     atax.f(A, x_ref)
     assert np.allclose(x, x_ref)

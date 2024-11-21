@@ -1,0 +1,35 @@
+
+*** Running vivado
+    with args -log bd_1361_fanout_aresetn_ctrl_slr1_2_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_1361_fanout_aresetn_ctrl_slr1_2_0.tcl
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_1361_fanout_aresetn_ctrl_slr1_2_0.tcl -notrace
+INFO: Dispatch client connection id - 43863
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2091.586 ; gain = 129.062 ; free physical = 5416 ; free virtual = 23673
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/int/xo/ip_repo/xilinx_com_hls_atax_0_0_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/pipeline_reg_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_1361_fanout_aresetn_ctrl_slr1_2_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry b688d2d41f69bb8a to dir: /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/bd_1361_fanout_aresetn_ctrl_slr1_2_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/.ipcache/b/6/b688d2d41f69bb8a/bd_1361_fanout_aresetn_ctrl_slr3_4_0_stub.vhdl to /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/bd_1361_fanout_aresetn_ctrl_slr1_2_0_synth_1/bd_1361_fanout_aresetn_ctrl_slr1_2_0_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/.ipcache/b/6/b688d2d41f69bb8a/bd_1361_fanout_aresetn_ctrl_slr3_4_0.dcp to /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/bd_1361_fanout_aresetn_ctrl_slr1_2_0_synth_1/bd_1361_fanout_aresetn_ctrl_slr1_2_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/.ipcache/b/6/b688d2d41f69bb8a/bd_1361_fanout_aresetn_ctrl_slr3_4_0_sim_netlist.v to /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/bd_1361_fanout_aresetn_ctrl_slr1_2_0_synth_1/bd_1361_fanout_aresetn_ctrl_slr1_2_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/.ipcache/b/6/b688d2d41f69bb8a/bd_1361_fanout_aresetn_ctrl_slr3_4_0_sim_netlist.vhdl to /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/bd_1361_fanout_aresetn_ctrl_slr1_2_0_synth_1/bd_1361_fanout_aresetn_ctrl_slr1_2_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/.ipcache/b/6/b688d2d41f69bb8a/bd_1361_fanout_aresetn_ctrl_slr3_4_0_stub.v to /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/bd_1361_fanout_aresetn_ctrl_slr1_2_0_synth_1/bd_1361_fanout_aresetn_ctrl_slr1_2_0_stub.v.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP bd_1361_fanout_aresetn_ctrl_slr1_2_0, cache-ID = b688d2d41f69bb8a.
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 16:54:14 2024...

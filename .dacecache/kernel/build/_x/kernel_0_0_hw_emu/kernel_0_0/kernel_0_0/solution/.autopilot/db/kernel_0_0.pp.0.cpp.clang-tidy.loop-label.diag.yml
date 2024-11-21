@@ -1,0 +1,856 @@
+---
+MainSourceFile:  /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1213_1:  '
+    FileOffset:      1213
+    FilePath:        /net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          722610
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          950858
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          951326
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          951795
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /net/myshella/home/rasr/pkgs/vitis_2023.1/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          1235670
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_220_1:  '
+    FileOffset:      220
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2146390
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_220_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_337_1:  '
+    FileOffset:      337
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2148665
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_337_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_1:  '
+    FileOffset:      414
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2149330
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_1:  '
+    FileOffset:      414
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2150101
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_1:  '
+    FileOffset:      414
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2150869
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_1:  '
+    FileOffset:      414
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2151614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_1:  '
+    FileOffset:      414
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2152382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_1:  '
+    FileOffset:      414
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2153110
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2153882
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2154653
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2155421
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2156166
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2156934
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2157662
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_416_1:  '
+    FileOffset:      416
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2158434
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_416_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_416_1:  '
+    FileOffset:      416
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2159205
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_416_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_416_1:  '
+    FileOffset:      416
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2159973
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_416_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_416_1:  '
+    FileOffset:      416
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2160718
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_416_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_416_1:  '
+    FileOffset:      416
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2161486
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_416_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_416_1:  '
+    FileOffset:      416
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2162214
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_416_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2162986
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2163757
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2164525
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2165270
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2166038
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2166766
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2167538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2168309
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2169077
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2169822
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2170590
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2171318
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_1:  '
+    FileOffset:      419
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2172090
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_1:  '
+    FileOffset:      419
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2172861
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_1:  '
+    FileOffset:      419
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2173629
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_1:  '
+    FileOffset:      419
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2174374
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_1:  '
+    FileOffset:      419
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2175142
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_1:  '
+    FileOffset:      419
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2175870
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_1:  '
+    FileOffset:      420
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2176642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_1:  '
+    FileOffset:      420
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2177413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_1:  '
+    FileOffset:      420
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2178181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_1:  '
+    FileOffset:      420
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2178926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_1:  '
+    FileOffset:      420
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2179694
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_1:  '
+    FileOffset:      420
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/DataPack.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2180422
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_1:  '
+    FileOffset:      505
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/math.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2207438
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_557_1:  '
+    FileOffset:      557
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/reduction.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2219614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_557_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_569_1:  '
+    FileOffset:      569
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/reduction.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2219953
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_569_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2220472
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_42_1:  '
+    FileOffset:      42
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2221368
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_42_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_51_1:  '
+    FileOffset:      51
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2221839
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_51_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_60_1:  '
+    FileOffset:      60
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2222328
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_60_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_1:  '
+    FileOffset:      81
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2223085
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_1:  '
+    FileOffset:      90
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2223556
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_1:  '
+    FileOffset:      99
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2224045
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_119_1:  '
+    FileOffset:      119
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2224764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_119_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_128_1:  '
+    FileOffset:      128
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2225222
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_128_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_1:  '
+    FileOffset:      137
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2225698
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_229_1:  '
+    FileOffset:      229
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2228801
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_238_1:  '
+    FileOffset:      238
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2229277
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_238_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_247_1:  '
+    FileOffset:      247
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2229771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_1:  '
+    FileOffset:      268
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2230509
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_277_1:  '
+    FileOffset:      277
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2230985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_277_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2231479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_308_1:  '
+    FileOffset:      308
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2232295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_308_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_318_1:  '
+    FileOffset:      318
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2232879
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_318_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/copy.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2233481
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_1:  '
+    FileOffset:      110
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/Operators.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2245089
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_119_1:  '
+    FileOffset:      119
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/Operators.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2245265
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_119_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, FIFO + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      502
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/Stream.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, FIFO + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      504
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/Stream.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      506
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/external/hlslib/include/hlslib/xilinx/Stream.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_37_1:  '
+    FileOffset:      37
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/xilinx/access.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2259881
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_37_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_47_1:  '
+    FileOffset:      47
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/xilinx/access.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2260114
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_47_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_12_1:  '
+    FileOffset:      12
+    FilePath:        /net/myshella/home/grodzki/.local/lib/python3.10/site-packages/dace/runtime/include/dace/xilinx/math.h
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2265636
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_12_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2268235
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_17_2:  '
+    FileOffset:      17
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2268290
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_17_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_36_3:  '
+    FileOffset:      36
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2268702
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_36_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_4:  '
+    FileOffset:      39
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2268802
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_5:  '
+    FileOffset:      40
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2268856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_75_1:  '
+    FileOffset:      75
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2269545
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_75_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_2:  '
+    FileOffset:      78
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2269642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_3:  '
+    FileOffset:      79
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2269696
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_1:  '
+    FileOffset:      113
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2270631
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_230_1:  '
+    FileOffset:      230
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2274240
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_230_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_2:  '
+    FileOffset:      231
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2274295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_250_3:  '
+    FileOffset:      250
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2274706
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_250_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_4:  '
+    FileOffset:      253
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2274806
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_5:  '
+    FileOffset:      254
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2274863
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_6:  '
+    FileOffset:      274
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2275438
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_7:  '
+    FileOffset:      275
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2275493
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp
+    Replacements:    
+      - FilePath:        /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0/solution/.autopilot/db/kernel_0_0.pp.0.cpp
+        Offset:          2277728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+...

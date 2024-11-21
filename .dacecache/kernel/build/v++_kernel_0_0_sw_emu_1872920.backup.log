@@ -1,0 +1,4 @@
+ERROR: [v++ 82-29] Exception in main() -- ERROR: [v++ 84-18] Application not found: 'vitis_hls'.
+
+INFO: [v++ 60-1662] Stopping dispatch session having empty uuid.
+INFO: [v++ 60-1653] Closing dispatch client.

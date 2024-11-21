@@ -1,0 +1,756 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 497, Column: 36 }
+Function:        _ZN6hlslib6StreamIdLm32ELNS_7StorageE0EEC2EPKc
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::Stream(char const*, unsigned long, hlslib::Storage)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 112, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hlslib::Stream<double, 32ul, (hlslib::Storage)0>::Stream(char const*)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 497, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 493, Column: 14 }
+Function:        _ZN6hlslib6StreamIdLm32ELNS_7StorageE0EEC2Ev
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 32ul, (hlslib::Storage)0>::Stream(char const*)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 497, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hlslib::Stream<double, 32ul, (hlslib::Storage)0>::Stream()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 493, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 17, Column: 12 }
+Function:        _ZN4dace4FIFOIdLj1ELj32EEC2Ev
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 32ul, (hlslib::Storage)0>::Stream()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 493, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 32u>::FIFO()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 17, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 497, Column: 36 }
+Function:        _ZN6hlslib6StreamIdLm1ELNS_7StorageE0EEC2EPKc
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::Stream(char const*, unsigned long, hlslib::Storage)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 112, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hlslib::Stream<double, 1ul, (hlslib::Storage)0>::Stream(char const*)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 497, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 493, Column: 14 }
+Function:        _ZN6hlslib6StreamIdLm1ELNS_7StorageE0EEC2Ev
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 1ul, (hlslib::Storage)0>::Stream(char const*)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 497, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hlslib::Stream<double, 1ul, (hlslib::Storage)0>::Stream()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 493, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 17, Column: 12 }
+Function:        _ZN4dace4FIFOIdLj1ELj1EEC2Ev
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 1ul, (hlslib::Storage)0>::Stream()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 493, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 1u>::FIFO()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 17, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 497, Column: 36 }
+Function:        _ZN6hlslib6StreamIdLm70ELNS_7StorageE0EEC2EPKc
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::Stream(char const*, unsigned long, hlslib::Storage)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 112, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hlslib::Stream<double, 70ul, (hlslib::Storage)0>::Stream(char const*)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 497, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 493, Column: 14 }
+Function:        _ZN6hlslib6StreamIdLm70ELNS_7StorageE0EEC2Ev
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 70ul, (hlslib::Storage)0>::Stream(char const*)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 497, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hlslib::Stream<double, 70ul, (hlslib::Storage)0>::Stream()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 493, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 17, Column: 12 }
+Function:        _ZN4dace4FIFOIdLj1ELj70EEC2Ev
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 70ul, (hlslib::Storage)0>::Stream()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 493, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 70u>::FIFO()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 17, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 277, Column: 2 }
+Function:        _ZN6hlslib6StreamIdLm0ELNS_7StorageE0EE13WriteBlockingERKd
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::WriteBlocking(double const&, unsigned long)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 404, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::WriteBlocking(double const&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 272, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 49, Column: 10 }
+Function:        _ZN4dace4FIFOIdLj1ELj32EE13push_blockingIRdEEvOT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::WriteBlocking(double const&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 272, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void dace::FIFO<double, 1u, 32u>::push_blocking<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 47, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 55, Column: 2 }
+Function:        _ZN4dace4FIFOIdLj1ELj32EE4pushIRdEEvOT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void dace::FIFO<double, 1u, 32u>::push_blocking<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 47, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void dace::FIFO<double, 1u, 32u>::push<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 50, Column: 47 }
+Function:        _Z17module__Mult__7_0PN4dace4FIFOIdLj1ELj32EEEPddS3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void dace::FIFO<double, 1u, 32u>::push<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 53, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'module__Mult__7_0(dace::FIFO<double, 1u, 32u>*, double*, double, double*)'
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 13, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 49, Column: 10 }
+Function:        _ZN4dace4FIFOIdLj1ELj1EE13push_blockingIRdEEvOT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::WriteBlocking(double const&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 272, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void dace::FIFO<double, 1u, 1u>::push_blocking<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 47, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 55, Column: 2 }
+Function:        _ZN4dace4FIFOIdLj1ELj1EE4pushIRdEEvOT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void dace::FIFO<double, 1u, 1u>::push_blocking<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 47, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void dace::FIFO<double, 1u, 1u>::push<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 90, Column: 39 }
+Function:        _Z34module_init_dummy_B_25_read_B_27_0PN4dace4FIFOIdLj1ELj1EEEPd
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void dace::FIFO<double, 1u, 1u>::push<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 53, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'module_init_dummy_B_25_read_B_27_0(dace::FIFO<double, 1u, 1u>*, double*)'
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 61, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 33, Column: 17 }
+Function:        _ZN4dace4FIFOIdLj1ELj32EE12pop_blockingEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::ReadBlocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 32u>::pop_blocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 31, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 38, Column: 9 }
+Function:        _ZN4dace4FIFOIdLj1ELj32EE3popEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 32u>::pop_blocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 31, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 32u>::pop()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 36, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 33, Column: 17 }
+Function:        _ZN4dace4FIFOIdLj1ELj1EE12pop_blockingEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::ReadBlocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 1u>::pop_blocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 31, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 38, Column: 9 }
+Function:        _ZN4dace4FIFOIdLj1ELj1EE3popEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 1u>::pop_blocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 31, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 1u>::pop()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 36, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 33, Column: 17 }
+Function:        _ZN4dace4FIFOIdLj1ELj70EE12pop_blockingEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::ReadBlocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 70u>::pop_blocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 31, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 38, Column: 9 }
+Function:        _ZN4dace4FIFOIdLj1ELj70EE3popEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 70u>::pop_blocking()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 31, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'dace::FIFO<double, 1u, 70u>::pop()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 36, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 49, Column: 10 }
+Function:        _ZN4dace4FIFOIdLj1ELj70EE13push_blockingIRdEEvOT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hlslib::Stream<double, 0ul, (hlslib::Storage)0>::WriteBlocking(double const&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                       Line: 272, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void dace::FIFO<double, 1u, 70u>::push_blocking<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 47, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                   Line: 55, Column: 2 }
+Function:        _ZN4dace4FIFOIdLj1ELj70EE4pushIdEEvOT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void dace::FIFO<double, 1u, 70u>::push_blocking<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 47, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void dace::FIFO<double, 1u, 70u>::push<double>(double&&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 53, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 135, Column: 69 }
+Function:        _Z68module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0PN4dace4FIFOIdLj1ELj32EEEPNS0_IdLj1ELj1EEEPNS0_IdLj1ELj70EEEi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 32u>::pop()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 36, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO<double, 1u, 32u>*, dace::FIFO<double, 1u, 1u>*, dace::FIFO<double, 1u, 70u>*, int)'
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 101, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 170, Column: 165 }
+Function:        _Z68module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0PN4dace4FIFOIdLj1ELj32EEEPNS0_IdLj1ELj1EEEPNS0_IdLj1ELj70EEEi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void dace::FIFO<double, 1u, 70u>::push<double>(double&&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 53, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO<double, 1u, 32u>*, dace::FIFO<double, 1u, 1u>*, dace::FIFO<double, 1u, 70u>*, int)'
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 101, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 146, Column: 69 }
+Function:        _Z68module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0PN4dace4FIFOIdLj1ELj32EEEPNS0_IdLj1ELj1EEEPNS0_IdLj1ELj70EEEi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 1u>::pop()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 36, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO<double, 1u, 32u>*, dace::FIFO<double, 1u, 1u>*, dace::FIFO<double, 1u, 70u>*, int)'
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 101, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 170, Column: 253 }
+Function:        _Z68module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0PN4dace4FIFOIdLj1ELj32EEEPNS0_IdLj1ELj1EEEPNS0_IdLj1ELj70EEEi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 70u>::pop()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 36, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO<double, 1u, 32u>*, dace::FIFO<double, 1u, 1u>*, dace::FIFO<double, 1u, 70u>*, int)'
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 101, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 167, Column: 58 }
+Function:        _Z68module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0PN4dace4FIFOIdLj1ELj32EEEPNS0_IdLj1ELj1EEEPNS0_IdLj1ELj70EEEi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void dace::FIFO<double, 1u, 1u>::push<double&>(double&)'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 53, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO<double, 1u, 32u>*, dace::FIFO<double, 1u, 1u>*, dace::FIFO<double, 1u, 70u>*, int)'
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 101, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 258, Column: 77 }
+Function:        _Z29module_write_C_51__Mult__12_0PN4dace4FIFOIdLj1ELj70EEEPdS3_dS3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 70u>::pop()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 36, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'module_write_C_51__Mult__12_0(dace::FIFO<double, 1u, 70u>*, double*, double*, double, double*)'
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 227, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 315, Column: 31 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 32u>::FIFO()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 17, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          kernel_0_0
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 295, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 317, Column: 30 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 1u>::FIFO()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 17, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          kernel_0_0
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 295, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 319, Column: 31 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'dace::FIFO<double, 1u, 70u>::FIFO()'
+    DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h, 
+                       Line: 17, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          kernel_0_0
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 295, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 500, Column: 9 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Adding '''
+  - Name:            C_pipe
+  - String:          ''' into disaggregation list because there''s '
+  - String:          stream pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 500, Column: 9 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Adding '''
+  - Name:            B_pipe
+  - String:          ''' into disaggregation list because there''s '
+  - String:          stream pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 500, Column: 9 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Adding '''
+  - Name:            A_pipe
+  - String:          ''' into disaggregation list because there''s '
+  - String:          stream pragma applied on the struct field
+...
+--- !Failure
+Pass:            generate-ir-wrapper
+Name:            MAXIDepthUnspecified
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 295, Column: 0 }
+Function:        kernel_0_0
+Args:            
+  - String:          'A depth specification is required for MAXI interface port '''
+  - Name:            __tmp0_0
+  - String:          ''' for cosimulation.'
+...
+--- !Failure
+Pass:            generate-ir-wrapper
+Name:            MAXIDepthUnspecified
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 295, Column: 0 }
+Function:        kernel_0_0
+Args:            
+  - String:          'A depth specification is required for MAXI interface port '''
+  - Name:            __tmp1_0
+  - String:          ''' for cosimulation.'
+...
+--- !Failure
+Pass:            generate-ir-wrapper
+Name:            MAXIDepthUnspecified
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 295, Column: 0 }
+Function:        kernel_0_0
+Args:            
+  - String:          'A depth specification is required for MAXI interface port '''
+  - Name:            __tmp2_0
+  - String:          ''' for cosimulation.'
+...
+--- !Failure
+Pass:            generate-ir-wrapper
+Name:            MAXIDepthUnspecified
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 295, Column: 0 }
+Function:        kernel_0_0
+Args:            
+  - String:          'A depth specification is required for MAXI interface port '''
+  - Name:            fpga_A_0
+  - String:          ''' for cosimulation.'
+...
+--- !Failure
+Pass:            generate-ir-wrapper
+Name:            MAXIDepthUnspecified
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 295, Column: 0 }
+Function:        kernel_0_0
+Args:            
+  - String:          'A depth specification is required for MAXI interface port '''
+  - Name:            fpga_B_0
+  - String:          ''' for cosimulation.'
+...
+--- !Failure
+Pass:            generate-ir-wrapper
+Name:            MAXIDepthUnspecified
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 295, Column: 0 }
+Function:        kernel_0_0
+Args:            
+  - String:          'A depth specification is required for MAXI interface port '''
+  - Name:            fpga_C_0
+  - String:          ''' for cosimulation.'
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 500, Column: 9 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Adding '''
+  - Name:            C_pipe
+  - String:          ''' into disaggregation list because there''s '
+  - String:          stream pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 500, Column: 9 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Adding '''
+  - Name:            B_pipe
+  - String:          ''' into disaggregation list because there''s '
+  - String:          stream pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h, 
+                   Line: 500, Column: 9 }
+Function:        kernel_0_0
+Args:            
+  - String:          'Adding '''
+  - Name:            A_pipe
+  - String:          ''' into disaggregation list because there''s '
+  - String:          stream pragma applied on the struct field
+...
+--- !HLSUnsupported
+Pass:            reflow-disaggr
+Name:            DisaggrPhi
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 329, Column: 1 }
+Function:        kernel_0_0
+Args:            
+  - String:          'in function '''
+  - Function:        kernel_0_0
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 295, Column: 0 }
+  - String:          ''': '
+  - String:          'Cannot apply disaggregate pragma/directive on object '''
+  - Name:            A_pipe
+  - String:          ''' '
+  - String:          as there is an unresolved Phi node on it
+...
+--- !HLSUnsupported
+Pass:            reflow-disaggr
+Name:            DisaggrPhi
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 329, Column: 1 }
+Function:        kernel_0_0
+Args:            
+  - String:          'in function '''
+  - Function:        kernel_0_0
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 295, Column: 0 }
+  - String:          ''': '
+  - String:          'Cannot apply disaggregate pragma/directive on object '''
+  - Name:            B_pipe
+  - String:          ''' '
+  - String:          as there is an unresolved Phi node on it
+...
+--- !HLSUnsupported
+Pass:            reflow-disaggr
+Name:            DisaggrPhi
+DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                   Line: 329, Column: 1 }
+Function:        kernel_0_0
+Args:            
+  - String:          'in function '''
+  - Function:        kernel_0_0
+    DebugLoc:        { File: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp, 
+                       Line: 295, Column: 0 }
+  - String:          ''': '
+  - String:          'Cannot apply disaggregate pragma/directive on object '''
+  - Name:            C_pipe
+  - String:          ''' '
+  - String:          as there is an unresolved Phi node on it
+...
+--- !HLSReportFatalError
+Pass:            reflow-disaggr
+Name:            HLSFatalError
+Args:            
+  - Msg:             Fail to Synthesize.
+...

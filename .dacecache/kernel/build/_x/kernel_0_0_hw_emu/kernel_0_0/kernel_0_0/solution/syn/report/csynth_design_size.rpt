@@ -1,0 +1,78 @@
+================================================================
+== Design Size Report
+================================================================
+
+* C-Synthesis has not completed, compilation phases remaining:
+    * Unroll/Inline
+    * Performance/Pipeline
+    * Optimizations
+
+* Instructions per Function for each Compilation Phase
++------------------------------------+--------------------+---------------+
+| Function                           | Location           | Compile/Link  |
++------------------------------------+--------------------+---------------+
+| + kernel_0_0                       | kernel_0_0.cpp:295 | 794           |
+|  + FIFO                            | stream.h:17        |  51 (3 calls) |
+|   + Stream                         | Stream.h:493       |  42 (3 calls) |
+|    + Stream                        | Stream.h:497       |  36 (3 calls) |
+|       Stream                       | Stream.h:112       |  18 (3 calls) |
+|    SetNames<double, 1, 32>         | stream.h:88        |   1           |
+|    SetNames<double, 1, 1>          | stream.h:88        |   1           |
+|    SetNames<double, 1, 70>         | stream.h:88        |   1           |
+|  + module__Mult__7_0               | kernel_0_0.cpp:13  | 101           |
+|   + push<double &>                 | stream.h:53        |  20           |
+|    + push_blocking<double &>       | stream.h:47        |  18           |
+|       forward<double &>            | move.h:74          |   1           |
+|     + WriteBlocking                | Stream.h:272       |  12           |
+|        max                         | limits:1002        |   1           |
+|        WriteBlocking               | Stream.h:404       |   7           |
+|  + module_init_dummy_B_25_read_... | kernel_0_0.cpp:61  |  68           |
+|   + push<double &>                 | stream.h:53        |  20           |
+|    + push_blocking<double &>       | stream.h:47        |  18           |
+|       forward<double &>            | move.h:74          |   1           |
+|     + WriteBlocking                | Stream.h:272       |  12           |
+|        max                         | limits:1002        |   1           |
+|        WriteBlocking               | Stream.h:404       |   7           |
+|  + module_compute_and_drain_44_... | kernel_0_0.cpp:101 | 285           |
+|   + pop                            | stream.h:36        |  63 (3 calls) |
+|    + pop_blocking                  | stream.h:31        |  57 (3 calls) |
+|       ReadBlocking                 | Stream.h:196       |  45 (3 calls) |
+|   + push<double &>                 | stream.h:53        |  20           |
+|    + push_blocking<double &>       | stream.h:47        |  18           |
+|       forward<double &>            | move.h:74          |   1           |
+|     + WriteBlocking                | Stream.h:272       |  12           |
+|        max                         | limits:1002        |   1           |
+|        WriteBlocking               | Stream.h:404       |   7           |
+|   + push<double>                   | stream.h:53        |  20           |
+|    + push_blocking<double &>       | stream.h:47        |  18           |
+|       forward<double &>            | move.h:74          |   1           |
+|     + WriteBlocking                | Stream.h:272       |  12           |
+|        max                         | limits:1002        |   1           |
+|        WriteBlocking               | Stream.h:404       |   7           |
+|  + module_write_C_51__Mult__12_... | kernel_0_0.cpp:227 | 137           |
+|   + pop                            | stream.h:36        |  21           |
+|    + pop_blocking                  | stream.h:31        |  19           |
+|       ReadBlocking                 | Stream.h:196       |  15           |
+|  + ~FIFO                           | stream.h:27        |  21 (3 calls) |
+|   + ~Stream                        | Stream.h:490       |  12 (3 calls) |
+|      ~Stream                       | Stream.h:130       |   3 (3 calls) |
++------------------------------------+--------------------+---------------+
+
+* Description of Compilation Phases
++----------------------+------------------------------------------------------------+
+| Compilation Phase    | Description                                                |
++----------------------+------------------------------------------------------------+
+| Compile/Link         | All functions are compiled and linked into a single design |
+| Unroll/Inline        | After user unroll and inline pragmas are applied           |
+| Performance/Pipeline | After performance and pipeline pragmas are applied         |
+| Optimizations        | After high level synthesis optimizations                   |
++----------------------+------------------------------------------------------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

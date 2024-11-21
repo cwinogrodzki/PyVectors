@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: kernel_0_0
+Log file: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/vitis_hls.log

@@ -1,0 +1,65 @@
+====================================================================
+Version:    xcd v2023.1 (64-bit)
+Copyright:  Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+Created:    Wed Nov 20 15:40:11 2024
+====================================================================
+
+1. Kernel and compute unit information
+======================================
+
+Compute Unit: atax_0_0_1
+Kernel: atax_0_0
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+2. Interface Connections
+========================
+
+IP to Compute Unit
+------------------
+Source Pin: ict_axi_ctrl_user_00/M01_AXI
+Destination Pin: atax_0_0_1/s_axi_control
+
+Compute Unit to IP
+------------------
+Source Pin: atax_0_0_1/m_axi_gmem0
+Destination Pin: memory_subsystem/S04_AXI
+
+Source Pin: atax_0_0_1/m_axi_gmem1
+Destination Pin: memory_subsystem/S05_AXI
+
+Source Pin: atax_0_0_1/m_axi_gmem2
+Destination Pin: memory_subsystem/S06_AXI
+
+Source Pin: atax_0_0_1/m_axi_gmem3
+Destination Pin: memory_subsystem/S07_AXI
+
+3. Clock Connections
+====================
+
+Compute Unit: atax_0_0_1
+Clock ID: 0
+Platform Clock Frequency: 300.000000 MHz
+Source Pin: ss_ucs/aclk_kernel_00
+Destination Pin: atax_0_0_1/ap_clk
+
+Clock Instance: ss_ucs
+Source Pin: ii_level1_wire/ulp_m_aclk_ctrl_00
+Destination Pin: ss_ucs/aclk_ctrl
+
+Clock Instance: ss_ucs
+Source Pin: ii_level1_wire/ulp_m_aclk_freerun_ref_00
+Destination Pin: ss_ucs/aclk_freerun
+
+Clock Instance: ss_ucs
+Source Pin: ii_level1_wire/ulp_m_aclk_pcie_user_00
+Destination Pin: ss_ucs/aclk_pcie
+
+4. Reset Connections
+====================
+
+Compute Unit: atax_0_0_1
+Source Pin: ip_psr_aresetn_kernel_00_slr0/peripheral_aresetn
+Destination Pin: atax_0_0_1/ap_rst_n
+Associated Clock Pin: atax_0_0_1/ap_clk
+

@@ -1,0 +1,863 @@
+<ENTRY>
+{
+ "thisFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Nov 18 17:08:52 2024",
+ "timestampMillis": "1731974932907",
+ "buildStep": {
+  "cmdId": "5c2e68bf-3ff6-4237-95e6-d40f316a8ef7",
+  "name": "v++",
+  "logFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/link.steps.log",
+  "commandLine": "/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --vivado.prop \"run.impl_1.{STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS}={-retiming}\" --vivado.prop run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true --vivado.prop run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED=true --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" --link --target hw_emu --platform xilinx_u250_gen3x16_xdma_4_1_202210_1 --config /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/link.cfg -O3 /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_0_0_hw_emu.xo --output /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin ",
+  "args": [
+   "--link",
+   "--target",
+   "hw_emu",
+   "--platform",
+   "xilinx_u250_gen3x16_xdma_4_1_202210_1",
+   "--config",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/link.cfg",
+   "-O3",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_0_0_hw_emu.xo",
+   "--output",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin"
+  ],
+  "iniFiles": [
+   {
+    "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/src/xilinx/device/link.cfg",
+    "content": "[connectivity]\nsp=stencil_kernel_0_0_1.m_axi_gmem0:DDR[0]\nsp=stencil_kernel_0_0_1.m_axi_gmem1:DDR[1]\nslr=stencil_kernel_0_0_1:SLR0\n"
+   }
+  ],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:08:52 2024",
+ "timestampMillis": "1731974932908",
+ "status": {
+  "cmdId": "5c2e68bf-3ff6-4237-95e6-d40f316a8ef7",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Nov 18 17:09:02 2024",
+ "timestampMillis": "1731974942333",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_HW_EMU",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "stencil_kernel_hw_emu",
+    "file": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "stencil_kernel_0_0",
+     "file": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_0_0_hw_emu.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xo/stencil_kernel_0_0/stencil_kernel_0_0/cpu_sources/stencil_kernel_0_0.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "stencil_kernel_0_0_1"
+    ],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2023.1. SW Build 3860322 on 2023-05-04-06:32:48"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:09:03 2024",
+ "timestampMillis": "1731974943136",
+ "buildStep": {
+  "cmdId": "57299a98-0626-4a52-9069-4e168d23107a",
+  "name": "system_link",
+  "logFile": "",
+  "commandLine": "system_link --xo /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_0_0_hw_emu.xo --config /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/syslinkConfig.ini --xpfm /home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm --target emu --output_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int --temp_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/sys_link",
+  "args": [
+   "--xo",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_0_0_hw_emu.xo",
+   "--config",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/syslinkConfig.ini",
+   "--xpfm",
+   "/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm",
+   "--target",
+   "emu",
+   "--output_dir",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int",
+   "--temp_dir",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/sys_link"
+  ],
+  "iniFiles": [
+   {
+    "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/syslinkConfig.ini",
+    "content": "sp=stencil_kernel_0_0_1.m_axi_gmem0:DDR[0]\nsp=stencil_kernel_0_0_1.m_axi_gmem1:DDR[1]\nslr=stencil_kernel_0_0_1:SLR0\n\n"
+   }
+  ],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:09:03 2024",
+ "timestampMillis": "1731974943137",
+ "status": {
+  "cmdId": "57299a98-0626-4a52-9069-4e168d23107a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:09:35 2024",
+ "timestampMillis": "1731974975762",
+ "status": {
+  "cmdId": "57299a98-0626-4a52-9069-4e168d23107a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:09:35 2024",
+ "timestampMillis": "1731974975829",
+ "buildStep": {
+  "cmdId": "61239483-c5fc-48a8-9597-c5336c925afd",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -sdsl /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/sdsl.dat -rtd /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/cf2sw.rtd -nofilter /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/cf2sw_full.rtd -xclbin /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xclbin_orig.xml -o /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xclbin_orig.1.xml",
+  "args": [
+   "-sdsl",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/sdsl.dat",
+   "-rtd",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/cf2sw.rtd",
+   "-nofilter",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/cf2sw_full.rtd",
+   "-xclbin",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xclbin_orig.xml",
+   "-o",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xclbin_orig.1.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:09:35 2024",
+ "timestampMillis": "1731974975829",
+ "status": {
+  "cmdId": "61239483-c5fc-48a8-9597-c5336c925afd",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:09:41 2024",
+ "timestampMillis": "1731974981515",
+ "status": {
+  "cmdId": "61239483-c5fc-48a8-9597-c5336c925afd",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:09:41 2024",
+ "timestampMillis": "1731974981597",
+ "buildStep": {
+  "cmdId": "86782e7c-4515-47bc-9a55-3a69cac2becc",
+  "name": "rtd2_system_diagram",
+  "logFile": "",
+  "commandLine": "rtd2SystemDiagram",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:09:41 2024",
+ "timestampMillis": "1731974981598",
+ "status": {
+  "cmdId": "86782e7c-4515-47bc-9a55-3a69cac2becc",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:09:42 2024",
+ "timestampMillis": "1731974982000",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/systemDiagramModel.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:09:42 2024",
+ "timestampMillis": "1731974982009",
+ "status": {
+  "cmdId": "86782e7c-4515-47bc-9a55-3a69cac2becc",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:09:42 2024",
+ "timestampMillis": "1731974982055",
+ "buildStep": {
+  "cmdId": "11225249-8673-438b-9960-1f90729e99b9",
+  "name": "vpl",
+  "logFile": "",
+  "commandLine": "vpl -t hw_emu -f xilinx_u250_gen3x16_xdma_4_1_202210_1 --remote_ip_cache /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/.ipcache --output_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int --log_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/logs/link --report_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/reports/link --config /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/vplConfig.ini -k /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link --emulation_mode debug_waveform --no-info --iprepo /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xo/ip_repo/xilinx_com_hls_stencil_kernel_0_0_1_0 --messageDb /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/run_link/vpl.pb /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/dr.bd.tcl",
+  "args": [
+   "-t",
+   "hw_emu",
+   "-f",
+   "xilinx_u250_gen3x16_xdma_4_1_202210_1",
+   "--remote_ip_cache",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/.ipcache",
+   "--output_dir",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int",
+   "--log_dir",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/logs/link",
+   "--report_dir",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/reports/link",
+   "--config",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/vplConfig.ini",
+   "-k",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/kernel_info.dat",
+   "--webtalk_flag",
+   "Vitis",
+   "--temp_dir",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link",
+   "--emulation_mode",
+   "debug_waveform",
+   "--no-info",
+   "--iprepo",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xo/ip_repo/xilinx_com_hls_stencil_kernel_0_0_1_0",
+   "--messageDb",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/run_link/vpl.pb",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/dr.bd.tcl"
+  ],
+  "iniFiles": [
+   {
+    "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/vplConfig.ini",
+    "content": "[advanced]\nmisc=report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\nmisc=report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\nparam=compiler.enablePerformanceTrace=1\nparam=compiler.vppCurrentWorkingDir=/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build\nmisc=BinaryName=stencil_kernel_hw_emu\n\n[connectivity]\nnk=stencil_kernel_0_0:1:stencil_kernel_0_0_1\n\n[vivado]\nprop=run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\nprop=run.impl_1.{STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS}={-retiming}\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true\nprop=run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED=true\n\n"
+   }
+  ],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:09:42 2024",
+ "timestampMillis": "1731974982057",
+ "status": {
+  "cmdId": "11225249-8673-438b-9960-1f90729e99b9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Nov 18 17:09:44 2024",
+ "timestampMillis": "1731974984056",
+ "buildStep": {
+  "cmdId": "4a78b86e-3013-4cac-9fcd-ae29d7bc646e",
+  "name": "vpl",
+  "logFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/link.steps.log",
+  "commandLine": "/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/bin/unwrapped/lnx64.o/vpl -t hw_emu -f xilinx_u250_gen3x16_xdma_4_1_202210_1 --remote_ip_cache /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/.ipcache --output_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int --log_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/logs/link --report_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/reports/link --config /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/vplConfig.ini -k /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link --emulation_mode debug_waveform --no-info --iprepo /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xo/ip_repo/xilinx_com_hls_stencil_kernel_0_0_1_0 --messageDb /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/run_link/vpl.pb /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/dr.bd.tcl ",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:09:44 2024",
+ "timestampMillis": "1731974984057",
+ "status": {
+  "cmdId": "4a78b86e-3013-4cac-9fcd-ae29d7bc646e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_VivadoProject",
+ "dateTimestamp": "Mon Nov 18 17:12:56 2024",
+ "timestampMillis": "1731975176106",
+ "vivadoProject": {
+  "openDir": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/vivado/vpl",
+  "openScript": "openprj.tcl",
+  "relativeProject": "prj/prj.xpr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:12:56 2024",
+ "timestampMillis": "1731975176165",
+ "buildStep": {
+  "cmdId": "0336912c-5f4a-44dd-ab73-30db5a0ec29c",
+  "name": "vivado",
+  "logFile": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/vivado/vpl/vivado.log",
+  "commandLine": "vivado -log vivado.log -applog -m64 -messageDb vivado.pb -mode batch -source vpl.tcl -notrace",
+  "args": [
+   "-log",
+   "vivado.log",
+   "-applog",
+   " -m64",
+   "-messageDb",
+   "vivado.pb",
+   "-mode",
+   "batch",
+   "-source",
+   "vpl.tcl",
+   "-notrace"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:12:56 2024",
+ "timestampMillis": "1731975176166",
+ "status": {
+  "cmdId": "0336912c-5f4a-44dd-ab73-30db5a0ec29c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:20:22 2024",
+ "timestampMillis": "1731975622937",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/automation_summary_update_bd.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VITIS_DESIGN_FLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:29:27 2024",
+ "timestampMillis": "1731976167266",
+ "status": {
+  "cmdId": "0336912c-5f4a-44dd-ab73-30db5a0ec29c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:37 2024",
+ "timestampMillis": "1731976237681",
+ "status": {
+  "cmdId": "4a78b86e-3013-4cac-9fcd-ae29d7bc646e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:37 2024",
+ "timestampMillis": "1731976237901",
+ "status": {
+  "cmdId": "11225249-8673-438b-9960-1f90729e99b9",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:30:38 2024",
+ "timestampMillis": "1731976238003",
+ "buildStep": {
+  "cmdId": "5fe8edda-97d5-48c8-913d-4a850d685d30",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "rtdgen",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:38 2024",
+ "timestampMillis": "1731976238004",
+ "status": {
+  "cmdId": "5fe8edda-97d5-48c8-913d-4a850d685d30",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:30:38 2024",
+ "timestampMillis": "1731976238053",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu_xml.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "XCLBIN_INFO",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:30:38 2024",
+ "timestampMillis": "1731976238132",
+ "buildStep": {
+  "cmdId": "4e914053-51fc-4fd0-ad87-c91d37d53b4e",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -a /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/address_map.xml -sdsl /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/sdsl.dat -xclbin /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xclbin_orig.xml -rtd /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.rtd -o /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.xml",
+  "args": [
+   "-a",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/address_map.xml",
+   "-sdsl",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/sdsl.dat",
+   "-xclbin",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/xclbin_orig.xml",
+   "-rtd",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.rtd",
+   "-o",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:38 2024",
+ "timestampMillis": "1731976238133",
+ "status": {
+  "cmdId": "4e914053-51fc-4fd0-ad87-c91d37d53b4e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:42 2024",
+ "timestampMillis": "1731976242885",
+ "status": {
+  "cmdId": "4e914053-51fc-4fd0-ad87-c91d37d53b4e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253194",
+ "buildStep": {
+  "cmdId": "be7f9e4b-40f2-4194-b4de-cf9a98ae6583",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeSystemDiagram",
+  "args": [
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.rtd",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/systemDiagramModelSlrBaseAddress.json"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253195",
+ "status": {
+  "cmdId": "be7f9e4b-40f2-4194-b4de-cf9a98ae6583",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253305",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/systemDiagramModelSlrBaseAddress.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253321",
+ "status": {
+  "cmdId": "be7f9e4b-40f2-4194-b4de-cf9a98ae6583",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253322",
+ "buildStep": {
+  "cmdId": "0a1752a2-426e-43df-be44-6a8f00fbc5b1",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeAutomationSummary",
+  "args": [
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/automation_summary.txt"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253325",
+ "status": {
+  "cmdId": "0a1752a2-426e-43df-be44-6a8f00fbc5b1",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253399",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/automation_summary.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VITIS_DESIGN_FLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253406",
+ "status": {
+  "cmdId": "0a1752a2-426e-43df-be44-6a8f00fbc5b1",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253528",
+ "status": {
+  "cmdId": "5fe8edda-97d5-48c8-913d-4a850d685d30",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253636",
+ "buildStep": {
+  "cmdId": "40790396-2fe9-4e8c-acf4-171dbaccd00b",
+  "name": "xclbinutil",
+  "logFile": "",
+  "commandLine": "xclbinutil --add-section BITSTREAM:RAW:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/behav.xse --force --target hw_emu --key-value SYS:dfx_enable:false --add-section :JSON:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu_xml.rtd --add-section BUILD_METADATA:JSON:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu_build.rtd --add-section EMBEDDED_METADATA:RAW:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.xml --add-section SYSTEM_METADATA:RAW:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u250_gen3x16_xdma_4_1_202210_1 --output /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin",
+  "args": [
+   "--add-section",
+   "BITSTREAM:RAW:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/behav.xse",
+   "--force",
+   "--target",
+   "hw_emu",
+   "--key-value",
+   "SYS:dfx_enable:false",
+   "--add-section",
+   ":JSON:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.rtd",
+   "--add-section",
+   "CLOCK_FREQ_TOPOLOGY:JSON:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu_xml.rtd",
+   "--add-section",
+   "BUILD_METADATA:JSON:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu_build.rtd",
+   "--add-section",
+   "EMBEDDED_METADATA:RAW:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/stencil_kernel_hw_emu.xml",
+   "--add-section",
+   "SYSTEM_METADATA:RAW:/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/link/int/systemDiagramModelSlrBaseAddress.json",
+   "--key-value",
+   "SYS:PlatformVBNV:xilinx_u250_gen3x16_xdma_4_1_202210_1",
+   "--output",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:53 2024",
+ "timestampMillis": "1731976253637",
+ "status": {
+  "cmdId": "40790396-2fe9-4e8c-acf4-171dbaccd00b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:55 2024",
+ "timestampMillis": "1731976255760",
+ "status": {
+  "cmdId": "40790396-2fe9-4e8c-acf4-171dbaccd00b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:30:55 2024",
+ "timestampMillis": "1731976255878",
+ "buildStep": {
+  "cmdId": "70cc5880-64d6-42d5-84c1-e2b45abcf346",
+  "name": "xclbinutilinfo",
+  "logFile": "",
+  "commandLine": "xclbinutil --quiet --force --info /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin.info --input /net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin",
+  "args": [
+   "--quiet",
+   "--force",
+   "--info",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin.info",
+   "--input",
+   "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/stencil_kernel_hw_emu.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:55 2024",
+ "timestampMillis": "1731976255878",
+ "status": {
+  "cmdId": "70cc5880-64d6-42d5-84c1-e2b45abcf346",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:57 2024",
+ "timestampMillis": "1731976257742",
+ "status": {
+  "cmdId": "70cc5880-64d6-42d5-84c1-e2b45abcf346",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov 18 17:30:57 2024",
+ "timestampMillis": "1731976257802",
+ "buildStep": {
+  "cmdId": "7016e395-a0c5-4ba2-b8d0-2a3f28f314db",
+  "name": "generate_sc_driver",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:57 2024",
+ "timestampMillis": "1731976257803",
+ "status": {
+  "cmdId": "7016e395-a0c5-4ba2-b8d0-2a3f28f314db",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:30:57 2024",
+ "timestampMillis": "1731976257835",
+ "status": {
+  "cmdId": "7016e395-a0c5-4ba2-b8d0-2a3f28f314db",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:30:57 2024",
+ "timestampMillis": "1731976257954",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/reports/link/system_estimate_stencil_kernel_hw_emu.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:31:40 2024",
+ "timestampMillis": "1731976300137",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov 18 17:31:40 2024",
+ "timestampMillis": "1731976300212",
+ "status": {
+  "cmdId": "5c2e68bf-3ff6-4237-95e6-d40f316a8ef7",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:31:40 2024",
+ "timestampMillis": "1731976300399",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/reports/link/v++_link_stencil_kernel_hw_emu_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov 18 17:31:40 2024",
+ "timestampMillis": "1731976300401",
+ "report": {
+  "path": "/net/myshella/home/grodzki/PyVectors/.dacecache/stencil_kernel/build/_x/v++_link_stencil_kernel_hw_emu_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

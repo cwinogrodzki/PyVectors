@@ -1,0 +1,223 @@
+
+*** Running vivado
+    with args -log bd_1361_fanout_aresetn_kernel_00_slr0_4_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_1361_fanout_aresetn_kernel_00_slr0_4_0.tcl
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_1361_fanout_aresetn_kernel_00_slr0_4_0.tcl -notrace
+INFO: Dispatch client connection id - 43863
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2092.578 ; gain = 129.047 ; free physical = 320 ; free virtual = 5560
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/int/xo/ip_repo/xilinx_com_hls_atax_0_0_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/pipeline_reg_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_1361_fanout_aresetn_kernel_00_slr0_4_0
+Command: synth_design -top bd_1361_fanout_aresetn_kernel_00_slr0_4_0 -part xcu250-figd2104-2L-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu250'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu250'
+INFO: [Device 21-403] Loading part xcu250-figd2104-2L-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 1 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2057655
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3708.305 ; gain = 369.766 ; free physical = 267 ; free virtual = 6012
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_1361_fanout_aresetn_kernel_00_slr0_4_0' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ss_ucs_0/bd_0/ip/ip_70/synth/bd_1361_fanout_aresetn_kernel_00_slr0_4_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'pipeline_reg_v1_0_0' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/e13f/hdl/pipeline_reg_v1_0_vl_rfs.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'pipeline_reg_v1_0_0' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/e13f/hdl/pipeline_reg_v1_0_vl_rfs.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'bd_1361_fanout_aresetn_kernel_00_slr0_4_0' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ss_ucs_0/bd_0/ip/ip_70/synth/bd_1361_fanout_aresetn_kernel_00_slr0_4_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 3779.211 ; gain = 440.672 ; free physical = 324 ; free virtual = 5274
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 3791.086 ; gain = 452.547 ; free physical = 319 ; free virtual = 5265
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 3791.086 ; gain = 452.547 ; free physical = 319 ; free virtual = 5265
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3791.086 ; gain = 0.000 ; free physical = 314 ; free virtual = 5264
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3825.895 ; gain = 0.000 ; free physical = 408 ; free virtual = 5633
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3825.895 ; gain = 0.000 ; free physical = 398 ; free virtual = 5631
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3825.895 ; gain = 487.355 ; free physical = 313 ; free virtual = 5361
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcu250-figd2104-2L-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 3825.895 ; gain = 487.355 ; free physical = 347 ; free virtual = 5356
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 3825.895 ; gain = 487.355 ; free physical = 347 ; free virtual = 5350
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 3825.895 ; gain = 487.355 ; free physical = 327 ; free virtual = 5315
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 12288 (col length:96)
+BRAMs: 5376 (col length: RAMB18 384 RAMB36 192)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 3825.895 ; gain = 487.355 ; free physical = 341 ; free virtual = 5274
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 4169.230 ; gain = 830.691 ; free physical = 1476 ; free virtual = 4837
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 4169.230 ; gain = 830.691 ; free physical = 1474 ; free virtual = 4836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 4189.262 ; gain = 850.723 ; free physical = 1451 ; free virtual = 4818
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4195.199 ; gain = 856.660 ; free physical = 2985 ; free virtual = 10852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4195.199 ; gain = 856.660 ; free physical = 2985 ; free virtual = 10853
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4195.199 ; gain = 856.660 ; free physical = 2985 ; free virtual = 10852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4195.199 ; gain = 856.660 ; free physical = 2983 ; free virtual = 10851
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4195.199 ; gain = 856.660 ; free physical = 2981 ; free virtual = 10849
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4195.199 ; gain = 856.660 ; free physical = 2980 ; free virtual = 10849
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |FDRE |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4195.199 ; gain = 856.660 ; free physical = 2978 ; free virtual = 10847
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:41 . Memory (MB): peak = 4195.199 ; gain = 821.852 ; free physical = 2705 ; free virtual = 10616
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4195.207 ; gain = 856.660 ; free physical = 2681 ; free virtual = 10595
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4210.137 ; gain = 0.000 ; free physical = 2731 ; free virtual = 10719
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4277.816 ; gain = 0.000 ; free physical = 1067 ; free virtual = 9195
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 28137bdb
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:08 . Memory (MB): peak = 4277.816 ; gain = 2077.676 ; free physical = 993 ; free virtual = 9129
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3326.816; main = 3089.291; forked = 325.903
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 5167.375; main = 4277.820; forked = 978.109
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/bd_1361_fanout_aresetn_kernel_00_slr0_4_0_synth_1/bd_1361_fanout_aresetn_kernel_00_slr0_4_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_1361_fanout_aresetn_kernel_00_slr0_4_0, cache-ID = 296ac35fc2695bfa
+INFO: [Common 17-1381] The checkpoint '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/bd_1361_fanout_aresetn_kernel_00_slr0_4_0_synth_1/bd_1361_fanout_aresetn_kernel_00_slr0_4_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_1361_fanout_aresetn_kernel_00_slr0_4_0_utilization_synth.rpt -pb bd_1361_fanout_aresetn_kernel_00_slr0_4_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 16:46:48 2024...

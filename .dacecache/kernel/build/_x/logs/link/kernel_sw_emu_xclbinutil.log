@@ -1,0 +1,52 @@
+XRT Build Version: 2.15.0 (Vitis)
+       Build Date: 2023-01-17 15:08:40
+          Hash ID: e9fc047c277d2d5b1991962729f4b5ed76110bb6
+Creating a default 'in-memory' xclbin image.
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 516472 bytes
+Format : RAW
+File   : '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/link/int/kernel_sw_emu.so'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+WARNING: Skipping CLOCK_FREQ_TOPOLOGY section for count size is zero.
+WARNING: Section 'CLOCK_FREQ_TOPOLOGY' content is empty.  No data in the given JSON file.
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was empty.  No action taken.
+Format : JSON
+File   : '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/link/int/kernel_sw_emu_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 3572 bytes
+Format : JSON
+File   : '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/link/int/kernel_sw_emu_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 3801 bytes
+Format : RAW
+File   : '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/link/int/kernel_sw_emu.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 9772 bytes
+Format : RAW
+File   : '/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/link/int/systemDiagramModel.json'
+
+Section: 'PARTITION_METADATA'(20) was successfully appended to.
+Format : JSON
+File   : 'partition_metadata'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (548897 bytes) to the output file: /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/kernel_sw_emu.xclbin
+Leaving xclbinutil.

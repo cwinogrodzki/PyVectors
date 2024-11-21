@@ -1,0 +1,404 @@
+{
+  "0": {
+    "basicblocks": 22,
+    "calls": "2 27 13 41 19 10 22 12 26 28 34 31 20",
+    "file": "kernel_0_0.cpp",
+    "fileloc": 295,
+    "instructions": 128,
+    "name": "kernel_0_0",
+    "total_instructions": 794
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "6 8",
+    "file": "stream.h",
+    "fileloc": 47,
+    "instructions": 5,
+    "name": "push_blocking<double &>",
+    "total_instructions": 18
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "stream.h",
+    "fileloc": 88,
+    "instructions": 1,
+    "name": "SetNames<double, 1, 70>",
+    "total_instructions": 1
+  },
+  "11": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Stream.h",
+    "fileloc": 130,
+    "instructions": 1,
+    "name": "~Stream",
+    "total_instructions": 1
+  },
+  "12": {
+    "basicblocks": 22,
+    "calls": "33",
+    "file": "kernel_0_0.cpp",
+    "fileloc": 61,
+    "instructions": 48,
+    "loads": {
+      "L": 1
+    },
+    "name": "module_init_dummy_B_25_read_B_27_0",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 68
+  },
+  "13": {
+    "basicblocks": 1,
+    "calls": "38",
+    "file": "stream.h",
+    "fileloc": 17,
+    "instructions": 3,
+    "name": "FIFO",
+    "total_instructions": 17
+  },
+  "14": {
+    "basicblocks": 1,
+    "calls": "16",
+    "file": "Stream.h",
+    "fileloc": 497,
+    "instructions": 6,
+    "name": "Stream",
+    "total_instructions": 12
+  },
+  "15": {
+    "basicblocks": 1,
+    "calls": "11",
+    "file": "Stream.h",
+    "fileloc": 490,
+    "instructions": 3,
+    "name": "~Stream",
+    "total_instructions": 4
+  },
+  "16": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Stream.h",
+    "fileloc": 112,
+    "instructions": 3,
+    "name": "Stream",
+    "total_instructions": 6
+  },
+  "17": {
+    "basicblocks": 1,
+    "calls": "30",
+    "file": "stream.h",
+    "fileloc": 53,
+    "instructions": 2,
+    "name": "push<double>",
+    "total_instructions": 20
+  },
+  "18": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Stream.h",
+    "fileloc": 196,
+    "instructions": 3,
+    "name": "ReadBlocking",
+    "total_instructions": 15
+  },
+  "19": {
+    "basicblocks": 1,
+    "calls": "3",
+    "file": "stream.h",
+    "fileloc": 17,
+    "instructions": 3,
+    "name": "FIFO",
+    "total_instructions": 17
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "4",
+    "file": "stream.h",
+    "fileloc": 17,
+    "instructions": 3,
+    "name": "FIFO",
+    "total_instructions": 17
+  },
+  "20": {
+    "basicblocks": 1,
+    "calls": "36",
+    "file": "stream.h",
+    "fileloc": 27,
+    "instructions": 3,
+    "name": "~FIFO",
+    "total_instructions": 7
+  },
+  "21": {
+    "basicblocks": 1,
+    "calls": "1",
+    "file": "stream.h",
+    "fileloc": 53,
+    "instructions": 2,
+    "name": "push<double &>",
+    "total_instructions": 20
+  },
+  "22": {
+    "basicblocks": 34,
+    "calls": "21",
+    "file": "kernel_0_0.cpp",
+    "fileloc": 13,
+    "instructions": 81,
+    "loads": {
+      "L": 2
+    },
+    "name": "module__Mult__7_0",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 101
+  },
+  "23": {
+    "basicblocks": 1,
+    "calls": "18",
+    "file": "stream.h",
+    "fileloc": 31,
+    "instructions": 4,
+    "name": "pop_blocking",
+    "total_instructions": 19
+  },
+  "24": {
+    "basicblocks": 1,
+    "calls": "18",
+    "file": "stream.h",
+    "fileloc": 31,
+    "instructions": 4,
+    "name": "pop_blocking",
+    "total_instructions": 19
+  },
+  "25": {
+    "basicblocks": 1,
+    "calls": "35",
+    "file": "stream.h",
+    "fileloc": 36,
+    "instructions": 2,
+    "name": "pop",
+    "total_instructions": 21
+  },
+  "26": {
+    "basicblocks": 64,
+    "calls": "25 40 33 7 17",
+    "file": "kernel_0_0.cpp",
+    "fileloc": 101,
+    "instructions": 182,
+    "loads": {
+      "L": 2
+    },
+    "name": "module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 285
+  },
+  "27": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "stream.h",
+    "fileloc": 88,
+    "instructions": 1,
+    "name": "SetNames<double, 1, 32>",
+    "total_instructions": 1
+  },
+  "28": {
+    "basicblocks": 46,
+    "calls": "7",
+    "file": "kernel_0_0.cpp",
+    "fileloc": 227,
+    "instructions": 116,
+    "loads": {
+      "L": 3
+    },
+    "name": "module_write_C_51__Mult__12_0",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 137
+  },
+  "29": {
+    "basicblocks": 1,
+    "calls": "16",
+    "file": "Stream.h",
+    "fileloc": 497,
+    "instructions": 6,
+    "name": "Stream",
+    "total_instructions": 12
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "29",
+    "file": "Stream.h",
+    "fileloc": 493,
+    "instructions": 2,
+    "name": "Stream",
+    "total_instructions": 14
+  },
+  "30": {
+    "basicblocks": 1,
+    "calls": "6 8",
+    "file": "stream.h",
+    "fileloc": 47,
+    "instructions": 5,
+    "name": "push_blocking<double &>",
+    "total_instructions": 18
+  },
+  "31": {
+    "basicblocks": 1,
+    "calls": "15",
+    "file": "stream.h",
+    "fileloc": 27,
+    "instructions": 3,
+    "name": "~FIFO",
+    "total_instructions": 7
+  },
+  "32": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "limits",
+    "fileloc": 1002,
+    "instructions": 1,
+    "name": "max",
+    "total_instructions": 1
+  },
+  "33": {
+    "basicblocks": 1,
+    "calls": "37",
+    "file": "stream.h",
+    "fileloc": 53,
+    "instructions": 2,
+    "name": "push<double &>",
+    "total_instructions": 20
+  },
+  "34": {
+    "basicblocks": 1,
+    "calls": "39",
+    "file": "stream.h",
+    "fileloc": 27,
+    "instructions": 3,
+    "name": "~FIFO",
+    "total_instructions": 7
+  },
+  "35": {
+    "basicblocks": 1,
+    "calls": "18",
+    "file": "stream.h",
+    "fileloc": 31,
+    "instructions": 4,
+    "name": "pop_blocking",
+    "total_instructions": 19
+  },
+  "36": {
+    "basicblocks": 1,
+    "calls": "11",
+    "file": "Stream.h",
+    "fileloc": 490,
+    "instructions": 3,
+    "name": "~Stream",
+    "total_instructions": 4
+  },
+  "37": {
+    "basicblocks": 1,
+    "calls": "6 8",
+    "file": "stream.h",
+    "fileloc": 47,
+    "instructions": 5,
+    "name": "push_blocking<double &>",
+    "total_instructions": 18
+  },
+  "38": {
+    "basicblocks": 1,
+    "calls": "14",
+    "file": "Stream.h",
+    "fileloc": 493,
+    "instructions": 2,
+    "name": "Stream",
+    "total_instructions": 14
+  },
+  "39": {
+    "basicblocks": 1,
+    "calls": "11",
+    "file": "Stream.h",
+    "fileloc": 490,
+    "instructions": 3,
+    "name": "~Stream",
+    "total_instructions": 4
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "9",
+    "file": "Stream.h",
+    "fileloc": 493,
+    "instructions": 2,
+    "name": "Stream",
+    "total_instructions": 14
+  },
+  "40": {
+    "basicblocks": 1,
+    "calls": "24",
+    "file": "stream.h",
+    "fileloc": 36,
+    "instructions": 2,
+    "name": "pop",
+    "total_instructions": 21
+  },
+  "41": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "stream.h",
+    "fileloc": 88,
+    "instructions": 1,
+    "name": "SetNames<double, 1, 1>",
+    "total_instructions": 1
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Stream.h",
+    "fileloc": 404,
+    "instructions": 3,
+    "name": "WriteBlocking",
+    "total_instructions": 7
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "move.h",
+    "fileloc": 74,
+    "instructions": 1,
+    "name": "forward<double &>",
+    "total_instructions": 1
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "23",
+    "file": "stream.h",
+    "fileloc": 36,
+    "instructions": 2,
+    "name": "pop",
+    "total_instructions": 21
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "32 5",
+    "file": "Stream.h",
+    "fileloc": 272,
+    "instructions": 4,
+    "name": "WriteBlocking",
+    "total_instructions": 12
+  },
+  "9": {
+    "basicblocks": 1,
+    "calls": "16",
+    "file": "Stream.h",
+    "fileloc": 497,
+    "instructions": 6,
+    "name": "Stream",
+    "total_instructions": 12
+  }
+}

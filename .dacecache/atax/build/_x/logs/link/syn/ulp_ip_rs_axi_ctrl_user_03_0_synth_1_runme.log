@@ -1,0 +1,429 @@
+
+*** Running vivado
+    with args -log ulp_ip_rs_axi_ctrl_user_03_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ulp_ip_rs_axi_ctrl_user_03_0.tcl
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ulp_ip_rs_axi_ctrl_user_03_0.tcl -notrace
+INFO: Dispatch client connection id - 43863
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2092.355 ; gain = 130.039 ; free physical = 1517 ; free virtual = 19886
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/int/xo/ip_repo/xilinx_com_hls_atax_0_0_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rasr/pkgs/vitis_2023.1/Vitis/2023.1/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/pipeline_reg_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/pxi_ii_infra/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/.local/hw_platform/iprepo/ip_repo/shell_subsystem_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ulp_ip_rs_axi_ctrl_user_03_0
+Command: synth_design -top ulp_ip_rs_axi_ctrl_user_03_0 -part xcu250-figd2104-2L-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu250'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu250'
+INFO: [Device 21-403] Loading part xcu250-figd2104-2L-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 1 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2066229
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 3709.082 ; gain = 368.797 ; free physical = 341 ; free virtual = 14319
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ulp_ip_rs_axi_ctrl_user_03_0' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ip_rs_axi_ctrl_user_03_0/synth/ulp_ip_rs_axi_ctrl_user_03_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axi_register_slice' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_multi_slr' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2200]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_source_region_slr' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2853]
+INFO: [Synth 8-6157] synthesizing module 'FDCE' [/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/scripts/rt/data/unisim_comp.v:38932]
+INFO: [Synth 8-6155] done synthesizing module 'FDCE' (0#1) [/home/rasr/pkgs/vitis_2023.1/Vivado/2023.1/scripts/rt/data/unisim_comp.v:38932]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_source_region_slr' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2853]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_dest_region_slr' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3037]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_reg_srl_fifo' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3441]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_srl_rtl' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_srl_rtl' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_reg_srl_fifo' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3441]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_dest_region_slr' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3037]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_multi_slr' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2200]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_multi_slr__parameterized0' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2200]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_source_region_slr__parameterized0' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2853]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_source_region_slr__parameterized0' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2853]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_dest_region_slr__parameterized0' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3037]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_reg_srl_fifo__parameterized0' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3441]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_reg_srl_fifo__parameterized0' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3441]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_dest_region_slr__parameterized0' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3037]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_multi_slr__parameterized0' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2200]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_multi_slr__parameterized1' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2200]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_source_region_slr__parameterized1' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2853]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_source_region_slr__parameterized1' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2853]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_dest_region_slr__parameterized1' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3037]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_reg_srl_fifo__parameterized1' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3441]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_reg_srl_fifo__parameterized1' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3441]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_dest_region_slr__parameterized1' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3037]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_multi_slr__parameterized1' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2200]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_multi_slr__parameterized2' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2200]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_source_region_slr__parameterized2' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2853]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_source_region_slr__parameterized2' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2853]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_dest_region_slr__parameterized2' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3037]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_reg_srl_fifo__parameterized2' [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3441]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_reg_srl_fifo__parameterized2' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3441]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_dest_region_slr__parameterized2' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3037]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_multi_slr__parameterized2' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2200]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axi_register_slice' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+INFO: [Synth 8-6155] done synthesizing module 'ulp_ip_rs_axi_ctrl_user_03_0' (0#1) [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ip_rs_axi_ctrl_user_03_0/synth/ulp_ip_rs_axi_ctrl_user_03_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element common.areset_dly_reg was removed.  [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3189]
+WARNING: [Synth 8-6014] Unused sequential element common.areset_dly_reg was removed.  [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3189]
+WARNING: [Synth 8-6014] Unused sequential element common.areset_dly_reg was removed.  [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2959]
+WARNING: [Synth 8-6014] Unused sequential element common.areset_dly_reg was removed.  [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:2959]
+WARNING: [Synth 8-7129] Port ACLK2X in module axi_register_slice_v2_1_28_dest_region_slr__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axi_register_slice_v2_1_28_source_region_slr__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axi_register_slice_v2_1_28_dest_region_slr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axi_register_slice_v2_1_28_source_region_slr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axi_register_slice_v2_1_28_dest_region_slr__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axi_register_slice_v2_1_28_source_region_slr__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axi_register_slice_v2_1_28_dest_region_slr__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axi_register_slice_v2_1_28_source_region_slr__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bid[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rid[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rlast in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[7] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[6] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[5] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[4] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[3] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlock[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[3] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[3] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[3] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wlast in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[7] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[6] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[5] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[4] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[3] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arsize[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arsize[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arsize[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arburst[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arburst[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlock[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arcache[3] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arcache[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arcache[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arcache[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[3] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arqos[3] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arqos[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arqos[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arqos[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 3787.988 ; gain = 447.703 ; free physical = 282 ; free virtual = 13364
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 3790.957 ; gain = 450.672 ; free physical = 275 ; free virtual = 13267
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 3790.957 ; gain = 450.672 ; free physical = 276 ; free virtual = 13267
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3801.926 ; gain = 0.000 ; free physical = 271 ; free virtual = 12868
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ip_rs_axi_ctrl_user_03_0/ulp_ip_rs_axi_ctrl_user_03_0_ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 3900.609 ; gain = 2.969 ; free physical = 269 ; free virtual = 10476
+Finished Parsing XDC File [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ip_rs_axi_ctrl_user_03_0/ulp_ip_rs_axi_ctrl_user_03_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/ulp_ip_rs_axi_ctrl_user_03_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/ulp_ip_rs_axi_ctrl_user_03_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ip_rs_axi_ctrl_user_03_0/ulp_ip_rs_axi_ctrl_user_03_0_clocks.xdc] for cell 'inst'
+Finished Parsing XDC File [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ip_rs_axi_ctrl_user_03_0/ulp_ip_rs_axi_ctrl_user_03_0_clocks.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_ip_rs_axi_ctrl_user_03_0/ulp_ip_rs_axi_ctrl_user_03_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ulp_ip_rs_axi_ctrl_user_03_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ulp_ip_rs_axi_ctrl_user_03_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3900.609 ; gain = 0.000 ; free physical = 383 ; free virtual = 9930
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.1 . Memory (MB): peak = 3900.609 ; gain = 0.000 ; free physical = 376 ; free virtual = 9926
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 3900.609 ; gain = 560.324 ; free physical = 2030 ; free virtual = 12014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcu250-figd2104-2L-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 3900.609 ; gain = 560.324 ; free physical = 2031 ; free virtual = 12015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/ulp_ip_rs_axi_ctrl_user_03_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 3900.609 ; gain = 560.324 ; free physical = 2029 ; free virtual = 12015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:44 . Memory (MB): peak = 3900.609 ; gain = 560.324 ; free physical = 1798 ; free virtual = 11842
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 5     
++---Registers : 
+	               36 Bit    Registers := 3     
+	               34 Bit    Registers := 3     
+	               28 Bit    Registers := 6     
+	               16 Bit    Registers := 5     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 65    
++---Muxes : 
+	   2 Input   36 Bit        Muxes := 1     
+	   2 Input   34 Bit        Muxes := 1     
+	   2 Input   28 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 11    
+	   4 Input    2 Bit        Muxes := 5     
+	   8 Input    2 Bit        Muxes := 5     
+	   4 Input    1 Bit        Muxes := 15    
+	  10 Input    1 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 5     
+	   7 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 12288 (col length:96)
+BRAMs: 5376 (col length: RAMB18 384 RAMB36 192)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[0] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[7] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[6] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[5] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[4] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[3] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[2] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[1] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[0] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[2] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[1] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[0] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[1] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[0] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlock[0] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[3] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[2] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[1] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[0] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[3] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[2] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[1] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[0] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[3] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[2] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[1] in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3332] Sequential element (aw15.aw_multi/dual_slr.fwd.slr_master/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (aw15.aw_multi/dual_slr.fwd.slr_slave/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (w15.w_multi/dual_slr.fwd.slr_master/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (w15.w_multi/dual_slr.fwd.slr_slave/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (b15.b_multi/dual_slr.resp.slr_slave/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (b15.b_multi/dual_slr.resp.slr_master/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (ar15.ar_multi/dual_slr.fwd.slr_master/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (ar15.ar_multi/dual_slr.fwd.slr_slave/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (r15.r_multi/dual_slr.resp.slr_slave/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+INFO: [Synth 8-3332] Sequential element (r15.r_multi/dual_slr.resp.slr_master/common.pipe[0].payload_valid_asyncclear_inst) is unused and will be removed from module axi_register_slice_v2_1_28_axi_register_slice.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:46 . Memory (MB): peak = 3900.609 ; gain = 560.324 ; free physical = 292 ; free virtual = 10340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:01:08 . Memory (MB): peak = 4185.969 ; gain = 845.684 ; free physical = 348 ; free virtual = 8094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:09 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 322 ; free virtual = 7960
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:01:09 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 287 ; free virtual = 8154
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:01:14 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 294 ; free virtual = 7632
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:01:14 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 295 ; free virtual = 7631
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:01:14 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 317 ; free virtual = 7623
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:01:14 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 319 ; free virtual = 7620
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:01:14 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 330 ; free virtual = 7605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:01:14 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 329 ; free virtual = 7604
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name      | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | shift_reg_reg | 16     | 1          | 1      | 0       | 0      | 0      | 0      | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |    11|
+|2     |LUT2   |    15|
+|3     |LUT4   |   148|
+|4     |LUT5   |    15|
+|5     |LUT6   |    15|
+|6     |SRL16E |   128|
+|7     |FDCE   |    25|
+|8     |FDRE   |   454|
+|9     |FDSE   |    95|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 4223.016 ; gain = 882.730 ; free physical = 317 ; free virtual = 7570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 66 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:56 . Memory (MB): peak = 4223.016 ; gain = 773.078 ; free physical = 313 ; free virtual = 7762
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 4223.023 ; gain = 882.730 ; free physical = 323 ; free virtual = 7806
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4223.023 ; gain = 0.000 ; free physical = 342 ; free virtual = 7703
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4300.633 ; gain = 0.000 ; free physical = 280 ; free virtual = 7392
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 9c859fbc
+INFO: [Common 17-83] Releasing license: Synthesis
+77 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:11 ; elapsed = 00:01:39 . Memory (MB): peak = 4300.633 ; gain = 2100.715 ; free physical = 383 ; free virtual = 7104
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2254.062; main = 1952.588; forked = 304.886
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 5201.078; main = 4300.637; forked = 978.059
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/ulp_ip_rs_axi_ctrl_user_03_0_synth_1/ulp_ip_rs_axi_ctrl_user_03_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ulp_ip_rs_axi_ctrl_user_03_0, cache-ID = 3bf5490eb7838099
+INFO: [Coretcl 2-1174] Renamed 149 cell refs.
+INFO: [Common 17-1381] The checkpoint '/net/myshella/home/grodzki/PyVectors/.dacecache/atax/build/_x/link/vivado/vpl/prj/prj.runs/ulp_ip_rs_axi_ctrl_user_03_0_synth_1/ulp_ip_rs_axi_ctrl_user_03_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ulp_ip_rs_axi_ctrl_user_03_0_utilization_synth.rpt -pb ulp_ip_rs_axi_ctrl_user_03_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 16:56:27 2024...

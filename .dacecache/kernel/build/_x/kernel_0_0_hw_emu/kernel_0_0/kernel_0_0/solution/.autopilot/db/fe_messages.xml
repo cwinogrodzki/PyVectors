@@ -1,0 +1,673 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:312:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/reduction.h:499:38" msg_body="unused parameter 'a'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:88:48" msg_body="unused parameter 'fifos'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:88:75" msg_body="unused parameter 'str'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:89:30" msg_body="unused parameter 'num'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="_Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="_Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:55:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Shift" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:56:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Shift" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buffer_ false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:65:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:79:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Shift" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Shift" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buffer_ false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:87:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:88:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Get" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buffer_ false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:100:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Shift" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:124:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Shift" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:137:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:154:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Shift" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:160:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:133:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="DataPack&lt;T, width&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:138:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="DataPack&lt;T, width&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:143:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator type-parameter-0-0" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Get" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:175:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Set" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:189:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Fill" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:192:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Fill" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:198:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pack" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:201:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pack" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:207:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Unpack" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:210:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Unpack" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Range" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:221:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Range" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:228:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&lt;&lt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:233:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&gt;&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:238:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:252:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ShiftTo" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:257:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ShiftTo" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:285:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="DataPackProxy&lt;T, width&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:295:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:300:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:305:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:315:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator type-parameter-0-0" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:330:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator^" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator^" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator^=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator^=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator|" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator|" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator|=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator|=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&amp;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&amp;" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&amp;=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&amp;=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:24:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Apply" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Apply" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:67:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Apply" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Apply" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:93:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Apply" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:108:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Apply" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:111:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Apply" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:117:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="identity" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:120:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="identity" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="f" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="f" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=reduced complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="f" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:43:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="f" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:55:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="f" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:79:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TreeReduce" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:84:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;type-parameter-0-0, 0, hlslib::Storage::Unspecified&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:92:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;type-parameter-0-0, 0, hlslib::Storage::Unspecified&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;type-parameter-0-0, 0, hlslib::Storage::Unspecified&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:145:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Push" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:152:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pop" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:168:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:174:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:180:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:186:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:198:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReadBlocking" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:236:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReadNonBlocking" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReadOptimistic" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:276:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="WriteBlocking" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:292:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="WriteOptimistic" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:303:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="WriteOptimistic" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:323:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="IsEmpty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:342:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Size" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:405:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="WriteBlocking" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:442:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="WriteNonBlocking" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:460:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="IsFull" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:494:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;T, depth, &gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:498:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;T, depth, &gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:500:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;T, depth, &gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=this-&gt;stream_ depth=depth" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:502:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;T, depth, &gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=this-&gt;stream_ type=FIFO impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:504:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;T, depth, &gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=this-&gt;stream_ type=FIFO impl=LUTRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:506:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream&lt;T, depth, &gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=this-&gt;stream_ type=FIFO impl=SRL" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="FIFO&lt;T, vector_length, capacity&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="FIFO&lt;T, vector_length, capacity&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="pop_blocking" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="pop" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:42:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="pop_try" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="push_blocking" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:54:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="push" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:62:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:68:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:73:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator typename conditional&lt;(width &gt; 1), DataPack&lt;type-parameter-0-0, width&gt;, type-parameter-0-0&gt;::type" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:90:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SetNames" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pack" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:38:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pack" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Unpack" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Unpack" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:79:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReduceImpl" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:93:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReduceImpl" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:110:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReduceImpl" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:122:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReduceImpl" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:135:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReduceImpl" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Reduce" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:160:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="reduce" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:174:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="reduce" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/math.h:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fabs" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module__Mult__7_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module__Mult__7_0" ARG_PragmaIsValid="1" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module__Mult__7_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:42:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module__Mult__7_0" ARG_PragmaIsValid="1" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_init_dummy_B_25_read_B_27_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:81:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_init_dummy_B_25_read_B_27_0" ARG_PragmaIsValid="1" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:115:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:116:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0" ARG_PragmaIsValid="1" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:117:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=C_buffer false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:232:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_write_C_51__Mult__12_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:233:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_write_C_51__Mult__12_0" ARG_PragmaIsValid="1" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:255:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_write_C_51__Mult__12_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_write_C_51__Mult__12_0" ARG_PragmaIsValid="1" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:276:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_write_C_51__Mult__12_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:277:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="module_write_C_51__Mult__12_0" ARG_PragmaIsValid="1" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0.tcl:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=kernel_0_0" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:296:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=__tmp0_0 offset=slave bundle=gmem0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:297:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=__tmp1_0 offset=slave bundle=gmem1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:298:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=__tmp2_0 offset=slave bundle=gmem2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:299:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=fpga_A_0 offset=slave bundle=gmem3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:300:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=fpga_B_0 offset=slave bundle=gmem4" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:301:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=fpga_C_0 offset=slave bundle=gmem5" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:302:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=__tmp0_0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:303:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=__tmp1_0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:304:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=__tmp2_0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:305:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=alpha bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:306:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=beta bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:307:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=fpga_A_0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:308:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=fpga_B_0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:309:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=fpga_C_0 bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:312:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:324:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="kernel_0_0" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:497:36" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::Stream(char const*, unsigned long, hlslib::Storage)' into 'hlslib::Stream&lt;double, 32ul, (hlslib::Storage)0&gt;::Stream(char const*)'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::Stream(char const*, unsigned long, hlslib::Storage)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 112 Column 0" Caller="hlslib::Stream&lt;double, 32ul, (hlslib::Storage)0&gt;::Stream(char const*)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 497 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:493:14" msg_body="Inlining function 'hlslib::Stream&lt;double, 32ul, (hlslib::Storage)0&gt;::Stream(char const*)' into 'hlslib::Stream&lt;double, 32ul, (hlslib::Storage)0&gt;::Stream()'">
+        <args Callee="hlslib::Stream&lt;double, 32ul, (hlslib::Storage)0&gt;::Stream(char const*)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 497 Column 0" Caller="hlslib::Stream&lt;double, 32ul, (hlslib::Storage)0&gt;::Stream()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 493 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:17:12" msg_body="Inlining function 'hlslib::Stream&lt;double, 32ul, (hlslib::Storage)0&gt;::Stream()' into 'dace::FIFO&lt;double, 1u, 32u&gt;::FIFO()'">
+        <args Callee="hlslib::Stream&lt;double, 32ul, (hlslib::Storage)0&gt;::Stream()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 493 Column 0" Caller="dace::FIFO&lt;double, 1u, 32u&gt;::FIFO()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 17 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:497:36" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::Stream(char const*, unsigned long, hlslib::Storage)' into 'hlslib::Stream&lt;double, 1ul, (hlslib::Storage)0&gt;::Stream(char const*)'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::Stream(char const*, unsigned long, hlslib::Storage)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 112 Column 0" Caller="hlslib::Stream&lt;double, 1ul, (hlslib::Storage)0&gt;::Stream(char const*)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 497 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:493:14" msg_body="Inlining function 'hlslib::Stream&lt;double, 1ul, (hlslib::Storage)0&gt;::Stream(char const*)' into 'hlslib::Stream&lt;double, 1ul, (hlslib::Storage)0&gt;::Stream()'">
+        <args Callee="hlslib::Stream&lt;double, 1ul, (hlslib::Storage)0&gt;::Stream(char const*)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 497 Column 0" Caller="hlslib::Stream&lt;double, 1ul, (hlslib::Storage)0&gt;::Stream()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 493 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:17:12" msg_body="Inlining function 'hlslib::Stream&lt;double, 1ul, (hlslib::Storage)0&gt;::Stream()' into 'dace::FIFO&lt;double, 1u, 1u&gt;::FIFO()'">
+        <args Callee="hlslib::Stream&lt;double, 1ul, (hlslib::Storage)0&gt;::Stream()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 493 Column 0" Caller="dace::FIFO&lt;double, 1u, 1u&gt;::FIFO()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 17 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:497:36" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::Stream(char const*, unsigned long, hlslib::Storage)' into 'hlslib::Stream&lt;double, 70ul, (hlslib::Storage)0&gt;::Stream(char const*)'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::Stream(char const*, unsigned long, hlslib::Storage)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 112 Column 0" Caller="hlslib::Stream&lt;double, 70ul, (hlslib::Storage)0&gt;::Stream(char const*)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 497 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:493:14" msg_body="Inlining function 'hlslib::Stream&lt;double, 70ul, (hlslib::Storage)0&gt;::Stream(char const*)' into 'hlslib::Stream&lt;double, 70ul, (hlslib::Storage)0&gt;::Stream()'">
+        <args Callee="hlslib::Stream&lt;double, 70ul, (hlslib::Storage)0&gt;::Stream(char const*)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 497 Column 0" Caller="hlslib::Stream&lt;double, 70ul, (hlslib::Storage)0&gt;::Stream()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 493 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:17:12" msg_body="Inlining function 'hlslib::Stream&lt;double, 70ul, (hlslib::Storage)0&gt;::Stream()' into 'dace::FIFO&lt;double, 1u, 70u&gt;::FIFO()'">
+        <args Callee="hlslib::Stream&lt;double, 70ul, (hlslib::Storage)0&gt;::Stream()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 493 Column 0" Caller="dace::FIFO&lt;double, 1u, 70u&gt;::FIFO()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 17 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:277:2" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;, unsigned long)' into 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;)'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;, unsigned long)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 404 Column 0" Caller="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 272 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:49:10" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;)' into 'void dace::FIFO&lt;double, 1u, 32u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 272 Column 0" Caller="void dace::FIFO&lt;double, 1u, 32u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 47 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:55:2" msg_body="Inlining function 'void dace::FIFO&lt;double, 1u, 32u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)' into 'void dace::FIFO&lt;double, 1u, 32u&gt;::push&lt;double&amp;&gt;(double&amp;)'">
+        <args Callee="void dace::FIFO&lt;double, 1u, 32u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 47 Column 0" Caller="void dace::FIFO&lt;double, 1u, 32u&gt;::push&lt;double&amp;&gt;(double&amp;)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 53 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:50:47" msg_body="Inlining function 'void dace::FIFO&lt;double, 1u, 32u&gt;::push&lt;double&amp;&gt;(double&amp;)' into 'module__Mult__7_0(dace::FIFO&lt;double, 1u, 32u&gt;*, double*, double, double*)'">
+        <args Callee="void dace::FIFO&lt;double, 1u, 32u&gt;::push&lt;double&amp;&gt;(double&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 53 Column 0" Caller="module__Mult__7_0(dace::FIFO&lt;double, 1u, 32u&gt;*, double*, double, double*)" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 13 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:49:10" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;)' into 'void dace::FIFO&lt;double, 1u, 1u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 272 Column 0" Caller="void dace::FIFO&lt;double, 1u, 1u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 47 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:55:2" msg_body="Inlining function 'void dace::FIFO&lt;double, 1u, 1u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)' into 'void dace::FIFO&lt;double, 1u, 1u&gt;::push&lt;double&amp;&gt;(double&amp;)'">
+        <args Callee="void dace::FIFO&lt;double, 1u, 1u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 47 Column 0" Caller="void dace::FIFO&lt;double, 1u, 1u&gt;::push&lt;double&amp;&gt;(double&amp;)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 53 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:90:39" msg_body="Inlining function 'void dace::FIFO&lt;double, 1u, 1u&gt;::push&lt;double&amp;&gt;(double&amp;)' into 'module_init_dummy_B_25_read_B_27_0(dace::FIFO&lt;double, 1u, 1u&gt;*, double*)'">
+        <args Callee="void dace::FIFO&lt;double, 1u, 1u&gt;::push&lt;double&amp;&gt;(double&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 53 Column 0" Caller="module_init_dummy_B_25_read_B_27_0(dace::FIFO&lt;double, 1u, 1u&gt;*, double*)" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 61 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:33:17" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::ReadBlocking()' into 'dace::FIFO&lt;double, 1u, 32u&gt;::pop_blocking()'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::ReadBlocking()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 196 Column 0" Caller="dace::FIFO&lt;double, 1u, 32u&gt;::pop_blocking()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 31 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:38:9" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 32u&gt;::pop_blocking()' into 'dace::FIFO&lt;double, 1u, 32u&gt;::pop()'">
+        <args Callee="dace::FIFO&lt;double, 1u, 32u&gt;::pop_blocking()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 31 Column 0" Caller="dace::FIFO&lt;double, 1u, 32u&gt;::pop()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 36 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:33:17" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::ReadBlocking()' into 'dace::FIFO&lt;double, 1u, 1u&gt;::pop_blocking()'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::ReadBlocking()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 196 Column 0" Caller="dace::FIFO&lt;double, 1u, 1u&gt;::pop_blocking()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 31 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:38:9" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 1u&gt;::pop_blocking()' into 'dace::FIFO&lt;double, 1u, 1u&gt;::pop()'">
+        <args Callee="dace::FIFO&lt;double, 1u, 1u&gt;::pop_blocking()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 31 Column 0" Caller="dace::FIFO&lt;double, 1u, 1u&gt;::pop()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 36 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:33:17" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::ReadBlocking()' into 'dace::FIFO&lt;double, 1u, 70u&gt;::pop_blocking()'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::ReadBlocking()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 196 Column 0" Caller="dace::FIFO&lt;double, 1u, 70u&gt;::pop_blocking()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 31 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:38:9" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 70u&gt;::pop_blocking()' into 'dace::FIFO&lt;double, 1u, 70u&gt;::pop()'">
+        <args Callee="dace::FIFO&lt;double, 1u, 70u&gt;::pop_blocking()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 31 Column 0" Caller="dace::FIFO&lt;double, 1u, 70u&gt;::pop()" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 36 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:49:10" msg_body="Inlining function 'hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;)' into 'void dace::FIFO&lt;double, 1u, 70u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)'">
+        <args Callee="hlslib::Stream&lt;double, 0ul, (hlslib::Storage)0&gt;::WriteBlocking(double const&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h Line 272 Column 0" Caller="void dace::FIFO&lt;double, 1u, 70u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 47 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:55:2" msg_body="Inlining function 'void dace::FIFO&lt;double, 1u, 70u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)' into 'void dace::FIFO&lt;double, 1u, 70u&gt;::push&lt;double&gt;(double&amp;&amp;)'">
+        <args Callee="void dace::FIFO&lt;double, 1u, 70u&gt;::push_blocking&lt;double&amp;&gt;(double&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 47 Column 0" Caller="void dace::FIFO&lt;double, 1u, 70u&gt;::push&lt;double&gt;(double&amp;&amp;)" Caller-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 53 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:135:69" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 32u&gt;::pop()' into 'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)'">
+        <args Callee="dace::FIFO&lt;double, 1u, 32u&gt;::pop()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 36 Column 0" Caller="module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 101 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:170:165" msg_body="Inlining function 'void dace::FIFO&lt;double, 1u, 70u&gt;::push&lt;double&gt;(double&amp;&amp;)' into 'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)'">
+        <args Callee="void dace::FIFO&lt;double, 1u, 70u&gt;::push&lt;double&gt;(double&amp;&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 53 Column 0" Caller="module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 101 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:146:69" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 1u&gt;::pop()' into 'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)'">
+        <args Callee="dace::FIFO&lt;double, 1u, 1u&gt;::pop()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 36 Column 0" Caller="module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 101 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:170:253" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 70u&gt;::pop()' into 'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)'">
+        <args Callee="dace::FIFO&lt;double, 1u, 70u&gt;::pop()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 36 Column 0" Caller="module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 101 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:167:58" msg_body="Inlining function 'void dace::FIFO&lt;double, 1u, 1u&gt;::push&lt;double&amp;&gt;(double&amp;)' into 'module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)'">
+        <args Callee="void dace::FIFO&lt;double, 1u, 1u&gt;::push&lt;double&amp;&gt;(double&amp;)" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 53 Column 0" Caller="module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0(dace::FIFO&lt;double, 1u, 32u&gt;*, dace::FIFO&lt;double, 1u, 1u&gt;*, dace::FIFO&lt;double, 1u, 70u&gt;*, int)" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 101 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:258:77" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 70u&gt;::pop()' into 'module_write_C_51__Mult__12_0(dace::FIFO&lt;double, 1u, 70u&gt;*, double*, double*, double, double*)'">
+        <args Callee="dace::FIFO&lt;double, 1u, 70u&gt;::pop()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 36 Column 0" Caller="module_write_C_51__Mult__12_0(dace::FIFO&lt;double, 1u, 70u&gt;*, double*, double*, double, double*)" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 227 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:315:31" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 32u&gt;::FIFO()' into 'kernel_0_0'">
+        <args Callee="dace::FIFO&lt;double, 1u, 32u&gt;::FIFO()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 17 Column 0" Caller="kernel_0_0" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 295 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:317:30" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 1u&gt;::FIFO()' into 'kernel_0_0'">
+        <args Callee="dace::FIFO&lt;double, 1u, 1u&gt;::FIFO()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 17 Column 0" Caller="kernel_0_0" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 295 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:319:31" msg_body="Inlining function 'dace::FIFO&lt;double, 1u, 70u&gt;::FIFO()' into 'kernel_0_0'">
+        <args Callee="dace::FIFO&lt;double, 1u, 70u&gt;::FIFO()" Callee-DebugLoc="File /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h Line 17 Column 0" Caller="kernel_0_0" Caller-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 295 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:295:0" msg_body="A depth specification is required for MAXI interface port '__tmp0_0' for cosimulation.">
+        <args Name="__tmp0_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:295:0" msg_body="A depth specification is required for MAXI interface port '__tmp1_0' for cosimulation.">
+        <args Name="__tmp1_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:295:0" msg_body="A depth specification is required for MAXI interface port '__tmp2_0' for cosimulation.">
+        <args Name="__tmp2_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:295:0" msg_body="A depth specification is required for MAXI interface port 'fpga_A_0' for cosimulation.">
+        <args Name="fpga_A_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:295:0" msg_body="A depth specification is required for MAXI interface port 'fpga_B_0' for cosimulation.">
+        <args Name="fpga_B_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:295:0" msg_body="A depth specification is required for MAXI interface port 'fpga_C_0' for cosimulation.">
+        <args Name="fpga_C_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-377" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:500:9" msg_body="Adding 'C_pipe' into disaggregation list because there's stream pragma applied on the struct field">
+        <args Name="C_pipe"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-377" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:500:9" msg_body="Adding 'B_pipe' into disaggregation list because there's stream pragma applied on the struct field">
+        <args Name="B_pipe"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-377" msg_severity="INFO" msg_loc="/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:500:9" msg_body="Adding 'A_pipe' into disaggregation list because there's stream pragma applied on the struct field">
+        <args Name="A_pipe"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-177" msg_severity="ERROR" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1" msg_body="in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'A_pipe' as there is an unresolved Phi node on it">
+        <args Function="kernel_0_0" Function-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 295 Column 0" Name="A_pipe"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-177" msg_severity="ERROR" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1" msg_body="in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'B_pipe' as there is an unresolved Phi node on it">
+        <args Function="kernel_0_0" Function-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 295 Column 0" Name="B_pipe"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-177" msg_severity="ERROR" msg_loc="/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:329:1" msg_body="in function 'kernel_0_0': Cannot apply disaggregate pragma/directive on object 'C_pipe' as there is an unresolved Phi node on it">
+        <args Function="kernel_0_0" Function-DebugLoc="File /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp Line 295 Column 0" Name="C_pipe"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

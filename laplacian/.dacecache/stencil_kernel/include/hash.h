@@ -1,0 +1,1 @@
+#define __HASH_stencil_kernel "8ab7014ae1453958a5338b02dafb763d7fb644069d943f09c6c45334984560bf"

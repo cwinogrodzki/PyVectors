@@ -1,0 +1,746 @@
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:6:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:21:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=_Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=_Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:55:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Shift_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:56:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Shift_XLX_SEP_ PragmaOptions=variable=buffer_ false_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS DEPENDENCE variable=buffer_ false
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:65:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:79:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Shift_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:80:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Shift_XLX_SEP_ PragmaOptions=variable=buffer_ false_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS DEPENDENCE variable=buffer_ false
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:87:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:88:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Get_XLX_SEP_ PragmaOptions=variable=buffer_ false_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS DEPENDENCE variable=buffer_ false
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:100:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Shift_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:124:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Shift_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:132:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:137:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:154:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Shift_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:160:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/ShiftRegister.h:165:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:8:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/copy.h:6:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/reduction.h:8:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/vector.h:6:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/vec.h:4:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:133:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=DataPack<T, width>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:138:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=DataPack<T, width>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:143:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:149:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:157:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator type-parameter-0-0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:162:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Get_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:175:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Set_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:189:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Fill_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:192:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Fill_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:198:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Pack_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:201:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Pack_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:207:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Unpack_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:210:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Unpack_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:217:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Range_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:221:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Range_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:228:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator<<_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:233:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator>>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:238:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator[]_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:252:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ShiftTo_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:257:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ShiftTo_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:285:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=DataPackProxy<T, width>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:295:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:300:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:305:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:310:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:315:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator type-parameter-0-0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:330:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator[]_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:414:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:415:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:416:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:417:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:418:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:419:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/DataPack.h:420:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:8:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/copy.h:6:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/reduction.h:499:38: warning: unused parameter 'a' [-Wunused-parameter]
+        inline T operator()(const T &a, const T &b) const { return b; }
+                                     ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:12:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:8:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:24:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Apply_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:49:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Apply_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:67:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Apply_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:80:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Apply_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:93:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Apply_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:108:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Apply_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:111:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Apply_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:117:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=identity_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Operators.h:120:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=identity_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:12:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:9:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=f_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:23:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=f_XLX_SEP_ PragmaOptions=variable=reduced complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=reduced complete
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:26:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=f_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:43:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=f_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:55:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=f_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/TreeReduce.h:79:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=TreeReduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:12:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:12:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:4:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:84:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<type-parameter-0-0, 0, hlslib::Storage::Unspecified>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:92:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<type-parameter-0-0, 0, hlslib::Storage::Unspecified>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:114:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<type-parameter-0-0, 0, hlslib::Storage::Unspecified>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:145:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Push_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:152:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Pop_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:162:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:168:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:174:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=write_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:180:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=empty_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:186:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=full_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:198:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ReadBlocking_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:236:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ReadNonBlocking_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:256:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ReadOptimistic_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:276:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=WriteBlocking_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:292:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=WriteOptimistic_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:303:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=WriteOptimistic_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:323:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=IsEmpty_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:342:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Size_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:405:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=WriteBlocking_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:442:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=WriteNonBlocking_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:460:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=IsFull_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:494:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<T, depth, >_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:498:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<T, depth, >_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:500:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<T, depth, >_XLX_SEP_ PragmaOptions=variable=this->stream_ depth=depth_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=this->stream_ depth=depth
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:502:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_storage_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<T, depth, >_XLX_SEP_ PragmaOptions=variable=this->stream_ type=FIFO impl=BRAM_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS bind_storage variable=this->stream_ type=FIFO impl=BRAM
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:504:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_storage_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<T, depth, >_XLX_SEP_ PragmaOptions=variable=this->stream_ type=FIFO impl=LUTRAM_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS bind_storage variable=this->stream_ type=FIFO impl=LUTRAM
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../external/hlslib/include/hlslib/xilinx/Stream.h:506:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_storage_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Stream<T, depth, >_XLX_SEP_ PragmaOptions=variable=this->stream_ type=FIFO impl=SRL_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS bind_storage variable=this->stream_ type=FIFO impl=SRL
+        ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:12:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:12:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:5:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=FIFO<T, vector_length, capacity>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:21:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=FIFO<T, vector_length, capacity>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:32:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pop_blocking_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:37:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pop_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:42:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pop_try_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:48:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=push_blocking_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:54:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=push_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:62:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=write_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:68:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:73:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator typename conditional<(width > 1), DataPack<type-parameter-0-0, width>, type-parameter-0-0>::type_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:90:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=SetNames_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:88:48: warning: unused parameter 'fifos' [-Wunused-parameter]
+void SetNames(FIFO<T, vector_length, capacity> fifos[], char const *const str,
+                                               ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:88:75: warning: unused parameter 'str' [-Wunused-parameter]
+void SetNames(FIFO<T, vector_length, capacity> fifos[], char const *const str,
+                                                                          ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/stream.h:89:30: warning: unused parameter 'num' [-Wunused-parameter]
+              const unsigned num) {
+                             ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:12:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:12:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:11:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Read_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Read_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:23:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Write_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:29:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Write_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:35:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Pack_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:38:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Pack_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:46:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Unpack_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/access.h:48:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Unpack_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:12:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:79:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ReduceImpl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:93:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ReduceImpl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:110:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ReduceImpl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:122:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ReduceImpl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:135:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=ReduceImpl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:149:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=Reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:160:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/reduce.h:174:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+In file included from /net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:1:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/fpga_device.h:5:
+In file included from /home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/device.h:17:
+/home/grodzki/.local/lib/python3.10/site-packages/dace/codegen/../runtime/include/dace/xilinx/math.h:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=fabs_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module__Mult__7_0_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module__Mult__7_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS LOOP_FLATTEN
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:41:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module__Mult__7_0_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:42:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module__Mult__7_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS LOOP_FLATTEN
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:80:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_init_dummy_B_25_read_B_27_0_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:81:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_init_dummy_B_25_read_B_27_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS LOOP_FLATTEN
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:115:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:116:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS LOOP_FLATTEN
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:117:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_compute_and_drain_44_buffer_b_43_buffer_a_41_C_data_init_40_0_XLX_SEP_ PragmaOptions=variable=C_buffer false_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS DEPENDENCE variable=C_buffer false
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:232:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_write_C_51__Mult__12_0_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:233:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_write_C_51__Mult__12_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS LOOP_FLATTEN
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:255:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_write_C_51__Mult__12_0_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:256:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_write_C_51__Mult__12_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS LOOP_FLATTEN
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:276:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_write_C_51__Mult__12_0_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:277:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=module_write_C_51__Mult__12_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS LOOP_FLATTEN
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/build/_x/kernel_0_0_hw_emu/kernel_0_0/kernel_0_0.tcl:25:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=name=kernel_0_0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=kernel_0_0
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:296:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=m_axi port=__tmp0_0 offset=slave bundle=gmem0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=__tmp0_0 offset=slave bundle=gmem0
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:297:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=m_axi port=__tmp1_0 offset=slave bundle=gmem1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=__tmp1_0 offset=slave bundle=gmem1
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:298:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=m_axi port=__tmp2_0 offset=slave bundle=gmem2_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=__tmp2_0 offset=slave bundle=gmem2
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:299:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=m_axi port=fpga_A_0 offset=slave bundle=gmem3_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=fpga_A_0 offset=slave bundle=gmem3
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:300:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=m_axi port=fpga_B_0 offset=slave bundle=gmem4_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=fpga_B_0 offset=slave bundle=gmem4
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:301:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=m_axi port=fpga_C_0 offset=slave bundle=gmem5_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=fpga_C_0 offset=slave bundle=gmem5
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:302:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=__tmp0_0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=__tmp0_0 bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:303:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=__tmp1_0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=__tmp1_0 bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:304:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=__tmp2_0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=__tmp2_0 bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:305:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=alpha bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=alpha bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:306:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=beta bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=beta bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:307:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=fpga_A_0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=fpga_A_0 bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:308:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=fpga_B_0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=fpga_B_0 bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:309:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=fpga_C_0 bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=fpga_C_0 bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:310:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=s_axilite port=return bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE s_axilite port=return bundle=control
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:312:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dataflow_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS DATAFLOW
+        ^
+/net/myshella/home/grodzki/PyVectors/.dacecache/kernel/src/xilinx/device/kernel_0_0.cpp:324:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=kernel_0_0_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+234 warnings generated.

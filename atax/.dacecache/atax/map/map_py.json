@@ -1,0 +1,536 @@
+{
+    "/home/grodzki/.local/lib/python3.10/site-packages/dace/transformation/interstate/fpga_transform_state.py": {
+        "156": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 0
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 1
+            }
+        ],
+        "198": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 2
+            }
+        ],
+        "150": [
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 0
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 2
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 4
+            }
+        ],
+        "151": [
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 1
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 3
+            },
+            {
+                "cfg_id": 0,
+                "state_id": 1,
+                "node_id": 5
+            }
+        ],
+        "193": [
+            {
+                "cfg_id": 0,
+                "state_id": 2,
+                "node_id": 0
+            }
+        ],
+        "194": [
+            {
+                "cfg_id": 0,
+                "state_id": 2,
+                "node_id": 1
+            }
+        ]
+    },
+    "/net/myshella/home/grodzki/PyVectors/atax/atax_fpga.py": {
+        "13": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 3
+            }
+        ],
+        "11": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 3
+            }
+        ],
+        "12": [
+            {
+                "cfg_id": 0,
+                "state_id": 0,
+                "node_id": 3
+            }
+        ]
+    },
+    "/home/grodzki/.local/lib/python3.10/site-packages/dace/libraries/blas/nodes/gemv.py": {
+        "189": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 0
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 0
+            }
+        ],
+        "190": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 1
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 1
+            }
+        ],
+        "193": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 2
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 2
+            }
+        ],
+        "207": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 3
+            },
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 4
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 3
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 4
+            }
+        ],
+        "209": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 5
+            },
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 6
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 5
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 6
+            }
+        ],
+        "213": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 7
+            },
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 8
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 7
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 8
+            }
+        ],
+        "216": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 9
+            },
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 10
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 9
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 10
+            }
+        ],
+        "220": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 11
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 11
+            }
+        ],
+        "225": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 12
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 12
+            }
+        ],
+        "242": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 13
+            },
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 14
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 13
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 14
+            }
+        ],
+        "245": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 15
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 15
+            }
+        ],
+        "267": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 16
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 16
+            }
+        ],
+        "278": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 17
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 17
+            }
+        ],
+        "284": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 18
+            },
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 19
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 18
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 19
+            }
+        ],
+        "288": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 20
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 20
+            }
+        ],
+        "301": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 21
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 21
+            }
+        ],
+        "302": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 22
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 22
+            }
+        ],
+        "305": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 23
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 23
+            }
+        ],
+        "329": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 24
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 24
+            }
+        ],
+        "330": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 25
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 25
+            }
+        ],
+        "336": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 26
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 26
+            }
+        ],
+        "337": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 27
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 27
+            }
+        ],
+        "338": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 28
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 28
+            }
+        ],
+        "360": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 29
+            },
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 30
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 29
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 30
+            }
+        ],
+        "363": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 31
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 31
+            }
+        ],
+        "367": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 32
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 32
+            }
+        ],
+        "368": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 33
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 33
+            }
+        ],
+        "387": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 34
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 34
+            }
+        ],
+        "409": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 35
+            },
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 36
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 35
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 36
+            }
+        ],
+        "411": [
+            {
+                "cfg_id": 1,
+                "state_id": 0,
+                "node_id": 37
+            },
+            {
+                "cfg_id": 2,
+                "state_id": 0,
+                "node_id": 37
+            }
+        ]
+    }
+}

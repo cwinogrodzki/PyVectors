@@ -1,0 +1,60 @@
+===============================================================================
+Version:    v++ v2023.1 (64-bit)
+Build:      SW Build 3860322 on 2023-05-04-06:32:48
+Copyright:  Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+Created:    Wed Nov 20 12:47:43 2024
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             atax_0_0_hw_emu
+Target Device:           xilinx:u250:gen3x16_xdma_4_1:202210.1
+Target Clock:            300.000000MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name  Type  Target              OpenCL Library   Compute Units
+-----------  ----  ------------------  ---------------  -------------
+atax_0_0     c     fpga0:OCL_REGION_0  atax_0_0_hw_emu  1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     atax_0_0_hw_emu
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit  Kernel Name  Module Name                                                                     Target Frequency  Estimated Frequency
+------------  -----------  ------------------------------------------------------------------------------  ----------------  -------------------
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1                300.300293        411.015198
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49  300.300293        347.58429
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5               300.300293        411.015198
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1               300.300293        411.015198
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2  300.300293        322.061188
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5               300.300293        411.015198
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0                                         300.300293        322.061188
+atax_0_0_1    atax_0_0     atax_0_0                                                                        300.300293        322.061188
+
+Latency Information
+Compute Unit  Kernel Name  Module Name                                                                     Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+------------  -----------  ------------------------------------------------------------------------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1                73              73             73            73              0.243 us         0.243 us        0.243 us
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49  21156           21156          21156         21156           70.513 us        70.513 us       70.513 us
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5               63              63             63            63              0.210 us         0.210 us        0.210 us
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1               63              63             63            63              0.210 us         0.210 us        0.210 us
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2  21231           21231          21231         21231           70.763 us        70.763 us       70.763 us
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5               73              73             73            73              0.243 us         0.243 us        0.243 us
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0                                         42948           42948          42948         42948           0.143 ms         0.143 ms        0.143 ms
+atax_0_0_1    atax_0_0     atax_0_0                                                                        42949           42948          42948         42948           0.143 ms         0.143 ms        0.143 ms
+
+Area Information
+Compute Unit  Kernel Name  Module Name                                                                     FF     LUT    DSP  BRAM  URAM
+------------  -----------  ------------------------------------------------------------------------------  -----  -----  ---  ----  ----
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_25_1                235    99     0    0     0
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_43_2_VITIS_LOOP_49  4810   2756   0    0     0
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_147_5               268    246    0    0     0
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_183_1               488    106    0    0     0
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_201_2_VITIS_LOOP_2  4956   1935   0    0     0
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0_Pipeline_VITIS_LOOP_305_5               141    124    0    0     0
+atax_0_0_1    atax_0_0     module_MatMult_gemv_4_MatMult_gemvt_5_0                                         15300  11478  0    4     0
+atax_0_0_1    atax_0_0     atax_0_0                                                                        21125  17025  0    44    0
+-------------------------------------------------------------------------------
