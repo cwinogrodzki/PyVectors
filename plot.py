@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import pandas as pd
 import numpy as np
 
 # *******3D STENCIL*******
@@ -28,7 +27,7 @@ results_ = {
 gemm_hardware = ('Intel', 'AMD-CPU', 'AMD-GPU', 'ARM-CPU', 'Nvidia-GPU', 'Apple-CPU', 'Apple-GPU')
 gemm_results = {
     'Numpy': (0.5497, 1.0577, 0, 0.6767, 0, 1.0068, 0),
-    'Pytorch': (0.3982, 0, 0.0069, 221.4884, 0.0124, 0.2255, 0.0214),
+    'Pytorch': (0.3982, 0.5003, 0.0069, 221.4884, 0.0124, 0.2255, 0.0214),
     'Naive': (66590.0677, 48635.6283, 0, 94091.2423, 0, 36656.0805, 0)
 }
 
@@ -38,14 +37,13 @@ atax_hardware = ('Intel', 'AMD-CPU', 'AMD-GPU', 'ARM-CPU', 'Nvidia-GPU', 'Apple-
 atax_results = {
     'Numpy': (0.0151, 0.0129, 0, 0.0083, 0, 0.0125, 0),
     'Pytorch': (0.0056, 0.0407, 0.0033, 0.2715, 0.0042, 0.006, 0.0073),
-    'Naive': (92.5321, 65.9915, 0, 0, 0, 56.5335, 0)
+    'Naive': (92.5321, 65.9915, 0, 119.3201, 0, 56.5335, 0)
 }
 
-hardware = stencil_hardware
-results = stencil_results
+hardware = gemm_hardware
+results = gemm_results
 
 x = np.arange(len(hardware))
-#x = np.arange(len(framework))
 width = .25
 multiplier = 0
 colors = ('darkblue', 'royalblue', 'lightsteelblue')
@@ -59,12 +57,12 @@ for framework, time in results.items():
     #ax.bar_label(rects, padding=3)
     multiplier += 1
 
-ax.set_title('3d Stencil Performance', fontsize=15)
+ax.set_title('Matrix Multiplication Performance', fontsize=15)
 ax.set_ylabel('Time (ms)')
 ax.set_yscale('log')  # Use logarithmic scale for better visualization
 ax.set_xticks(x + width, hardware)  # Center xticks
 #ax.set_xticklabels(pivot_df.index)  # Framework labels
-ax.legend(loc='upper right', ncols=3)
+ax.legend(loc='upper right')
 plt.xticks(rotation=45)
 
 plt.show()
