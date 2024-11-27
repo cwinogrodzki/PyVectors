@@ -2,45 +2,69 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-# Data dictionary
-data = {
-    'Hardware': ['Intel-Skylake'] * 3 + ['AMD-EPYC-milan'] * 3 + ['AMD-mi250'] + ['Arm-Ampere'] * 3 + ['Nvidia-A100'] + ['Apple M2 Max'] * 3 + ['Apple M2 Max- MPS'],
-    'Kernel': ['3d stencil'] * 15,
-    'Framework': ['Numpy', 'Pytorch', 'Naïve', 'Numpy', 'Pytorch', 'Naïve',
-                  'Pytorch', 'Numpy', 'Pytorch', 'Naïve', 'Pytorch', 'Numpy', 'Pytorch', 'Naïve', 'Pytorch'],
-    'Time (ms)': [167.4469, 0.2716, 9795.1974, 67.8771, 0.293, 7792.7929,
-                  0.0353, 137.1123, 1.6921, 13944.7625, 0.0766, 5.9222, 15.9677, 421.1531, 7.3955]
+# *******3D STENCIL*******
+# group by hardware
+stencil_hardware = ('Intel', 'AMD-CPU', 'AMD-GPU', 'ARM-CPU', 'Nvidia-GPU', 'Apple-CPU', 'Apple-GPU')
+stencil_results = {
+    'Numpy': (167.4469, 67.8771, 0, 137.1123, 0, 5.9222, 0),
+    'Pytorch': (0.2716, 0.293, 0.0353, 1.6921, 0.0766, 15.9677, 7.3955),
+    'Naive': (9795.1974, 7792.7929, 0, 13944.7625, 0, 421.1531, 0)
 }
 
-# Convert to DataFrame
-df = pd.DataFrame(data)
+# group by framework
+framework = ('Numpy', 'Pytorch', 'Naive')
+results_ = {
+    'Intel-Skylake': (167.4469, 0.2716, 9795.1974), 
+    'AMD-EPYC-milan': (67.8771, 0.293, 7792.7929),
+    'AMD-mi250': (0,  0.0353, 0),
+    'Arm-Ampere': (137.1123, 1.6921, 13944.7625),
+    'Nvidia-A100': (0, 0.0766, 0),
+    'Apple M2 Max': (5.9222, 15.9677, 421.1531),
+    'Apple M2 Max MPS': (0, 7.3955, 0)
+}
 
-# Pivot table to prepare for grouped bar plot
-pivot_df = df.pivot_table(index='Hardware', columns='Framework', values='Time (ms)')
+# ********GEMM***********
+# group by hardware
+gemm_hardware = ('Intel', 'AMD-CPU', 'AMD-GPU', 'ARM-CPU', 'Nvidia-GPU', 'Apple-CPU', 'Apple-GPU')
+gemm_results = {
+    'Numpy': (0.5497, 1.0577, 0, 0.6767, 0, 1.0068, 0),
+    'Pytorch': (0.3982, 0, 0.0069, 221.4884, 0.0124, 0.2255, 0.0214),
+    'Naive': (66590.0677, 48635.6283, 0, 94091.2423, 0, 36656.0805, 0)
+}
 
-# Drop columns with NaN values (if there are any hardware-framework combinations with no data)
-pivot_df = pivot_df.dropna(axis=1, how='all')
-pivot_df = pivot_df.dropna(axis=0, how='all')
+# *********ATAX***********
+# group by hardware
+atax_hardware = ('Intel', 'AMD-CPU', 'AMD-GPU', 'ARM-CPU', 'Nvidia-GPU', 'Apple-CPU', 'Apple-GPU')
+atax_results = {
+    'Numpy': (0.0151, 0.0129, 0, 0.0083, 0, 0.0125, 0),
+    'Pytorch': (0.0056, 0.0407, 0.0033, 0.2715, 0.0042, 0.006, 0.0073),
+    'Naive': (92.5321, 65.9915, 0, 0, 0, 56.5335, 0)
+}
 
-# Plot settings
-fig, ax = plt.subplots(figsize=(12, 7))
-bar_width = 0.15  # Width of each bar
-x = np.arange(len(pivot_df))  # x positions for frameworks
+hardware = stencil_hardware
+results = stencil_results
 
-# Plot each hardware as a separate set of bars
-for i, framework in enumerate(pivot_df.columns):
-    ax.bar(x + i * bar_width, pivot_df[framework], width=bar_width, label=framework)
+x = np.arange(len(hardware))
+#x = np.arange(len(framework))
+width = .25
+multiplier = 0
+colors = ('darkblue', 'royalblue', 'lightsteelblue')
 
-# Customize the plot
-ax.set_title('3d Stenciil Performance')
-ax.set_xlabel('Framework')
+fig, ax = plt.subplots(layout='constrained')
+
+for framework, time in results.items():
+    offset = width * multiplier
+    color = colors[multiplier % len(colors)]
+    rects = ax.bar(x + offset, time, width, color=color, label=framework)
+    #ax.bar_label(rects, padding=3)
+    multiplier += 1
+
+ax.set_title('3d Stencil Performance', fontsize=15)
 ax.set_ylabel('Time (ms)')
 ax.set_yscale('log')  # Use logarithmic scale for better visualization
-ax.set_xticks(x + bar_width * (len(pivot_df.columns) - 1) / 2)  # Center xticks
-ax.set_xticklabels(pivot_df.index)  # Framework labels
-ax.legend(title='Hardware')
+ax.set_xticks(x + width, hardware)  # Center xticks
+#ax.set_xticklabels(pivot_df.index)  # Framework labels
+ax.legend(loc='upper right', ncols=3)
 plt.xticks(rotation=45)
 
-# Layout adjustments and plot display
-plt.tight_layout()
 plt.show()
