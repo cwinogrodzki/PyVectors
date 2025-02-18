@@ -1,4 +1,0 @@
-cpu,,stencil_kernel.cpp
-xilinx,host,stencil_kernel.cpp
-xilinx,device,stencil_kernel_0_0.cpp
-xilinx,device,link.cfg

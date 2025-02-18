@@ -1,4 +1,0 @@
-cpu,,atax.cpp
-xilinx,host,atax.cpp
-xilinx,device,atax_0_0.cpp
-xilinx,device,link.cfg

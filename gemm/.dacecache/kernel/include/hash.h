@@ -1,1 +1,0 @@
-#define __HASH_kernel "330263ed8a8ae6bd13d05c288b48a1c92984ecae99501859cc48f7d85663c671"

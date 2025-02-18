@@ -44,7 +44,7 @@ void init_array(array A, array B)
 }
 
 
-void runJacobi2DCpu(int tsteps, int n, DATA_TYPE POLYBENCH_2D(A,N,N,n,n), DATA_TYPE POLYBENCH_2D(B,N,N,n,n))
+void runJacobi2DCpu(int tsteps, int n, DATA_TYPE A, DATA_TYPE B)
 {
 	for (int t = 0; t < TSTEPS; t++)
 	{
@@ -89,7 +89,7 @@ __global__ void runJacobiCUDA_kernel2(int n, DATA_TYPE* A, DATA_TYPE* B)
 	}
 }
 
-void compareResults(int n, DATA_TYPE POLYBENCH_2D(a,N,N,n,n), DATA_TYPE POLYBENCH_2D(a_outputFromGpu,N,N,n,n), DATA_TYPE POLYBENCH_2D(b,N,N,n,n), DATA_TYPE POLYBENCH_2D(b_outputFromGpu,N,N,n,n))
+void compareResults(int n, DATA_TYPE a, DATA_TYPE a_outputFromGpu, DATA_TYPE b, DATA_TYPE b_outputFromGpu)
 {
 	int i, j, fail;
 	fail = 0;   
@@ -158,6 +158,9 @@ void runCUDA(int tsteps, int n, DATA_TYPE A, DATA_TYPE B, DATA_TYPE A_outputFrom
 
 int main(int argc, char** argv)
 {
+    if (argc > 1) {N = atoi(argv[1]);}
+    else if (argc > 2) {N = atoi(argv[1]);}
+
 	/* Retrieve problem size. */
 	int n = N;
 	int tsteps = TSTEPS;

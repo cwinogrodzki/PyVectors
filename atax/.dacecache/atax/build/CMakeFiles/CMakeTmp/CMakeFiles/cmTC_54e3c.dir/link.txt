@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/cmTC_54e3c.dir/src.c.o -o cmTC_54e3c 

@@ -1,4 +1,0 @@
-cpu,,kernel.cpp
-xilinx,host,kernel.cpp
-xilinx,device,kernel_0_0.cpp
-xilinx,device,link.cfg
